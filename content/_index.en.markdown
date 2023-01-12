@@ -18,7 +18,7 @@ title: Home
 |-------------------------------------------------------------	  |----------------------------------------------------------------------------------------	|
 | [Syllabus]({{%relref "syllabus/" %}})                       	  | Quick access to all important course information.                                      	|
 | [Moodle](https://moodle.smith.edu/course/view.php?id=46289) 	  | Grades and quizzes will be available on the course Moodle. 	                            |
-| [Slack](https://smi-sds-192-03-202301.slack.com)                | Main communication channel for the course.                                              |
+| [Slack](https://sds-270-01-202303.slack.com/)                | Main communication channel for the course.                                              |
 | [Spinelli Center](https://www.smith.edu/qlc/tutoring.html)  	  | The Spinelli Center offers drop-in tutoring hours in Sabin-Reed 301 or on Zoom.        	|
 | [Office Hours](https://calendly.com/jared-joseph/office-hours)  | Sign up for a slot in office hours here.                                                |
 
@@ -27,9 +27,9 @@ title: Home
 | Info  | Value                                             |
 |-------|---------------------------------------------------|
 | Who   | Dr. Jared Joseph                                  |
-| What  | SDS 270: !!!         |
-| When  | !!! |
-| Where | !!!                                     |
+| What  | SDS 270: Advanced Programming for Data Science    |
+| When  | Mon/Wed/Fri 9:25-10:40                            |
+| Where | [Sabin-Reed 220](https://goo.gl/maps/UNaijEzYVYYxBckc9) |
 
 ## Schedule
 

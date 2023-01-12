@@ -72,9 +72,9 @@ schedule$Readings = convert_schedule(schedule$Readings)
 | Info  | Value                                             |
 |-------|---------------------------------------------------|
 | Who   | Dr. Jared Joseph                                  |
-| What  | SDS 270: !!!         |
-| When  | !!! |
-| Where | !!!                                     |
+| What  | SDS 270: Advanced Programming for Data Science    |
+| When  | Mon/Wed/Fri 9:25-10:40                            |
+| Where | [Sabin-Reed 220](https://goo.gl/maps/UNaijEzYVYYxBckc9) |
 
 ## Schedule
 
