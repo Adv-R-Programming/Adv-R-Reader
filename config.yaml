@@ -21,7 +21,7 @@ params:
   showVisitedLinks: yes
   titleSeparator: '::'
   themeVariant: mine
-  landingPageURL: /adv-r-programming/
+  landingPageURL: /Adv-R-Reader/
 outputs:
   home:
     - HTML
@@ -30,7 +30,7 @@ outputs:
 Languages:
   en:
     landingPageName: <i class='fas fa-home'></i> Home
-    landingPageURL: /intro_to_data_science_reader/
+    landingPageURL: /Adv-R-Reader/
     languageName: English
     menu:
       shortcuts:
