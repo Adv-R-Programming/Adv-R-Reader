@@ -15,7 +15,7 @@ library(kableExtra)
 
 standards = read.csv("standards.csv", header = TRUE, stringsAsFactors = FALSE)
 standards$individual = "<i class='fas fa-check-square fa-2x' style='width: 100%; text-align: center;'></i>"
-colnames(standards) = c("Category", "Standard", "Does Not Meet Standard", "Progressing Toward Standard", "Meets Standard", "Exceeds Standard", "Individual Standard")
+colnames(standards) = c("Category", "Standard", "Does Not Meet Standard", "Progressing Toward Standard", "Near Standard", "Meets Standard", "Exceeds Standard", "Individual Standard")
 
 ```
 
@@ -192,8 +192,8 @@ cat_colors = factor(standards$Category, labels = RColorBrewer::brewer.pal(length
 knitr::kable(standards[,-1], escape = FALSE) %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
   column_spec(1, border_right = TRUE, bold = TRUE, background = cat_colors) %>%
-  column_spec(5, border_right = TRUE) %>%
-  column_spec(6, background = "#A2CD5A")
+  column_spec(6, border_right = TRUE) %>%
+  column_spec(7, background = "#A2CD5A")
 ```
 
 ### Final Grades
