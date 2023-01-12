@@ -1,0 +1,45 @@
+baseURL: https://Adv-R-Programming.github.io/Adv-R-Reader/
+languageCode: en-US
+defaultContentLanguage: en
+title: Advanced Programming for Data Science
+theme: hugo-theme-learn
+metaDataFormat: yaml
+defaultContentLanguageInSubdir: no
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+params:
+  author: Jared Joseph
+  customMermaidURL: https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js
+  description: Intro to Data Science Course Reader
+  disableBreadcrumb: no
+  disableLandingPageButton: yes
+  disableMermaid: no
+  disableNextPrev: yes
+  editURL: https://github.com/Adv-R-Programming/Adv-R-Reader/blob/main/content
+  showVisitedLinks: yes
+  titleSeparator: '::'
+  themeVariant: mine
+  landingPageURL: /adv-r-programming/
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+Languages:
+  en:
+    landingPageName: <i class='fas fa-home'></i> Home
+    landingPageURL: /intro_to_data_science_reader/
+    languageName: English
+    menu:
+      shortcuts:
+        - identifier: ds
+          name: <i class='fab fa-fw fa-github'></i> Reader repo
+          url: https://github.com/Adv-R-Programming/Adv-R-Reader
+          weight: 10
+        - name: <i class='fas fa-fw fa-bullhorn'></i> Credits
+          url: /credits
+          weight: 30
+    #title: ""
+    weight: 1
