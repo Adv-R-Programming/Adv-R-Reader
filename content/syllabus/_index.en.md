@@ -35,7 +35,7 @@ format:
 
 ## Course Description
 
-Introduction to Data Science (SDS 192) aims to equip students with the knowledge and tools to understand, critically evaluate, manipulate, and explain data. This is an introductory course, and no prior experience is necessary[^1]. Students will learn how to read and write code, but also how to create, organize, and collaborate on coding projects while critically examining the projects goals and data sources. We will be primarily using the R language, along with supplemental tools.
+The primary aim of Advanced Programming for Data Science (SDS 270) is to teach how to use R to do things. The course will build programming competencies, culminating in students creating their own code packages for R in a group. We will start by creating single functions, learning to debug them, then incrementally add more elements of the programming life cycle such as project management, automatic code testing, and building proper documentation. Supplemental skills useful for advanced programming such as using remote servers, as well as various methods for creating your own data sets will be explored in support of creating the final R packages.
 
 ## Course Structure
 
@@ -208,15 +208,15 @@ A standards-based grading system carries a number of other benefits:
 
 -   Learning targets for the course are clearly defined from the outset. Every graded assignment is directly tied to at least one standard. There is no "busy work" with a standards-based system.
 -   No single assignment will make-or-break your grade. You have multiple opportunities to demonstrate fluency in a standard. This rewards students that take the time to practice and learn from their mistakes. It prioritizes student growth throughout the course of the semester.
--   Assessments in a standards-based system are much clearer than in a point-based grading system. Saying that I've become proficient in data wrangling, joining, and visualizing means more than saying that I earned a 92.5 in my Introduction to Data Science course.
+-   Assessments in a standards-based system are much clearer than in a point-based grading system. Saying that I've become proficient in doing X, Y, or Z means more than saying that I earned a 92.5 in my course.
 -   A standards-based grading system makes it easier to monitor your own progress towards a certain grade.
 -   There is no competition and no curve in a standards-based system. The only person you are ever compared with is your past self. Help each other often and freely.
 
 ### Standards
 
-The following table lists all the standards you are evaluated on in this course. There are 15 total standards, separated into 4 categories. Each standard states what conditions must be met to reach each proficiency level. There are four proficiency levels for each standard, each requiring more complete understanding of the material. These levels are inclusive, meaning to reach the 4th level, "Exceeds Standard" you must also meet all the requirements of level 3, "Meets Standard."
+The following table lists all the standards you are evaluated on in this course. There are 8 total standards, separated into 5 categories. Each standard states what conditions must be met to reach each proficiency level. There are four proficiency levels for each standard, each requiring more complete understanding of the material. **These levels are inclusive, meaning to reach "Exceeds Standard" you must also meet all the requirements of "Meets Standard."**
 
-You will have multiple opportunities to demonstrate your understanding of each standard. Any assignment that is reviewed is an opportunity to increase your proficiency level in a standard. In addition to the four levels of proficiency, there is also an extra point available in each standard called "Individual Standard." You may fulfill this requirement only on quizzes, but only need to reach the "Meets Standard" criteria on a standard to do so.
+You will have multiple opportunities to demonstrate your understanding of each standard. Any assignment that is reviewed is an opportunity to increase your proficiency level in a standard. In addition to the levels of proficiency, there is also an extra point available in each standard called "Individual Standard." You may fulfill this requirement only on quizzes, but only need to reach the "Meets Standard" criteria on a standard to do so.
 
 {{% notice info %}}
 You can demonstrate proficiency in any reviewed assignment, **but can only fulfill the "Individual Standard" criteria on a quiz.**
@@ -228,6 +228,7 @@ You can demonstrate proficiency in any reviewed assignment, **but can only fulfi
    <th style="text-align:left;"> Standard </th>
    <th style="text-align:left;"> Does Not Meet Standard </th>
    <th style="text-align:left;"> Progressing Toward Standard </th>
+   <th style="text-align:left;"> Near Standard </th>
    <th style="text-align:left;"> Meets Standard </th>
    <th style="text-align:left;"> Exceeds Standard </th>
    <th style="text-align:left;"> Individual Standard </th>
@@ -235,99 +236,75 @@ You can demonstrate proficiency in any reviewed assignment, **but can only fulfi
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;font-weight: bold;background-color: #DECBE4 !important;border-right:1px solid;"> Data Importing </td>
-   <td style="text-align:left;"> Cannot import data or uses R Studio visual tools to import data. </td>
-   <td style="text-align:left;"> Manually organizes or modifies data before importing it into R. </td>
-   <td style="text-align:left;"> Can import raw data into R using the appropriate function for the data source. </td>
-   <td style="text-align:left;border-right:1px solid;"> Can author API calls or use other remote sources and import data directly into R. </td>
-   <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;background-color: #DECBE4 !important;border-right:1px solid;"> Data Cleaning </td>
-   <td style="text-align:left;"> Cleans data in a non-programmatic way. </td>
-   <td style="text-align:left;"> Can clean data programmatically on a cell-by-cell basis to prepare it for analysis. </td>
-   <td style="text-align:left;"> Can assign the correct common data types (logical, integer, numeric, factor, and string) to loaded data and understand the uses of each. Can clean data for analysis in a vectorized way. </td>
-   <td style="text-align:left;border-right:1px solid;"> Can prepare data for advanced types (dates, time series, etc.). Can prepare data from non-traditional sources such as OCR or web scraping. </td>
-   <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;background-color: #DECBE4 !important;border-right:1px solid;"> Data Reshaping </td>
-   <td style="text-align:left;"> Formats data in a non-programmatic way. </td>
-   <td style="text-align:left;"> Can derive new measures from existing data and append it to dataframes. </td>
-   <td style="text-align:left;"> Can pivot data between wide and long formats, and can explain the use case of each. </td>
-   <td style="text-align:left;border-right:1px solid;"> Can use lists as stores of arbitrary data structures, and subset/combine the data held within them. For example, can use a list to store iteration output, then later combine them. </td>
-   <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;background-color: #DECBE4 !important;border-right:1px solid;"> Data Aggregation &amp; Subsetting </td>
-   <td style="text-align:left;"> Transforms data in a non-programmatic way. </td>
-   <td style="text-align:left;"> Creates multiple copies of data in several intermediate stages of transformation that are used for different steps of analysis. </td>
-   <td style="text-align:left;"> Can combine and split data sets using the appropriate merge or subset techniques. </td>
-   <td style="text-align:left;border-right:1px solid;"> Can split or merge data sets using either SQL-like calls (such as the x_join() series of functions) or approximate string matching. </td>
-   <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
-  </tr>
-  <tr>
    <td style="text-align:left;font-weight: bold;background-color: #FBB4AE !important;border-right:1px solid;"> Functions </td>
    <td style="text-align:left;"> Copies-and-pastes similar code with small changes. </td>
-   <td style="text-align:left;"> Creates simple functions with consistent inputs. </td>
-   <td style="text-align:left;"> Creates simple functions that can handle novel inputs, with logic to handle the data appropriately. </td>
-   <td style="text-align:left;border-right:1px solid;"> Created functions include conditionals and error checking to test for faulty data and describe the issue. Functions can intake multiple forms of data and handle both appropriately. For an example, see the &lt;93&gt;Make it Flex&lt;94&gt; section of Lab 5. </td>
+   <td style="text-align:left;"> Creates simple functions with predetermined inputs. </td>
+   <td style="text-align:left;"> Creates functions that that make use of arguments to modify their output. </td>
+   <td style="text-align:left;"> Creates functions that can handle novel inputs, with logic and error checking to determine outputs. </td>
+   <td style="text-align:left;border-right:1px solid;"> Creates functions that can handle arbitrary input through the use of “…” or S3 classes. </td>
    <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;background-color: #FBB4AE !important;border-right:1px solid;"> Iteration </td>
-   <td style="text-align:left;"> Copies-and-pastes similar code several times within or between scripts. </td>
-   <td style="text-align:left;"> Uses for loops or apply functions to iterate through vector data to preform a single data manipulation. </td>
-   <td style="text-align:left;"> Can use either loops or apply functions to iterate over a vector of data and preform multi-step manipulations. </td>
-   <td style="text-align:left;border-right:1px solid;"> Can use loops or apply functions and explain the use cases for each. Can iterate over complex data structures such as dataframes or lists. </td>
+   <td style="text-align:left;"> Copies-and-pastes similar code several times to repeat identical tasks on different data. </td>
+   <td style="text-align:left;"> Calls an identical function (even self-made) to repeat a task on different data. </td>
+   <td style="text-align:left;"> Uses loop style iteration to act on sequences of data. </td>
+   <td style="text-align:left;"> Uses apply style iteration to act on sequences of data. </td>
+   <td style="text-align:left;border-right:1px solid;"> Can iterate in parallel and justify the overhead costs. </td>
    <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;background-color: #B3CDE3 !important;border-right:1px solid;"> Visualization Structure </td>
-   <td style="text-align:left;"> Selects inappropriate formats for data visualization. </td>
-   <td style="text-align:left;"> Selects sub-optimal visualization formats or uses excessive visualizations where a single one would be sufficient. </td>
-   <td style="text-align:left;"> Selects suitable formats for data visualization (bar, line, boxplot, etc.) and can explain the reasoning behind that choice. </td>
-   <td style="text-align:left;border-right:1px solid;"> Effectively mixes visualization formats or isolates individual elements to clearly communicate a message. For example, including a miniature table of the most important values within a bar plot. </td>
-   <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;background-color: #B3CDE3 !important;border-right:1px solid;"> Visualization Aesthetics </td>
-   <td style="text-align:left;"> Chooses visual cues and colors for purely aesthetic reasons without attention to data representation. </td>
-   <td style="text-align:left;"> Data visualizations attempt to represent underlying data, but use methods unsuited to the task which leave ambiguity for the viewer. </td>
-   <td style="text-align:left;"> Data visualizations use color, scale, and shapes effectively to differentiate and communicate underlying data. </td>
-   <td style="text-align:left;border-right:1px solid;"> Data visualizations are highly customized with bespoke elements, such as callouts, to clearly communicate the message of the visualization. Aesthetics are sensitive to accessibility concerns. </td>
-   <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;background-color: #B3CDE3 !important;border-right:1px solid;"> Visualization Context </td>
-   <td style="text-align:left;"> Produces data visualizations that are unclear, confusing, devoid of context, or impossible to understand without reading the text. </td>
-   <td style="text-align:left;"> Produces data visualizations with readable axis labels, units, and legends (where appropriate). </td>
-   <td style="text-align:left;"> Produces data visualizations that are clear and understandable with minimal textual explanation. </td>
-   <td style="text-align:left;border-right:1px solid;"> Produces data visualizations that are self-contained and can be understood on their own without textual explanation. </td>
-   <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;background-color: #CCEBC5 !important;border-right:1px solid;"> Data Ethics </td>
-   <td style="text-align:left;"> Does not consider data ethics or investigate data provenance. </td>
-   <td style="text-align:left;"> Can articulate common pitfalls and relate them to the project at hand. Confirms data types and scales using data documentation. </td>
-   <td style="text-align:left;"> Reads data documentation to understand data collection/generation and measurements. Can highlight and explain to readers the potential concerns specific to the data or project. </td>
-   <td style="text-align:left;border-right:1px solid;"> Either creates data documentation for used data, or includes notes in code to the data sources and explains potential pitfalls. Considers and articulates relevant concerns related to the current project unprompted throughout the work cycle. </td>
+   <td style="text-align:left;font-weight: bold;background-color: #FBB4AE !important;border-right:1px solid;"> Data Structures </td>
+   <td style="text-align:left;"> Only works with vectors or dataframes. </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;border-right:1px solid;">  </td>
    <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;background-color: #CCEBC5 !important;border-right:1px solid;"> Code Style </td>
-   <td style="text-align:left;"> Code style is inconsistent and/or lacks documentation. </td>
-   <td style="text-align:left;"> Code comments explain the broad strokes of intended behavior. Indentation is consistent and predictable. Uses print statements to track the status of code execution. </td>
-   <td style="text-align:left;"> Consistently comments all code and makes use of the built-in section headings in R Studio. For user created functions, the inputs and outputs are clearly explained, and examples are provided. </td>
-   <td style="text-align:left;border-right:1px solid;"> Includes &lt;93&gt;sanity checks&lt;94&gt; for data validity in code. For longer scripts or iterations includes print statements to track execution progress. </td>
+   <td style="text-align:left;"> Code style is inconsistent and lacks appropriate comments. </td>
+   <td style="text-align:left;"> Code comments explain the general purpose of the code. Indentation is consistent and predictable. </td>
+   <td style="text-align:left;"> Code comments explain the broad strokes of intended behavior. Files make use of the built-in section headings in R Studio. </td>
+   <td style="text-align:left;"> Comments explain code step-by-step. All dependencies and parameters are clearly provided and explained at the top of code files. </td>
+   <td style="text-align:left;border-right:1px solid;">  </td>
    <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;background-color: #CCEBC5 !important;border-right:1px solid;"> Git/Github </td>
    <td style="text-align:left;"> Does not use git for version control. </td>
-   <td style="text-align:left;"> Uses git and GitHub for version control and can contribute to group repositories with commits, pushes, and pulls. </td>
-   <td style="text-align:left;"> Uses git and GitHub effectively. Code commits are of appropriate size and commented well. Can branch and merge repositories while resolving any merge conflicts. Does not include sensitive files in commits. </td>
-   <td style="text-align:left;border-right:1px solid;"> Uses Github effectively for collaboration. Can create issues, ask for review, and merge branches in a manner suitable for a collaborative environment. </td>
+   <td style="text-align:left;"> Uses git for version control on individual projects. </td>
+   <td style="text-align:left;"> Uses git and GitHub for version control on group work with appropriately sized commits with descriptive commit messages. </td>
+   <td style="text-align:left;"> Effectively creates and merges branches of appropriate size. No sensitive files are committed. </td>
+   <td style="text-align:left;border-right:1px solid;"> Effectively requests and performs code review on pull requests using GitHub. </td>
+   <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;background-color: #CCEBC5 !important;border-right:1px solid;"> Project Management </td>
+   <td style="text-align:left;"> Does not use project management tools. </td>
+   <td style="text-align:left;"> Project management is only conducted though messaging, such as on slack. </td>
+   <td style="text-align:left;"> User the GitHub issue tracker to set milestones, but does not fill out associated metadata such as who is responsible for the issue and when it is due. </td>
+   <td style="text-align:left;"> Uses the GitHub issue tracker to break down and assign actionable work with all appropriate metadata included. </td>
+   <td style="text-align:left;border-right:1px solid;"> Uses projects KanBan boards to break down tasks into actionable steps, and track their completion. </td>
+   <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;background-color: #B3CDE3 !important;border-right:1px solid;"> Package Function </td>
+   <td style="text-align:left;"> Package cannot be installed. </td>
+   <td style="text-align:left;"> Component functions of package do not execute. </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;border-right:1px solid;">  </td>
+   <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;background-color: #B3CDE3 !important;border-right:1px solid;"> Package Documentation </td>
+   <td style="text-align:left;"> Package has no documentation. </td>
+   <td style="text-align:left;"> Team can create a ReadMe file which explains the overall purpose of the package and its use. </td>
+   <td style="text-align:left;"> Package includes help files for all functions, including a definition, expected inputs, outputs, and clear descriptions of arguments. </td>
+   <td style="text-align:left;"> Vignettes are provided for the major functionalities of the package. Help files include reproducible examples of function usage. </td>
+   <td style="text-align:left;border-right:1px solid;"> A live website is accessible for the package to share resources and vignettes. </td>
    <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
   </tr>
 </tbody>
@@ -335,32 +312,33 @@ You can demonstrate proficiency in any reviewed assignment, **but can only fulfi
 
 ### Final Grades
 
-Your completion of these standards are converted into a final letter grade using the following process. Each of the 12 standards will be converted into a four-point scale, with one point available for meeting the "Individual Standard" on a quiz.
+Your completion of these standards are converted into a final letter grade using the following process. Each of the 8 standards will be converted into a five-point scale, with one point available for meeting the "Individual Standard" on a quiz.
 
 -   1 Point. "Does Not Meet Standard"
 -   2 Points. "Progressing Toward Standard"
--   3 Points. "Meets Standard"
--   4 Points. "Exceeds Standard"
+-   3 Points. "Near Standard"
+-   4 Points. "Meets Standard"
+-   5 Points. "Exceeds Standard"
 -   +1 Point. "Individual Standard"
 
-On this scale, there are 60 points total in the course (12 standards \* 5 possible points). I sum the highest level of proficiency you reach in each standard over the course of the semester to arrive at your final score. For example, if someone were to reach "Exceeds Standard" in all standards, but could never do so on a quiz, they would receive 48 of 60 points (4 points \* 12 standards). Similarly, if someone reaches "Meets Standard" in all topics, including on quizzes, but did not reach "Exceeds Standard" in any topic, they would likewise receive 48 of 60 points.
+On this scale, there are 48 points total in the course (8 standards \* 6 possible points). I sum the highest level of proficiency you reach in each standard over the course of the semester to arrive at your final score. For example, if someone were to reach "Exceeds Standard" in all standards, but could never do so on a quiz, they would receive 40 of 48 points (5 points \* 8 standards). Similarly, if someone reaches "Meets Standard" in all topics, including on quizzes, but did not reach "Exceeds Standard" in any topic, they would likewise receive 40 of 48 points.
 
 The summed points will be converted into letter grades using the following table.
 
-| Letter | Points |
-|--------|--------|
-| A      | 57-60  |
-| A-     | 54-56  |
-| B+     | 52-53  |
-| B      | 50-51  |
-| B-     | 48-49  |
-| C+     | 46-47  |
-| C      | 44-45  |
-| C-     | 42-43  |
-| D+     | 40-41  |
-| D      | 38-39  |
-| D-     | 36-37  |
-| F      | 0-35   |
+| Letter | Points         |
+|--------|----------------|
+| A      | 45, 46, 47, 48 |
+| A-     | 43, 44         |
+| B+     | 41, 42         |
+| B      | 39, 40         |
+| B-     | 37, 38         |
+| C+     | 35, 36         |
+| C      | 33, 34         |
+| C-     | 31, 32         |
+| D+     | 29, 30         |
+| D      | 27, 28         |
+| D-     | 25, 26         |
+| F      | 0 - 24         |
 
 ### Late Work Policy
 
@@ -380,8 +358,6 @@ A: Theoretically yes, but I would recommend you answer all questions to make sur
 
 </div>
 
-[^1]: If this is your first course in the SDS department, you also need to enroll in SDS 100.
-
   [Course Description]: #course-description
   [Course Structure]: #course-structure
   [Course Instructor]: #course-instructor
@@ -398,7 +374,7 @@ A: Theoretically yes, but I would recommend you answer all questions to make sur
   [Final Grades]: #final-grades
   [Late Work Policy]: #late-work-policy
   [FAQ]: #faq
-  [schedule]: /intro_to_data_science_reader/#schedule
+  [schedule]: /Adv-R-Reader/#schedule
   [1]: https://filedn.com/l7C36orhaIP0u9d6RtOoEES/jnjoseph_headshot_live.jpg?classes=floatright,inline,headshot&featherlight=false "Dr. Jared Joseph"
   [Contributor Covenant]: https://www.contributor-covenant.org/version/1/0/0/code-of-conduct/
   [Office of Disability Services Office (ODS)]: https://www.smith.edu/about-smith/disability-services
