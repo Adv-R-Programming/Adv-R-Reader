@@ -48,7 +48,7 @@ I am a visiting assistant professor in the Statistical & Data Sciences (SDS) pro
 {{< tabs >}}
 {{% tab name="Slack" %}}
 
-You can send me a message on the course <a href="https://smi-sds-192-03-202301.slack.com/">Slack workspace</a>, and I will respond when I am able, typically within 24 hours *during the work week*. To message me, click the **+** button next to "Direct Messages" and search for my name.
+You can send me a message on the course <a href="https://sds-270-01-202303.slack.com/">Slack workspace</a>, and I will respond when I am able, typically within 24 hours *during the work week*. To message me, click the **+** button next to "Direct Messages" and search for my name.
 
 If your question is not sensitive in nature, consider putting it in the `#coding-help` or `#course-help` channel instead. There is a good chance one of your classmates will be able to answer before I can.
 

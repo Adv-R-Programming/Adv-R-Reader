@@ -10,28 +10,26 @@ format:
     code-link: true
 ---
 
-
-
 <script src="syllabus_files/libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="syllabus_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
 
--   [Course Description][]
--   [Course Structure][]
--   [Course Instructor][]
-    -   [Contacting Me][]
--   [Course Policies][]
-    -   [Required Materials][]
-    -   [Attendance][]
-    -   [Academic Honesty][]
-    -   [Code of Conduct][]
-    -   [Accommodation][]
--   [Grading][]
-    -   [Standards-Based Grading][]
-    -   [Standards][]
-    -   [Final Grades][]
-    -   [Late Work Policy][]
--   [FAQ][]
+-   [Course Description]
+-   [Course Structure]
+-   [Course Instructor]
+    -   [Contacting Me]
+-   [Course Policies]
+    -   [Required Materials]
+    -   [Attendance]
+    -   [Academic Honesty]
+    -   [Code of Conduct]
+    -   [Accommodation]
+-   [Grading]
+    -   [Standards-Based Grading]
+    -   [Standards]
+    -   [Final Grades]
+    -   [Late Work Policy]
+-   [FAQ]
 
 ## Course Description
 
@@ -43,7 +41,7 @@ Each week follows the same basic structure. Monday and Wednesday classes include
 
 Friday classes are devoted to lab activities or project work time. Students are expected to come to class for these activities. Labs include more involved problem sets that incorporate topics from the current and prior weeks. Students work on labs in groups of two to four people. Labs are reviewed through GitHub Classroom where feedback is provided.
 
-For a full list of assignments and due dates, please see the course [schedule][].
+For a full list of assignments and due dates, please see the course [schedule].
 
 {{% notice info %}}
 This is a 4-credit course. You should be spending 12-hours total per week on this course. Expect to spend around 8.25 hours (12 hours - 3.75 hours/week of in-class instruction) on class material per week outside of class.
@@ -63,7 +61,7 @@ I am a visiting assistant professor in the Statistical & Data Sciences (SDS) pro
 
 {{% tab name="Slack" %}}
 
-You can send me a message on the course <a href="https://smi-sds-192-03-202301.slack.com/">Slack workspace</a>, and I will respond when I am able, typically within 24 hours *during the work week*. To message me, click the **+** button next to "Direct Messages" and search for my name.
+You can send me a message on the course <a href="https://sds-270-01-202303.slack.com/">Slack workspace</a>, and I will respond when I am able, typically within 24 hours *during the work week*. To message me, click the **+** button next to "Direct Messages" and search for my name.
 
 If your question is not sensitive in nature, consider putting it in the `#coding-help` or `#course-help` channel instead. There is a good chance one of your classmates will be able to answer before I can.
 
@@ -136,11 +134,11 @@ If someone else helps you understand a concept better, give them a nod in the `#
 
 > As participants in this course we are committed to making participation a harassment-free experience for everyone, regardless of level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, or religion. Examples of unacceptable behavior by participants in this course include the use of sexual language or imagery, derogatory comments or personal attacks, trolling, public or private harassment, insults, or other unprofessional conduct.<br><br> As the instructor I have the right and responsibility to point out and stop behavior that is not aligned with this Code of Conduct. Participants who do not follow the Code of Conduct may be reprimanded for such behavior. Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the instructor.<br><br>All students and the instructor are expected to adhere to this Code of Conduct in all settings for this course: seminars, office hours, and over Slack.
 
-This Code of Conduct is adapted from the [Contributor Covenant][].
+This Code of Conduct is adapted from the [Contributor Covenant].
 
 ### Accommodation
 
-Smith College is committed to providing support services and reasonable accommodations to all students with disabilities. To request an accommodation, please register with the [Office of Disability Services Office (ODS)][] at the beginning of the semester.
+Smith College is committed to providing support services and reasonable accommodations to all students with disabilities. To request an accommodation, please register with the [Office of Disability Services Office (ODS)] at the beginning of the semester.
 
 ## Grading
 
@@ -150,15 +148,7 @@ This course will be graded using a standards-based grading system. Rather than t
 
 In traditional points-style grading, an average is taken of all your assignments, and your final grade is based on that average. This means all assignments are given equal consideration in your final grade.
 
-<div class="columns">
-
-<div class="column">
-
 ![][2]
-
-</div>
-
-<div class="column">
 
 <p style="text-align: center;">
 <span class="large">Mean of<br>A1-A5</span>
@@ -166,27 +156,11 @@ In traditional points-style grading, an average is taken of all your assignments
 
 <i class="fas fa-arrow-right fa-6x"></i>
 
-</div>
-
-<div class="column">
-
 ![][3]
-
-</div>
-
-</div>
 
 In contrast, standards-based grading is focused on your progression through the course. Functionally, only your best score for each standard is kept. All others are effectively forgotten. The hope is that without the worry of "getting a bad grade" when you are new to a concept, you will feel free to safely engage with complicated topics early on, make mistakes, and have opportunities to show improvement without penalization.
 
-<div class="columns">
-
-<div class="column">
-
 ![][2]
-
-</div>
-
-<div class="column">
 
 <p style="text-align: center;">
 <span class="large">Max of<br>A1-A5</span>
@@ -194,15 +168,7 @@ In contrast, standards-based grading is focused on your progression through the 
 
 <i class="fas fa-arrow-right fa-6x"></i>
 
-</div>
-
-<div class="column">
-
 ![][4]
-
-</div>
-
-</div>
 
 A standards-based grading system carries a number of other benefits:
 
@@ -350,13 +316,9 @@ After the due date, late assignments are only reviewed if there are *emergency* 
 
 ## FAQ
 
-<div class="question">
-
 Q: So if I reach "Exceeds Standard" and fulfill the individual standard on a quiz for a topic early in the semester, I can just skip those questions for the rest of the class?
 
 A: Theoretically yes, but I would recommend you answer all questions to make sure you're not letting your knowledge slip.
-
-</div>
 
   [Course Description]: #course-description
   [Course Structure]: #course-structure
