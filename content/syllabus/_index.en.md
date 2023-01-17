@@ -207,7 +207,7 @@ You can demonstrate proficiency in any reviewed assignment, **but can only fulfi
    <td style="text-align:left;"> Creates simple functions with predetermined inputs. </td>
    <td style="text-align:left;"> Creates functions that that make use of arguments to modify their output. </td>
    <td style="text-align:left;"> Creates functions that can handle novel inputs, with logic and error checking to determine outputs. </td>
-   <td style="text-align:left;border-right:1px solid;"> Creates functions that can handle arbitrary input through the use of “…” or S3 classes. </td>
+   <td style="text-align:left;border-right:1px solid;"> Creates functions that can handle arbitrary input through the use of "&lt;85&gt;" or S3 classes. </td>
    <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
   </tr>
   <tr>
@@ -221,20 +221,20 @@ You can demonstrate proficiency in any reviewed assignment, **but can only fulfi
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;background-color: #FBB4AE !important;border-right:1px solid;"> Data Structures </td>
-   <td style="text-align:left;"> Only works with vectors or dataframes. </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;border-right:1px solid;">  </td>
+   <td style="text-align:left;"> Cannot differentiate between data types (numeric, logical, character, etc.). Uses the wrong type during analyses. </td>
+   <td style="text-align:left;"> Can subset data from vectors by position or condition. </td>
+   <td style="text-align:left;"> Works with dataframes effectively. Can subset data from dataframes by position or condition. </td>
+   <td style="text-align:left;"> Works with lists when appropriate and can subset list elements effectively by position or condition. </td>
+   <td style="text-align:left;border-right:1px solid;"> Works with nested lists by inputting and sub-setting programmatically defined arbitrary elements. </td>
    <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;background-color: #CCEBC5 !important;border-right:1px solid;"> Code Style </td>
    <td style="text-align:left;"> Code style is inconsistent and lacks appropriate comments. </td>
-   <td style="text-align:left;"> Code comments explain the general purpose of the code. Indentation is consistent and predictable. </td>
-   <td style="text-align:left;"> Code comments explain the broad strokes of intended behavior. Files make use of the built-in section headings in R Studio. </td>
+   <td style="text-align:left;"> Code comments explain the general purpose of the code file. Indentation is consistent and predictable. </td>
+   <td style="text-align:left;"> Code comments explain the broad strokes of intended behavior per section. Files make use of the built-in section headings in R Studio. </td>
    <td style="text-align:left;"> Comments explain code step-by-step. All dependencies and parameters are clearly provided and explained at the top of code files. </td>
-   <td style="text-align:left;border-right:1px solid;">  </td>
+   <td style="text-align:left;border-right:1px solid;"> Code includes built in error checking for anticipated problems. These check will output warnings or stop execution of code. </td>
    <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
   </tr>
   <tr>
@@ -258,10 +258,10 @@ You can demonstrate proficiency in any reviewed assignment, **but can only fulfi
   <tr>
    <td style="text-align:left;font-weight: bold;background-color: #B3CDE3 !important;border-right:1px solid;"> Package Function </td>
    <td style="text-align:left;"> Package cannot be installed. </td>
-   <td style="text-align:left;"> Component functions of package do not execute. </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;border-right:1px solid;">  </td>
+   <td style="text-align:left;"> Package does not pass check(). </td>
+   <td style="text-align:left;"> One or more component functions or unit tests of package do not execute. </td>
+   <td style="text-align:left;"> Package includes and passes all unit tests to ensure expected functionality. </td>
+   <td style="text-align:left;border-right:1px solid;"> Package passes check() with no warnings. </td>
    <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
   </tr>
   <tr>
