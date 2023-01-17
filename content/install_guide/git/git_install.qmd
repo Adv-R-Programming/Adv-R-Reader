@@ -2,6 +2,7 @@
 pre: <b>2. </b>
 title: "git"
 weight: 2
+summary: "Learn to install and configure git."
 format:
   hugo:
     toc: true
@@ -123,7 +124,7 @@ Make sure that all of the options on this window are unchecked as in the image b
 
 ![](img/win_git_install_23_deslect_and_finish.png "git completion window with unchecked View Release Notes")
 
-This will complete your installation process. Type in `git --version` to check if everything was installed correctly. If you see `git version <NUMBERS>` you're all set. Now we need to configure some settings. Right click on your desktop, and click on "Git Bash here." A black terminal window will open.
+This will complete your installation process. Right click on your desktop, and click on "Git Bash here." A black terminal window will open. Type in `git --version` to check if everything was installed correctly. If you see `git version <NUMBERS>` you're all set. Now we need to configure some settings. 
 
 ![](img/win_git_setup_1.jpg "open git bash")
 
@@ -137,11 +138,11 @@ Lastly, copy the following and press enter, changing the email to your email add
 
 ## git on Mac
 
-To install git on a Mac, first open the launchpad by pressing `F4` or by making a pinch motion on the track pad with three fingers and your thumb. 
+To install git on a Mac, first open the launchpad by clicking its icon, pressing `F4`, or by making a pinch motion on the track pad with three fingers and your thumb. 
 
 ![](img/01.png "mac launchpad")
 
-A terminal window will open up, showing your account name and then a `$`, with a flashing cursor afterwards. You will enter text here to issue commands.
+A terminal window will open up, showing your account name and a symbol, usually `$` or `#`, with a flashing cursor afterwards. You will enter text here to issue commands.
 
 ![](img/02.png "mac terminal")
 

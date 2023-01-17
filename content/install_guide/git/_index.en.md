@@ -2,6 +2,7 @@
 pre: <b>2. </b>
 title: "git"
 weight: 2
+summary: "Learn to install and configure git."
 format:
   hugo:
     toc: true
@@ -10,17 +11,15 @@ format:
     code-link: true
 ---
 
-
-
--   [Overview][]
--   [git on Windows][]
--   [git on Mac][]
+-   [Overview]
+-   [git on Windows]
+-   [git on Mac]
 
 ## Overview
 
 **git** is a tool for version control and collaboration. It is *the* tool used by data science teams big and small to keep track of code. Think of it like track changes in Word or Google docs, but for code files.
 
-**You will also need an account on Github**. [Please create one here][].
+**You will also need an account on Github**. [Please create one here].
 
 ## git on Windows
 
@@ -30,7 +29,7 @@ First, launch a web browser, the image below shows the Microsoft Edge browser.
 
 ![][1]
 
-Next, navigate to the following Git download URL in your browser [https://git-scm/com/downloads][].
+Next, navigate to the following Git download URL in your browser [https://git-scm/com/downloads].
 
 ![][2]
 
@@ -123,7 +122,7 @@ Make sure that all of the options on this window are unchecked as in the image b
 
 ![][22]
 
-This will complete your installation process. Type in `git --version` to check if everything was installed correctly. If you see `git version <NUMBERS>` you're all set. Now we need to configure some settings. Right click on your desktop, and click on "Git Bash here." A black terminal window will open.
+This will complete your installation process. Right click on your desktop, and click on "Git Bash here." A black terminal window will open. Type in `git --version` to check if everything was installed correctly. If you see `git version <NUMBERS>` you're all set. Now we need to configure some settings.
 
 ![][23]
 
@@ -137,11 +136,11 @@ Lastly, copy the following and press enter, changing the email to your email add
 
 ## git on Mac
 
-To install git on a Mac, first open the launchpad by pressing `F4` or by making a pinch motion on the track pad with three fingers and your thumb.
+To install git on a Mac, first open the launchpad by clicking its icon, pressing `F4`, or by making a pinch motion on the track pad with three fingers and your thumb.
 
 ![][26]
 
-A terminal window will open up, showing your account name and then a `$`, with a flashing cursor afterwards. You will enter text here to issue commands.
+A terminal window will open up, showing your account name and a symbol, usually `$` or `#`, with a flashing cursor afterwards. You will enter text here to issue commands.
 
 ![][27]
 

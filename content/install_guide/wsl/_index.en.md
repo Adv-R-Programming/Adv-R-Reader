@@ -2,6 +2,7 @@
 pre: <b>0. </b>
 title: "[WIN ONLY] Windows Subsystem for Linux"
 weight: 1
+summary: "Set up a full linux terminal on Windows machines."
 format:
   hugo:
     toc: true
@@ -10,13 +11,11 @@ format:
     code-link: true
 ---
 
-
-
--   [Overview][]
--   [Check your windows version][]
--   [Windows version larger than (or equal to) 19041][]
--   [Windows version smaller than 19041][]
--   [Verifying your install][]
+-   [Overview]
+-   [Check your windows version]
+-   [Windows version larger than (or equal to) 19041]
+-   [Windows version smaller than 19041]
+-   [Verifying your install]
 
 ## Overview
 
@@ -35,8 +34,8 @@ Type the command "winver" (no quotes) into the prompt, as depicted in the image 
 Your build version number is the one that follows the "Windows Build" text (as highlighted in the above image). Depending on whether your build number is larger or smaller than 19041, please follow
 the appropriate directions below:
 
--   [Larger than (or equal to) 19041][]
--   \[Smaller than 19041\]\[Windows version larger smaller than 19041\]
+-   [Larger than (or equal to) 19041]
+-   [Smaller than 19041]
 
 ## Windows version larger than (or equal to) 19041
 
@@ -78,7 +77,7 @@ In the start menu, search for and run `Ubuntu`.
 
 ![][10]
 
-If a terminal window opens, you should be good to go!
+If a terminal window opens, you should be good to go! You can also open this terminal inside any folder on your computer by holding shift and right-clicking, then selecting "Open Linux shell here."
 
 {{% notice warning %}}
 This creates an entirely new operating system on your machine. Thus, things like your git configuration and SSH key for Github will not carry over! You will need to configure git again, and create a new SSH key for this operating system.
@@ -96,6 +95,7 @@ Thanks to the <a href="https://datalab.ucdavis.edu/install-guide/">UC Davis Data
   [1]: img/win_version_run.png "Windows check version from run prompt"
   [2]: img/win_version_popup.png "Windows build version"
   [Larger than (or equal to) 19041]: #windows-version-larger-than-or-equal-to-19041
+  [Smaller than 19041]: #windows-version-smaller-than-19041
   [3]: img/win_search_powershell.png "Windows search menu for PowerShell"
   [4]: img/win_wsl_powershell.png "PowerShell command for installing WSL"
   [5]: #commandline-verify

@@ -2,6 +2,7 @@
 pre: <b>0. </b>
 title: "[WIN ONLY] Windows Subsystem for Linux"
 weight: 1
+summary: "Set up a full linux terminal on Windows machines."
 format:
   hugo:
     toc: true
@@ -28,7 +29,7 @@ Your build version number is the one that follows the "Windows Build" text (as h
 the appropriate directions below:
 
 * [Larger than (or equal to) 19041][Windows version larger than (or equal to) 19041]
-* [Smaller than 19041][Windows version larger smaller than 19041]
+* [Smaller than 19041][Windows version smaller than 19041]
 
 ## Windows version larger than (or equal to) 19041
 
@@ -70,7 +71,7 @@ In the start menu, search for and run `Ubuntu`.
 
 ![](img/win_wsl_5.jpg "Windows search menu opening Ubuntu")
 
-If a terminal window opens, you should be good to go!
+If a terminal window opens, you should be good to go! You can also open this terminal inside any folder on your computer by holding shift and right-clicking, then selecting "Open Linux shell here."
 
 {{% notice warning %}}
 This creates an entirely new operating system on your machine. Thus, things like your git configuration and SSH key for Github will not carry over! You will need to configure git again, and create a new SSH key for this operating system.

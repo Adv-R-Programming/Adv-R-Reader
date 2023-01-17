@@ -2,6 +2,7 @@
 pre: <b>4. </b>
 title: "R Packages"
 weight: 4
+summary: "Install many of the packages we will use this semester."
 format:
   hugo:
     toc: true
@@ -20,6 +21,7 @@ R uses a number of packages to work with data, which are largely community creat
 
 ```
 install.packages("tidyverse");
+install.packages("devtools");
 install.packages("dplyr");
 install.packages("todor");
 install.packages("future");
