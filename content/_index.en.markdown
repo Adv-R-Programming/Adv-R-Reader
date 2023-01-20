@@ -125,7 +125,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:left;"> <ol>
 <li><a href="https://rafalab.github.io/dsbook/web-scraping.html">Irizarry, R. A. (2022). Chapter 24 Web scraping. In Introduction to Data Science.</a></li>
 <li>
-<a href="http://www.sfu.ca/%7Epalys/Zimmer-2010-EthicsOfResearchFromFacebook.pdf">Zimmer, M. (2010). &lt;93&gt;But the data is already public&lt;94&gt;: On the ethics of research in Facebook. Ethics and Information Technology, 12(4), 313&lt;96&gt;325.</a>
+<a href="http://www.sfu.ca/%7Epalys/Zimmer-2010-EthicsOfResearchFromFacebook.pdf">Zimmer, M. (2010). But the data is already public: On the ethics of research in Facebook. Ethics and Information Technology, 12(4), 313-325.</a>
 </li>
 </ol> </td>
    <td style="text-align:left;">  </td>
@@ -149,13 +149,15 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:right;font-weight: bold;background-color: #E6F5C9 !important;"> 5 </td>
    <td style="text-align:left;"> 2/20/2023 (Mon) </td>
    <td style="text-align:left;"> Iteration </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> <ol><li>
+<a href="https://r4ds.had.co.nz/iteration.html"><strong>[21.1-21.3 Only]</strong> Wickham, H., &amp; Grolemund, G. (2017). 21 Iteration. In R for Data Science. O&lt;92&gt;Reilly.</a>
+</li></ol> </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #E6F5C9 !important;"> 5 </td>
    <td style="text-align:left;"> 2/22/2023 (Wed) </td>
-   <td style="text-align:left;"> Lists &amp; Apply </td>
+   <td style="text-align:left;"> Apply &amp; Lists </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> <ol><li>Lab 3
 </li></ol> </td>
@@ -171,14 +173,24 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:right;font-weight: bold;background-color: #B3E2CD !important;"> 6 </td>
    <td style="text-align:left;"> 2/27/2023 (Mon) </td>
    <td style="text-align:left;"> Parallel </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> <ol>
+<li><a href="https://nceas.github.io/oss-lessons/parallel-computing-in-r/parallel-computing-in-r.html">Jones, M. (2017). Quick Intro to Parallel Computing in R.</a></li>
+<li>
+<a href="https://bookdown.org/rdpeng/rprogdatascience/parallel-computation.html">Peng, R. D. (2022). 22 Parallel Computation. In R Programming for Data Science.</a>
+</li>
+</ol> </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #B3E2CD !important;"> 6 </td>
    <td style="text-align:left;"> 3/1/2023 (Wed) </td>
    <td style="text-align:left;"> PDF Data Extraction </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> <ol>
+<li><a href="https://docs.ropensci.org/tabulizer/articles/tabulizer.html">rOpenSci. (n.d.). Introduction to tabulizer.</a></li>
+<li>
+<a href="https://docs.ropensci.org/tesseract/articles/intro.html">rOpenSci. (n.d.). Using the Tesseract OCR engine in R.</a>
+</li>
+</ol> </td>
    <td style="text-align:left;"> <ol><li>Lab 4
 </li></ol> </td>
   </tr>
@@ -202,7 +214,9 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:right;font-weight: bold;background-color: #FDCDAC !important;"> 7 </td>
    <td style="text-align:left;"> 3/8/2023 (Wed) </td>
    <td style="text-align:left;"> Remote Servers </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> <ol><li>
+<a href="https://alleetanner.github.io/intro-to-command-line/posts/08ssh/">Tanner, A. (2022, September 18). Working with remote computers.</a>
+</li></ol> </td>
    <td style="text-align:left;"> <ol><li>Lab 5
 </li></ol> </td>
   </tr>
@@ -238,7 +252,9 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:right;font-weight: bold;background-color: #F4CAE4 !important;"> 9 </td>
    <td style="text-align:left;"> 3/20/2023 (Mon) </td>
    <td style="text-align:left;"> Package Creation </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> <ol><li>
+<a href="https://r-pkgs.org/whole-game.html"><strong>[Skim]</strong> Wickham, H., &amp; Bryan, J. (2023). 2  The Whole Game. In R Packages (2nd ed.). O'Reilly.</a>
+</li></ol> </td>
    <td style="text-align:left;"> <ol><li>Final Project Ideas
 </li></ol> </td>
   </tr>
@@ -246,7 +262,14 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:right;font-weight: bold;background-color: #F4CAE4 !important;"> 9 </td>
    <td style="text-align:left;"> 3/22/2023 (Wed) </td>
    <td style="text-align:left;"> Project Management </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> <ol>
+<li><a href="https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart">Quickstart for GitHub Issues. (n.d.). GitHub Docs.</a></li>
+<li><a href="https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/quickstart-for-projects">Quickstart for Projects. (n.d.). GitHub Docs.</a></li>
+<li><a href="https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels">Managing labels. (n.d.). GitHub Docs.</a></li>
+<li>
+<a href="https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones">About milestones. (n.d.). GitHub Docs.</a>
+</li>
+</ol> </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -262,8 +285,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:left;"> Adv Git </td>
    <td style="text-align:left;"> <ol>
 <li><a href="https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-git-branches.html?highlight=git%20branches">Community, T. T. W. (2022a). Git Branches. In The Turing Way: A handbook for reproducible, ethical and collaborative research.</a></li>
-<li>[<a href="https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-git-merge.html">Community, T. T. W. (2022b). Merging Branches in Git. In The Turing Way: A handbook for reproducible, ethical and collaborative research.</a>
-</li>
+<li><a href="https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-git-merge.html">Community, T. T. W. (2022b). Merging Branches in Git. In The Turing Way: A handbook for reproducible, ethical and collaborative research.</a></li>
 <li>
 <a href="https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-git-compare.html">Community, T. T. W. (2022c). Retrieving and Comparing Versions. In The Turing Way: A handbook for reproducible, ethical and collaborative research.</a>
 </li>
@@ -345,7 +367,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:left;"> 4/17/2023 (Mon) </td>
    <td style="text-align:left;"> Package Vignettes/Reprex </td>
    <td style="text-align:left;"> <ol><li>
-<a href="https://r-pkgs.org/vignettes.html">Wickham, H., &amp; Bryan, J. (2023). 18<a0>Vignettes. In R Packages (2nd ed.). O'Reilly.</a0></a>
+<a href="https://r-pkgs.org/vignettes.html">Wickham, H., &amp; Bryan, J. (2023). 18 Vignettes. In R Packages (2nd ed.). O'Reilly.</a>
 </li></ol> </td>
    <td style="text-align:left;">  </td>
   </tr>
