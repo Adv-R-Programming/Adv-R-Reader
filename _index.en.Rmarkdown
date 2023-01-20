@@ -24,6 +24,8 @@ convert_schedule = function(column){
   fix_amp = sapply(html_ver, FUN = function(string){stringr::str_replace_all(string, "&amp;", "&")})
   # fix single quotes
   fix_quote = sapply(fix_amp, FUN = function(string){stringr::str_replace_all(string, "&#39;", "'")})
+  # fix apos
+  #fix_quote = sapply(fix_amp, FUN = function(string){stringr::str_replace_all(string, "<92>", "’")})
   
   # split readings/due into lists
   split_list = strsplit(fix_quote, split = ";", fixed = TRUE)
