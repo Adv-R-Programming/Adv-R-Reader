@@ -47,329 +47,361 @@ Below is the tentative schedule for the course. While we will try to keep to thi
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:right;font-weight: bold;background-color: #B3E2CD !important;font-style: italic;color: #808080 !important;"> 1 </td>
-   <td style="text-align:left;font-style: italic;color: #808080 !important;"> 1/23/23 (Mon) </td>
-   <td style="text-align:left;font-style: italic;color: #808080 !important;"> No Class </td>
-   <td style="text-align:left;font-style: italic;color: #808080 !important;"> <ol><li>TBD
-</li></ol> </td>
-   <td style="text-align:left;font-style: italic;color: #808080 !important;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;font-weight: bold;background-color: #B3E2CD !important;font-style: italic;color: #808080 !important;"> 1 </td>
-   <td style="text-align:left;font-style: italic;color: #808080 !important;"> 1/25/23 (Wed) </td>
-   <td style="text-align:left;font-style: italic;color: #808080 !important;"> No Class </td>
-   <td style="text-align:left;font-style: italic;color: #808080 !important;">  </td>
-   <td style="text-align:left;font-style: italic;color: #808080 !important;">  </td>
-  </tr>
-  <tr>
    <td style="text-align:right;font-weight: bold;background-color: #B3E2CD !important;"> 1 </td>
-   <td style="text-align:left;"> 1/27/23 (Fri) </td>
+   <td style="text-align:left;"> 1/27/2023 (Fri) </td>
    <td style="text-align:left;"> Roadmap </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> <ol><li>
+<a href="Adv-R-Reader/syllabus/">Class Syllabus</a>
+</li></ol> </td>
+   <td style="text-align:left;"> <ol>
+<li>Update R/R Studio</li>
+<li>Sign up for class <a href="https://sds-270-01-202303.slack.com/">slack</a>
+</li>
+</ol> </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #FDCDAC !important;"> 2 </td>
-   <td style="text-align:left;"> 1/30/23 (Mon) </td>
+   <td style="text-align:left;"> 1/30/2023 (Mon) </td>
    <td style="text-align:left;"> Intro Git </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> <ol><li>
+<a href="https://search.ebscohost.com/login.aspx?direct=true&amp;AuthType=ip,sso&amp;db=asn&amp;AN=129302223&amp;site=eds-live&amp;scope=site&amp;custid=s8897501">Bryan, J. (2018). Excuse Me, Do You Have a Moment to Talk About Version Control? American Statistician, 72(1), 20-27.</a>
+</li></ol> </td>
+   <td style="text-align:left;"> <ol>
+<li>Complete all <a href="/Adv-R-Reader/install_guide/">Install Guides</a>
+</li>
+<li><a href="https://forms.gle/jJR59W6L2PBrbmk76">Welcome Survey</a></li>
+<li>
+<a href="https://forms.gle/LTLfzAKrfye69aT98">Data Survey</a>
+</li>
+</ol> </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #FDCDAC !important;"> 2 </td>
-   <td style="text-align:left;"> 2/1/23 (Wed) </td>
+   <td style="text-align:left;"> 2/1/2023 (Wed) </td>
    <td style="text-align:left;"> Project Repo Design </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #FDCDAC !important;"> 2 </td>
-   <td style="text-align:left;"> 2/3/23 (Fri) </td>
+   <td style="text-align:left;"> 2/3/2023 (Fri) </td>
    <td style="text-align:left;"> Lab 1 </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #CBD5E8 !important;"> 3 </td>
-   <td style="text-align:left;"> 2/6/23 (Mon) </td>
-   <td style="text-align:left;"> Functions </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 2/6/2023 (Mon) </td>
+   <td style="text-align:left;"> Functions &amp; Flow </td>
+   <td style="text-align:left;"> <ol><li>
+<a href="https://r4ds.had.co.nz/functions.html">Grolemund, G., &amp; Wickham, H. (2017). 19 Functions. In R for Data Science. O'Reilly.</a>
+</li></ol> </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #CBD5E8 !important;"> 3 </td>
-   <td style="text-align:left;"> 2/8/23 (Wed) </td>
-   <td style="text-align:left;"> Debugging &amp; Conditions </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 2/8/2023 (Wed) </td>
+   <td style="text-align:left;"> Debugging </td>
+   <td style="text-align:left;"> <ol>
+<li><a href="https://rstats.wtf/debugging-r-code.html">Bryan, J., &amp; Hester, J. (2021). Chapter 11 Debugging R code. In What They Forgot to Teach You About R.</a></li>
+<li>
+<a href="https://adv-r.hadley.nz/conditions.html">Grolemund, G., &amp; Wickham, H. (2017). 8 Conditions. In R for Data Science. O'Reilly.</a>
+</li>
+</ol> </td>
    <td style="text-align:left;"> <ol><li>Lab 1
 </li></ol> </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #CBD5E8 !important;"> 3 </td>
-   <td style="text-align:left;"> 2/10/23 (Fri) </td>
+   <td style="text-align:left;"> 2/10/2023 (Fri) </td>
    <td style="text-align:left;"> Lab 2 </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #F4CAE4 !important;"> 4 </td>
-   <td style="text-align:left;"> 2/13/23 (Mon) </td>
+   <td style="text-align:left;"> 2/13/2023 (Mon) </td>
    <td style="text-align:left;"> Web Scraping </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> <ol>
+<li><a href="https://rafalab.github.io/dsbook/web-scraping.html">Irizarry, R. A. (2022). Chapter 24 Web scraping. In Introduction to Data Science.</a></li>
+<li>
+<a href="http://www.sfu.ca/%7Epalys/Zimmer-2010-EthicsOfResearchFromFacebook.pdf">Zimmer, M. (2010). &lt;93&gt;But the data is already public&lt;94&gt;: On the ethics of research in Facebook. Ethics and Information Technology, 12(4), 313&lt;96&gt;325.</a>
+</li>
+</ol> </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #F4CAE4 !important;"> 4 </td>
-   <td style="text-align:left;"> 2/15/23 (Wed) </td>
-   <td style="text-align:left;"> Adv Web Scraping </td>
+   <td style="text-align:left;"> 2/15/2023 (Wed) </td>
+   <td style="text-align:left;"> RegEx </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> <ol><li>Lab 2
 </li></ol> </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #F4CAE4 !important;"> 4 </td>
-   <td style="text-align:left;"> 2/17/23 (Fri) </td>
+   <td style="text-align:left;"> 2/17/2023 (Fri) </td>
    <td style="text-align:left;"> Lab 3 </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #E6F5C9 !important;"> 5 </td>
-   <td style="text-align:left;"> 2/20/23 (Mon) </td>
+   <td style="text-align:left;"> 2/20/2023 (Mon) </td>
    <td style="text-align:left;"> Iteration </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #E6F5C9 !important;"> 5 </td>
-   <td style="text-align:left;"> 2/22/23 (Wed) </td>
-   <td style="text-align:left;"> Apply/Parallel </td>
+   <td style="text-align:left;"> 2/22/2023 (Wed) </td>
+   <td style="text-align:left;"> Lists &amp; Apply </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> <ol><li>Lab 3
 </li></ol> </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #E6F5C9 !important;"> 5 </td>
-   <td style="text-align:left;"> 2/24/23 (Fri) </td>
+   <td style="text-align:left;"> 2/24/2023 (Fri) </td>
    <td style="text-align:left;"> Lab 4 </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #B3E2CD !important;"> 6 </td>
-   <td style="text-align:left;"> 2/27/23 (Mon) </td>
-   <td style="text-align:left;"> PDF Data Extraction </td>
+   <td style="text-align:left;"> 2/27/2023 (Mon) </td>
+   <td style="text-align:left;"> Parallel </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #B3E2CD !important;"> 6 </td>
-   <td style="text-align:left;"> 3/1/23 (Wed) </td>
-   <td style="text-align:left;"> OCR &amp; PDFs 2 </td>
+   <td style="text-align:left;"> 3/1/2023 (Wed) </td>
+   <td style="text-align:left;"> PDF Data Extraction </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> <ol><li>Lab 4
 </li></ol> </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #B3E2CD !important;"> 6 </td>
-   <td style="text-align:left;"> 3/3/23 (Fri) </td>
+   <td style="text-align:left;"> 3/3/2023 (Fri) </td>
    <td style="text-align:left;"> Lab 5 </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #FDCDAC !important;"> 7 </td>
-   <td style="text-align:left;"> 3/6/23 (Mon) </td>
-   <td style="text-align:left;"> RegEx </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 3/6/2023 (Mon) </td>
+   <td style="text-align:left;"> Bash </td>
+   <td style="text-align:left;"> <ol><li>
+<a href="http://rafalab.dfci.harvard.edu/dsbook/unix.html">Irizarry, R. A. (2022). Chapter 39 Organizing with Unix. In Introduction to Data Science.</a>
+</li></ol> </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #FDCDAC !important;"> 7 </td>
-   <td style="text-align:left;"> 3/8/23 (Wed) </td>
-   <td style="text-align:left;"> Benchmarking </td>
+   <td style="text-align:left;"> 3/8/2023 (Wed) </td>
+   <td style="text-align:left;"> Remote Servers </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> <ol><li>Lab 5
 </li></ol> </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #FDCDAC !important;"> 7 </td>
-   <td style="text-align:left;"> 3/10/23 (Fri) </td>
+   <td style="text-align:left;"> 3/10/2023 (Fri) </td>
    <td style="text-align:left;"> RECAP/MSA </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #CBD5E8 !important;font-style: italic;color: #808080 !important;"> 8 </td>
-   <td style="text-align:left;font-style: italic;color: #808080 !important;"> 3/13/23 (Mon) </td>
+   <td style="text-align:left;font-style: italic;color: #808080 !important;"> 3/13/2023 (Mon) </td>
    <td style="text-align:left;font-style: italic;color: #808080 !important;"> No Class </td>
    <td style="text-align:left;font-style: italic;color: #808080 !important;">  </td>
    <td style="text-align:left;font-style: italic;color: #808080 !important;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #CBD5E8 !important;font-style: italic;color: #808080 !important;"> 8 </td>
-   <td style="text-align:left;font-style: italic;color: #808080 !important;"> 3/15/23 (Wed) </td>
+   <td style="text-align:left;font-style: italic;color: #808080 !important;"> 3/15/2023 (Wed) </td>
    <td style="text-align:left;font-style: italic;color: #808080 !important;"> No Class </td>
    <td style="text-align:left;font-style: italic;color: #808080 !important;">  </td>
    <td style="text-align:left;font-style: italic;color: #808080 !important;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #CBD5E8 !important;font-style: italic;color: #808080 !important;"> 8 </td>
-   <td style="text-align:left;font-style: italic;color: #808080 !important;"> 3/17/23 (Fri) </td>
+   <td style="text-align:left;font-style: italic;color: #808080 !important;"> 3/17/2023 (Fri) </td>
    <td style="text-align:left;font-style: italic;color: #808080 !important;"> No Class </td>
    <td style="text-align:left;font-style: italic;color: #808080 !important;">  </td>
    <td style="text-align:left;font-style: italic;color: #808080 !important;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #F4CAE4 !important;"> 9 </td>
-   <td style="text-align:left;"> 3/20/23 (Mon) </td>
+   <td style="text-align:left;"> 3/20/2023 (Mon) </td>
    <td style="text-align:left;"> Package Creation </td>
    <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> <ol><li>Final Project Ideas
+</li></ol> </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;font-weight: bold;background-color: #F4CAE4 !important;"> 9 </td>
+   <td style="text-align:left;"> 3/22/2023 (Wed) </td>
+   <td style="text-align:left;"> Project Management </td>
+   <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #F4CAE4 !important;"> 9 </td>
-   <td style="text-align:left;"> 3/22/23 (Wed) </td>
-   <td style="text-align:left;"> Adv Git </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;font-weight: bold;background-color: #F4CAE4 !important;"> 9 </td>
-   <td style="text-align:left;"> 3/24/23 (Fri) </td>
+   <td style="text-align:left;"> 3/24/2023 (Fri) </td>
    <td style="text-align:left;"> Finals Work Time 1 </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #E6F5C9 !important;"> 10 </td>
-   <td style="text-align:left;"> 3/27/23 (Mon) </td>
-   <td style="text-align:left;"> Adv Functions </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 3/27/2023 (Mon) </td>
+   <td style="text-align:left;"> Adv Git </td>
+   <td style="text-align:left;"> <ol>
+<li><a href="https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-git-branches.html?highlight=git%20branches">Community, T. T. W. (2022a). Git Branches. In The Turing Way: A handbook for reproducible, ethical and collaborative research.</a></li>
+<li>[<a href="https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-git-merge.html">Community, T. T. W. (2022b). Merging Branches in Git. In The Turing Way: A handbook for reproducible, ethical and collaborative research.</a>
+</li>
+<li>
+<a href="https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-git-compare.html">Community, T. T. W. (2022c). Retrieving and Comparing Versions. In The Turing Way: A handbook for reproducible, ethical and collaborative research.</a>
+</li>
+</ol> </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #E6F5C9 !important;"> 10 </td>
-   <td style="text-align:left;"> 3/29/23 (Wed) </td>
-   <td style="text-align:left;"> S3 </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 3/29/2023 (Wed) </td>
+   <td style="text-align:left;"> Package Documentation </td>
+   <td style="text-align:left;"> <ol>
+<li><a href="https://r-pkgs.org/man.html">Wickham, H., &amp; Bryan, J. (2023). 17<a0> Function documentation. In R Packages (2nd ed.). O'Reilly.</a0></a></li>
+<li>
+<a href="https://r-pkgs.org/other-markdown.html">Wickham, H., &amp; Bryan, J. (2023). 19  Other markdown files. In R Packages (2nd ed.). O'Reilly.</a>
+</li>
+</ol> </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #E6F5C9 !important;"> 10 </td>
-   <td style="text-align:left;"> 3/31/23 (Fri) </td>
+   <td style="text-align:left;"> 3/31/2023 (Fri) </td>
    <td style="text-align:left;"> Lab 6 </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #B3E2CD !important;"> 11 </td>
-   <td style="text-align:left;"> 4/3/23 (Mon) </td>
-   <td style="text-align:left;"> Package Documentation </td>
+   <td style="text-align:left;"> 4/3/2023 (Mon) </td>
+   <td style="text-align:left;"> Adv Functions </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #B3E2CD !important;"> 11 </td>
-   <td style="text-align:left;"> 4/5/23 (Wed) </td>
-   <td style="text-align:left;"> Testing </td>
+   <td style="text-align:left;"> 4/5/2023 (Wed) </td>
+   <td style="text-align:left;"> S3 </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> <ol><li>Lab 6
 </li></ol> </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #B3E2CD !important;"> 11 </td>
-   <td style="text-align:left;"> 4/7/23 (Fri) </td>
+   <td style="text-align:left;"> 4/7/2023 (Fri) </td>
    <td style="text-align:left;"> Lab 7 </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #FDCDAC !important;"> 12 </td>
-   <td style="text-align:left;"> 4/10/23 (Mon) </td>
-   <td style="text-align:left;"> Bash </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 4/10/2023 (Mon) </td>
+   <td style="text-align:left;"> Testing </td>
+   <td style="text-align:left;"> <ol>
+<li><a href="https://r-pkgs.org/testing-basics.html">Wickham, H., &amp; Bryan, J. (2023). 14  Testing basics. In R Packages (2nd ed.). O'Reilly.</a></li>
+<li>
+<a href="https://r-pkgs.org/testing-design.html">Wickham, H., &amp; Bryan, J. (2023). 15  Designing your test suite. In R Packages (2nd ed.). O'Reilly.</a>
+</li>
+</ol> </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #FDCDAC !important;"> 12 </td>
-   <td style="text-align:left;"> 4/12/23 (Wed) </td>
-   <td style="text-align:left;"> Remote Servers </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 4/12/2023 (Wed) </td>
+   <td style="text-align:left;"> Benchmarking </td>
+   <td style="text-align:left;"> <ol><li>
+<a href="https://adv-r.hadley.nz/perf-measure.html">Wickham, H. (2020). 23 Measuring performance. In Advanced R. Chapman &amp; Hall.</a>
+</li></ol> </td>
    <td style="text-align:left;"> <ol><li>Lab 7
 </li></ol> </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #FDCDAC !important;"> 12 </td>
-   <td style="text-align:left;"> 4/14/23 (Fri) </td>
+   <td style="text-align:left;"> 4/14/2023 (Fri) </td>
    <td style="text-align:left;"> Lab 8 </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #CBD5E8 !important;"> 13 </td>
-   <td style="text-align:left;"> 4/17/23 (Mon) </td>
-   <td style="text-align:left;"> Package Vignettes/Examples </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 4/17/2023 (Mon) </td>
+   <td style="text-align:left;"> Package Vignettes/Reprex </td>
+   <td style="text-align:left;"> <ol><li>
+<a href="https://r-pkgs.org/vignettes.html">Wickham, H., &amp; Bryan, J. (2023). 18<a0>Vignettes. In R Packages (2nd ed.). O'Reilly.</a0></a>
+</li></ol> </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #CBD5E8 !important;"> 13 </td>
-   <td style="text-align:left;"> 4/19/23 (Wed) </td>
+   <td style="text-align:left;"> 4/19/2023 (Wed) </td>
    <td style="text-align:left;"> Package Website </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> <ol><li>
+<a href="https://r-pkgs.org/website.html">Wickham, H., &amp; Bryan, J. (2023). 20 Website. In R Packages (2nd ed.). O'Reilly.</a>
+</li></ol> </td>
    <td style="text-align:left;"> <ol><li>Lab 8
 </li></ol> </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #CBD5E8 !important;"> 13 </td>
-   <td style="text-align:left;"> 4/21/23 (Fri) </td>
+   <td style="text-align:left;"> 4/21/2023 (Fri) </td>
    <td style="text-align:left;"> Lab 9 </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #F4CAE4 !important;"> 14 </td>
-   <td style="text-align:left;"> 4/24/23 (Mon) </td>
-   <td style="text-align:left;"> Student’s Choice </td>
+   <td style="text-align:left;"> 4/24/2023 (Mon) </td>
+   <td style="text-align:left;"> Student's Choice </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #F4CAE4 !important;"> 14 </td>
-   <td style="text-align:left;"> 4/26/23 (Wed) </td>
-   <td style="text-align:left;"> Student’s Choice </td>
+   <td style="text-align:left;"> 4/26/2023 (Wed) </td>
+   <td style="text-align:left;"> Student's Choice </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> <ol><li>Lab 9
 </li></ol> </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #F4CAE4 !important;"> 14 </td>
-   <td style="text-align:left;"> 4/28/23 (Fri) </td>
+   <td style="text-align:left;"> 4/28/2023 (Fri) </td>
    <td style="text-align:left;"> Finals Work Time 2 </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #E6F5C9 !important;"> 15 </td>
-   <td style="text-align:left;"> 4/1/23 (Mon) </td>
+   <td style="text-align:left;"> 4/1/2023 (Mon) </td>
    <td style="text-align:left;"> Finals Work Time 3 </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #E6F5C9 !important;"> 15 </td>
-   <td style="text-align:left;"> 4/3/23 (Wed) </td>
+   <td style="text-align:left;"> 4/3/2023 (Wed) </td>
    <td style="text-align:left;"> Finals Showcase </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;font-weight: bold;background-color: #E6F5C9 !important;font-style: italic;color: #808080 !important;"> 15 </td>
-   <td style="text-align:left;font-style: italic;color: #808080 !important;"> 04/05/23 (Fri) </td>
-   <td style="text-align:left;font-style: italic;color: #808080 !important;"> No Class </td>
-   <td style="text-align:left;font-style: italic;color: #808080 !important;">  </td>
-   <td style="text-align:left;font-style: italic;color: #808080 !important;">  </td>
+   <td style="text-align:left;"> <ol><li>Final Presentation
+</li></ol> </td>
   </tr>
 </tbody>
 </table>
