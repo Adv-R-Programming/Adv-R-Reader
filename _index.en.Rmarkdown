@@ -1,0 +1,101 @@
+---
+title: Home
+---
+
+```{r setup, echo=FALSE, warning=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+
+library(kableExtra)
+```
+
+```{r, echo=FALSE, warning=FALSE}
+# reach schedule csv
+schedule = read.csv("./schedule.csv", header = TRUE, stringsAsFactors = FALSE)
+```
+
+```{r, echo=FALSE, warning=FALSE}
+## render lists and markdown
+convert_schedule = function(column){
+  
+  # convert markdown to html
+  html_ver = sapply(column, FUN = function(text){markdown::renderMarkdown(text = text)}, simplify = TRUE)
+
+  # fix ampersands
+  fix_amp = sapply(html_ver, FUN = function(string){stringr::str_replace_all(string, "&amp;", "&")})
+  # fix single quotes
+  fix_quote = sapply(fix_amp, FUN = function(string){stringr::str_replace_all(string, "&#39;", "'")})
+  
+  # split readings/due into lists
+  split_list = strsplit(fix_quote, split = ";", fixed = TRUE)
+  
+  out = sapply(split_list, FUN = function(day){
+    # add list items
+    combined = paste0("<li>", day, "</li>", collapse = "")
+    # add list div
+    listed = paste0("<ol>", combined, "</ol>")
+    # clean empty
+    clean = ifelse(listed == "<ol><li></li></ol>", "", listed)
+    
+    # return
+    return(clean)
+    
+  })
+  
+  # remove newlines
+  out = stringr::str_remove(out, "<p>")
+  out = stringr::str_remove(out, "</p>")
+  
+  # return
+  return(out)
+}
+
+# convert
+schedule$Due = convert_schedule(schedule$Due)
+schedule$Readings = convert_schedule(schedule$Readings)
+
+```
+
+# Advanced Programming for Data Science
+
+## Quick Links
+
+| Resource Link                                                	  | Description                                                                           	|
+|-------------------------------------------------------------	  |----------------------------------------------------------------------------------------	|
+| [Syllabus]({{%relref "syllabus/" %}})                       	  | Quick access to all important course information.                                      	|
+| [Moodle](https://moodle.smith.edu/course/view.php?id=46289) 	  | Grades and quizzes will be available on the course Moodle. 	                            |
+| [Slack](https://sds-270-01-202303.slack.com/)                | Main communication channel for the course.                                              |
+| [Spinelli Center](https://www.smith.edu/qlc/tutoring.html)  	  | The Spinelli Center offers drop-in tutoring hours in Sabin-Reed 301 or on Zoom.        	|
+| [Office Hours](https://calendly.com/jared-joseph/office-hours)  | Sign up for a slot in office hours here.                                                |
+
+## Overview
+
+| Info  | Value                                             |
+|-------|---------------------------------------------------|
+| Who   | Dr. Jared Joseph                                  |
+| What  | SDS 270: Advanced Programming for Data Science    |
+| When  | Mon/Wed/Fri 9:25-10:40                            |
+| Where | [Sabin-Reed 220](https://goo.gl/maps/UNaijEzYVYYxBckc9) |
+
+## Schedule
+
+Below is the tentative schedule for the course. While we will try to keep to this schedule, unanticipated situations (and mountain day) may require us to adjust. Each row is a class meeting, with the readings and assignments due on that day listed. 
+
+```{r schedule_table, echo=FALSE}
+# make colors for week blocks
+week_colors = factor(schedule$Week, labels = rep(RColorBrewer::brewer.pal(5, name = "Pastel2"), times = 3))
+
+# make clean df
+schedule_clean = data.frame(
+  "Week" = schedule$Week,
+  "Date" = paste0(schedule$Date, " (", schedule$Day, ")"),
+  "Topic" = ifelse(schedule$Class == "FALSE", "No Class", schedule$Topic),
+  "Readings" = schedule$Readings,
+  "Due" = schedule$Due)
+
+knitr::kable(schedule_clean, escape = FALSE) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
+  column_spec(1, border_right = FALSE, bold = TRUE, background = week_colors) %>%
+  row_spec(which(schedule_clean$Topic == "No Class"), italic = TRUE, color = "#808080")
+```
+
+

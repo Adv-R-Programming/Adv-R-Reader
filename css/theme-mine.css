@@ -1,0 +1,311 @@
+/* Custom */
+
+.floatright {
+	max-width: 30%;
+	width: auto\9*0.3; /* ie8 */
+	height: auto;
+	float: right;
+}
+
+.floatleft {
+	max-width: 30%;
+	width: auto\9*0.3; /* ie8 */
+	height: auto;
+	float: left;
+}
+
+.pull-up {
+	position: relative;
+	top: -20vh;
+}
+
+.headshot {
+	padding: 20px;
+	max-width: 300px;
+}
+
+blockquote p {
+	color: #323232;
+	margin: 5px;
+	font-size: 16px;
+}
+
+blockquote {
+	font-family: Georgia, serif;
+	font-style: italic;
+	margin: 0.25em 0;
+    padding: 0.35em 40px;
+	border-left-color: #1A2D57;
+	background-color: #edf8fe;
+}
+
+div.columns{
+    display: flex;
+		-webkit-flex-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+}
+
+div.column{
+    display: inline-block;
+    margin: 10px;
+    float: left;
+}
+
+/* for lists inside the schedule table */
+html.js.csstransforms3d.supports body section#body div.padding.highlightable div#body-inner table.table.table-striped.table-hover.table-condensed.table-responsive tbody tr td ol {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	list-style-position: inside;
+	padding-left: 0;
+}
+
+/* add my image captions */
+
+html.js.csstransforms3d.supports body section#body div.padding.highlightable div#body-inner figure a img {
+	margin-bottom: 0px;
+}
+
+figcaption {
+	text-align: center;
+	font-style: italic;
+}
+
+dl {
+	font-weight: bold;
+}
+
+dd {
+	font-weight: normal;
+}
+
+/* font sizes */
+
+.colossal { font-size: 220% }
+.gargantuan { font-size: 190% }
+.huge { font-size: 160% }
+.large { font-size: 130% }
+.small { font-size: 70% }
+.tiny { font-size: 40% }
+.diminutive { font-size: 10% }
+
+/* Question boxes */
+
+/* Stolen from 
+https://raw.githubusercontent.com/OpenIntroStat/oilabs-tidy/main/lab.css
+*/
+
+body {
+    counter-reset: q-li; /* initialize counter named q-li */
+}
+
+.question {
+    margin-left:0; /* Remove the default left margin */
+    padding-left:0; /* Remove the default left padding */
+    position:relative; /* Create a positioning context */
+    margin:0 0 10px 2em; /* Give each list item a left margin to make room for the numbers */
+    padding:10px 50px; /* Add some spacing around the content */
+    list-style:none; /* Disable the normal item numbering */
+    border-top:2px solid #1A2D57; /* Smith blue */
+    background:rgba(49, 126, 172, 0.1);
+}
+.question:before {
+    content:"Q. " counter(q-li); /* Use the counter as content */
+    counter-increment: q-li; /* Increment the counter by 1 */
+    /* Position and style the number */
+    position:absolute;
+    top:-2px;
+    left:-2em;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width:4em;
+    /* Some space between the number and the content in browsers that support
+       generated content but not positioning it (Camino 2 is one example) */
+    margin-right:8px;
+    padding:4px;
+    border-top:2px solid #1A2D57; /* Smith blue */
+    color:#fff;
+    background:#1A2D57; /* Smith blue */
+    font-weight:bold;
+    font-family:"Helvetica Neue", Arial, sans-serif;
+    text-align:center;
+}
+
+/* answer boxes */
+
+/* Stolen from 
+https://raw.githubusercontent.com/OpenIntroStat/oilabs-tidy/main/lab.css
+*/
+
+.answer {
+    margin-left:0; /* Remove the default left margin */
+    padding-left:0; /* Remove the default left padding */
+    position:relative; /* Create a positioning context */
+    margin:0 0 10px 2em; /* Give each list item a left margin to make room for the numbers */
+    padding:10px 50px; /* Add some spacing around the content */
+    list-style:none; /* Disable the normal item numbering */
+    border-top:2px solid #004636; /* Smith blue */
+    background:rgba(49, 126, 172, 0.1);
+}
+.answer:before {
+    content:"A."; /* Use the counter as content */
+    /* Position and style the number */
+    position:absolute;
+    top:-2px;
+    left:-2em;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width:4em;
+    /* Some space between the number and the content in browsers that support
+       generated content but not positioning it (Camino 2 is one example) */
+    margin-right:8px;
+    padding:4px;
+    border-top:2px solid #004636; /* Smith blue */
+    color:#fff;
+    background:#004636; /* Smith blue */
+    font-weight:bold;
+    font-family:"Helvetica Neue", Arial, sans-serif;
+    text-align:center;
+}
+
+/* best practice */
+
+.best {
+    margin-left:0; /* Remove the default left margin */
+    padding-left:0; /* Remove the default left padding */
+    position:relative; /* Create a positioning context */
+    margin:0 0 10px 2em; /* Give each list item a left margin to make room for the numbers */
+    padding:10px 50px; /* Add some spacing around the content */
+    list-style:none; /* Disable the normal item numbering */
+    border-top:2px solid #FDDF40; /* Smith blue */
+    background:rgba(49, 126, 172, 0.1);
+}
+.best:before {
+    content: "★"; /* Use the counter as content */
+    /* Position and style the number */
+    position:absolute;
+    top:-2px;
+    left:-2em;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width:4em;
+    /* Some space between the number and the content in browsers that support
+       generated content but not positioning it (Camino 2 is one example) */
+    margin-right:8px;
+    padding:4px;
+    border-top:2px solid #FDDF40; /* Smith blue */
+    color:#fff;
+    background:#FDDF40; /* Smith blue */
+    font-weight:bold;
+    font-family:"Helvetica Neue", Arial, sans-serif;
+    text-align:center;
+}
+
+/* Hugo */
+
+:root{
+    
+    --MAIN-TEXT-color:#323232; /* Color of text by default */
+    --MAIN-TITLES-TEXT-color: #5e5e5e; /* Color of titles h2-h3-h4-h5 */
+    --MAIN-LINK-color:#48A7DF; /* Color of links */
+    --MAIN-LINK-HOVER-color:#1A2D57; /* Color of hovered links */
+    --MAIN-ANCHOR-color: #48A7DF; /* color of anchors on titles */
+
+    --MENU-HEADER-BG-color: #bb2046; /* Background color of menu header- CHANGED */
+    --MENU-HEADER-BORDER-color:#fbb5a4; /*Color of menu header border */ 
+    
+    --MENU-SEARCH-BG-color: #fbb5a4; /* Search field background color (by default borders + icons) - CHANGED */
+    --MENU-SEARCH-BOX-color: #f25a56; /* Override search field border color - CHANGED */
+    --MENU-SEARCH-BOX-ICONS-color: #f25a56; /* Override search field icons color - CHANGED */
+
+    --MENU-SECTIONS-ACTIVE-BG-color:#1b211c; /* Background color of the active section and its childs */
+    --MENU-SECTIONS-BG-color:#222723; /* Background color of other sections */
+    --MENU-SECTIONS-LINK-color: #ccc; /* Color of links in menu */
+    --MENU-SECTIONS-LINK-HOVER-color: #e6e6e6;  /* Color of links in menu, when hovered */
+    --MENU-SECTION-ACTIVE-CATEGORY-color: #777; /* Color of active category text */
+    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff; /* Color of background for the active category (only) */
+
+    --MENU-VISITED-color: #FCB616; /* Color of 'page visited' icons in menu */
+    --MENU-SECTION-HR-color: #18211c; /* Color of <hr> separator in menu */
+    
+}
+
+body {
+    color: var(--MAIN-TEXT-color) !important;
+}
+
+textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, select[multiple=multiple]:focus {
+    border-color: none;
+    box-shadow: none;
+}
+
+h2, h3, h4, h5 {
+    color: var(--MAIN-TITLES-TEXT-color) !important;
+}
+
+a {
+    color: var(--MAIN-LINK-color);
+}
+
+.anchor {
+    color: var(--MAIN-ANCHOR-color);
+}
+
+a:hover {
+    color: var(--MAIN-LINK-HOVER-color);
+}
+
+#sidebar ul li.visited > a .read-icon {
+	color: var(--MENU-VISITED-color);
+}
+
+#body a.highlight:after {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 0%;
+    -webkit-transition: width 0.5s ease;
+    -moz-transition: width 0.5s ease;
+    -ms-transition: width 0.5s ease;
+    transition: width 0.5s ease;
+    background-color: var(--MAIN-LINK-HOVER-color);
+}
+#sidebar {
+	background-color: var(--MENU-SECTIONS-BG-color);
+}
+#sidebar #header-wrapper {
+    background: var(--MENU-HEADER-BG-color);
+    color: var(--MENU-SEARCH-BOX-color);
+    border-color: var(--MENU-HEADER-BORDER-color);
+}
+#sidebar .searchbox {
+	border-color: var(--MENU-SEARCH-BOX-color);
+    background: var(--MENU-SEARCH-BG-color);
+}
+#sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
+    background: var(--MENU-SECTIONS-ACTIVE-BG-color);
+}
+#sidebar .searchbox * {
+    color: var(--MENU-SEARCH-BOX-ICONS-color);
+}
+
+#sidebar a {
+    color: var(--MENU-SECTIONS-LINK-color);
+}
+
+#sidebar a:hover {
+    color: var(--MENU-SECTIONS-LINK-HOVER-color);
+}
+
+#sidebar ul li.active > a {
+    background: var(--MENU-SECTION-ACTIVE-CATEGORY-BG-color);
+    color: var(--MENU-SECTION-ACTIVE-CATEGORY-color) !important;
+}
+
+#sidebar hr {
+    border-color: var(--MENU-SECTION-HR-color);
+}
+
