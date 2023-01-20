@@ -1,7 +1,7 @@
 ---
-pre: <b>6. </b>
+pre: <b>5. </b>
 title: Slides
-weight: 6
+weight: 5
 format:
   hugo:
     toc: true
@@ -9,7 +9,5 @@ format:
     reference-links: true
     code-link: true
 ---
-
-
 
 {{% attachments title="Lecture Slides" style="grey" / %}}
