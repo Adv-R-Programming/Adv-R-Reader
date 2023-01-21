@@ -408,7 +408,8 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:left;"> 4/28/2023 (Fri) </td>
    <td style="text-align:left;"> Finals Work Time 2 </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> <ol><li>Final Standards Draft
+</li></ol> </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #E6F5C9 !important;"> 15 </td>
