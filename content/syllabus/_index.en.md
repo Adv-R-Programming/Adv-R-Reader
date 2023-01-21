@@ -300,9 +300,9 @@ After the due date, late assignments are only reviewed if there are *emergency* 
 
 ## FAQ
 
-<span class="question">Q: So if I reach "Exceeds Standard" and fulfill the individual standard on a quiz for a topic early in the semester, I can just skip those questions for the rest of the class?</span>
+Q: So if I reach "Exceeds Standard" and fulfill the individual standard on a quiz for a topic early in the semester, I can just skip those questions for the rest of the class?
 
-<span class="answer">A: Theoretically yes, but I would recommend you answer all questions to make sure you're not letting your knowledge slip.</span>
+A: Theoretically yes, but I would recommend you answer all questions to make sure you're not letting your knowledge slip.
 
   [Course Description]: #course-description
   [Course Structure]: #course-structure
