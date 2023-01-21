@@ -107,7 +107,7 @@ Any cases of dishonesty or plagiarism will be reported to the Academic Honor Boa
 * Paraphrasing material from another source without citing the author.
 * Failing to cite your sources correctly.
 * Falsifying or misrepresenting information in submitted work.
-* Paying another student or service to complete assignments for you.
+* Having another student or service complete assignments for you.
 
 Learning to code is similar to learning a new language; *you will only learn by doing*. No amount of rote copying will advance you beyond the most elementary levels of understanding. Please keep this in mind.
 
