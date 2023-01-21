@@ -147,7 +147,7 @@ A standards-based grading system carries a number of other benefits:
 
 ### Standards
 
-The following table lists all the standards you are evaluated on in this course. There are 8 total standards, separated into 5 categories. Each standard states what conditions must be met to reach each proficiency level. There are four proficiency levels for each standard, each requiring more complete understanding of the material. **These levels are inclusive, meaning to reach "Exceeds Standard" you must also meet all the requirements of "Meets Standard."**
+The following table lists all the standards you are evaluated on in this course. There are 8 total standards, separated into 5 categories. Each standard states what conditions must be met to reach each proficiency level. There are four proficiency levels for each standard, each requiring more complete understanding of the material. **These levels are inclusive, meaning to reach "Exceeds Standard" you must also meet all the requirements of "Meets Standard" and below.**
 
 You will have multiple opportunities to demonstrate your understanding of each standard. Any assignment that is reviewed is an opportunity to increase your proficiency level in a standard. In addition to the levels of proficiency, there is also an extra point available in each standard called "Individual Standard." You may fulfill this requirement only on quizzes, but only need to reach the "Meets Standard" criteria on a standard to do so.
 
