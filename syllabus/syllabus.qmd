@@ -107,7 +107,7 @@ Any cases of dishonesty or plagiarism will be reported to the Academic Honor Boa
 * Paraphrasing material from another source without citing the author.
 * Failing to cite your sources correctly.
 * Falsifying or misrepresenting information in submitted work.
-* Paying another student or service to complete assignments for you.
+* Having another student or service complete assignments for you.
 
 Learning to code is similar to learning a new language; *you will only learn by doing*. No amount of rote copying will advance you beyond the most elementary levels of understanding. Please keep this in mind.
 
@@ -131,41 +131,11 @@ This course will be graded using a standards-based grading system. Rather than t
 
 In traditional points-style grading, an average is taken of all your assignments, and your final grade is based on that average. This means all assignments are given equal consideration in your final grade.
 
-:::: {.columns}
-
-::: {.column}
-![](assignments_plot.jpg?featherlight=false)
-:::
-
-::: {.column}
-<p style="text-align: center;">[Mean of<br>A1-A5]{.large}</p>
-<i class="fas fa-arrow-right fa-6x"></i>
-:::
-
-::: {.column}
-![](final_points.jpg?featherlight=false)
-:::
-
-::::
+![](points_total.png)
 
 In contrast, standards-based grading is focused on your progression through the course. Functionally, only your best score for each standard is kept. All others are effectively forgotten. The hope is that without the worry of “getting a bad grade” when you are new to a concept, you will feel free to safely engage with complicated topics early on, make mistakes, and have opportunities to show improvement without penalization.
 
-:::: {.columns}
-
-::: {.column}
-![](assignments_plot.jpg?featherlight=false)
-:::
-
-::: {.column}
-<p style="text-align: center;">[Max of<br>A1-A5]{.large}</p>
-<i class="fas fa-arrow-right fa-6x"></i>
-:::
-
-::: {.column}
-![](final_standards.jpg?featherlight=false)
-:::
-
-::::
+![](standards_total.png)
 
 A standards-based grading system carries a number of other benefits:
 
@@ -236,8 +206,6 @@ After the due date, late assignments are only reviewed if there are *emergency* 
 
 ## FAQ
 
-::: {.question}
 Q: So if I reach "Exceeds Standard" and fulfill the individual standard on a quiz for a topic early in the semester, I can just skip those questions for the rest of the class?
 
 A: Theoretically yes, but I would recommend you answer all questions to make sure you're not letting your knowledge slip.
-:::
