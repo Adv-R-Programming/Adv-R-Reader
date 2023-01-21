@@ -150,25 +150,9 @@ In traditional points-style grading, an average is taken of all your assignments
 
 ![][2]
 
-<p style="text-align: center;">
-<span class="large">Mean of<br>A1-A5</span>
-</p>
-
-<i class="fas fa-arrow-right fa-6x"></i>
-
-![][3]
-
 In contrast, standards-based grading is focused on your progression through the course. Functionally, only your best score for each standard is kept. All others are effectively forgotten. The hope is that without the worry of "getting a bad grade" when you are new to a concept, you will feel free to safely engage with complicated topics early on, make mistakes, and have opportunities to show improvement without penalization.
 
-![][2]
-
-<p style="text-align: center;">
-<span class="large">Max of<br>A1-A5</span>
-</p>
-
-<i class="fas fa-arrow-right fa-6x"></i>
-
-![][4]
+![][3]
 
 A standards-based grading system carries a number of other benefits:
 
@@ -316,9 +300,9 @@ After the due date, late assignments are only reviewed if there are *emergency* 
 
 ## FAQ
 
-Q: So if I reach "Exceeds Standard" and fulfill the individual standard on a quiz for a topic early in the semester, I can just skip those questions for the rest of the class?
+<span class="question">Q: So if I reach "Exceeds Standard" and fulfill the individual standard on a quiz for a topic early in the semester, I can just skip those questions for the rest of the class?</span>
 
-A: Theoretically yes, but I would recommend you answer all questions to make sure you're not letting your knowledge slip.
+<span class="answer">A: Theoretically yes, but I would recommend you answer all questions to make sure you're not letting your knowledge slip.</span>
 
   [Course Description]: #course-description
   [Course Structure]: #course-structure
@@ -340,6 +324,5 @@ A: Theoretically yes, but I would recommend you answer all questions to make sur
   [1]: https://filedn.com/l7C36orhaIP0u9d6RtOoEES/jnjoseph_headshot_live.jpg?classes=floatright,inline,headshot&featherlight=false "Dr. Jared Joseph"
   [Contributor Covenant]: https://www.contributor-covenant.org/version/1/0/0/code-of-conduct/
   [Office of Disability Services Office (ODS)]: https://www.smith.edu/about-smith/disability-services
-  [2]: assignments_plot.jpg?featherlight=false
-  [3]: final_points.jpg?featherlight=false
-  [4]: final_standards.jpg?featherlight=false
+  [2]: points_total.png
+  [3]: standards_total.png
