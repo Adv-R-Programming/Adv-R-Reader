@@ -3,8 +3,8 @@ Week,Class,Date,Day,Topic,Readings,Due,Resources
 2,2,1/30/2023,Mon,Intro Git,"[Bryan, J. (2018). Excuse Me, Do You Have a Moment to Talk About Version Control? American Statistician, 72(1), 20-27.](https://search.ebscohost.com/login.aspx?direct=true&AuthType=ip,sso&db=asn&AN=129302223&site=eds-live&scope=site&custid=s8897501)",Complete all [Install Guides](/Adv-R-Reader/install_guide/);[Welcome Survey](https://forms.gle/jJR59W6L2PBrbmk76);[Data Survey](https://forms.gle/LTLfzAKrfye69aT98),
 2,3,2/1/2023,Wed,Project Repo Design,,,
 2,4,2/3/2023,Fri,Lab 1,,,
-3,5,2/6/2023,Mon,Functions & Flow,"[Grolemund, G., & Wickham, H. (2017). 19 Functions. In R for Data Science. O'Reilly.](https://r4ds.had.co.nz/functions.html)",,
-3,6,2/8/2023,Wed,Debugging,"[Bryan, J., & Hester, J. (2021). Chapter 11 Debugging R code. In What They Forgot to Teach You About R.](https://rstats.wtf/debugging-r-code.html);[Grolemund, G., & Wickham, H. (2017). 8 Conditions. In R for Data Science. O'Reilly.](https://adv-r.hadley.nz/conditions.html)",Lab 1,
+3,5,2/6/2023,Mon,Functions,"[Wickham, H. (2020). 6 Functions. In Advanced R. Chapman & Hall.](https://adv-r.hadley.nz/functions.html)",,
+3,6,2/8/2023,Wed,Debugging & Flow,"[Bryan, J., & Hester, J. (2021). Chapter 11 Debugging R code. In What They Forgot to Teach You About R.](https://rstats.wtf/debugging-r-code.html);[Grolemund, G., & Wickham, H. (2017). 8 Conditions. In R for Data Science. O'Reilly.](https://adv-r.hadley.nz/conditions.html)",Lab 1,
 3,7,2/10/2023,Fri,Lab 2,,,Lab 5 from intro
 4,8,2/13/2023,Mon,Web Scraping,"[Irizarry, R. A. (2022). Chapter 24 Web scraping. In Introduction to Data Science.](https://rafalab.github.io/dsbook/web-scraping.html);[Zimmer, M. (2010). But the data is already public: On the ethics of research in Facebook. Ethics and Information Technology, 12(4), 313-325.](http://www.sfu.ca/~palys/Zimmer-2010-EthicsOfResearchFromFacebook.pdf)",,
 4,9,2/15/2023,Wed,RegEx,,Lab 2,https://regexlearn.com/learn/regex101
