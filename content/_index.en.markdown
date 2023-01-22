@@ -78,8 +78,10 @@ Below is the tentative schedule for the course. While we will try to keep to thi
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #FDCDAC !important;"> 2 </td>
    <td style="text-align:left;"> 2/1/2023 (Wed) </td>
-   <td style="text-align:left;"> Project Repo Design </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> Objects in R </td>
+   <td style="text-align:left;"> <ol><li>
+<a href="https://adv-r.hadley.nz/vectors-chap.html">Wickham, H. (2020). 3 Vectors. In Advanced R. Chapman &amp; Hall.</a>
+</li></ol> </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -92,16 +94,16 @@ Below is the tentative schedule for the course. While we will try to keep to thi
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #CBD5E8 !important;"> 3 </td>
    <td style="text-align:left;"> 2/6/2023 (Mon) </td>
-   <td style="text-align:left;"> Functions &amp; Flow </td>
+   <td style="text-align:left;"> Functions </td>
    <td style="text-align:left;"> <ol><li>
-<a href="https://r4ds.had.co.nz/functions.html">Grolemund, G., &amp; Wickham, H. (2017). 19 Functions. In R for Data Science. O'Reilly.</a>
+<a href="https://adv-r.hadley.nz/functions.html">Wickham, H. (2020). 6 Functions. In Advanced R. Chapman &amp; Hall.</a>
 </li></ol> </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #CBD5E8 !important;"> 3 </td>
    <td style="text-align:left;"> 2/8/2023 (Wed) </td>
-   <td style="text-align:left;"> Debugging </td>
+   <td style="text-align:left;"> Debugging &amp; Flow </td>
    <td style="text-align:left;"> <ol>
 <li><a href="https://rstats.wtf/debugging-r-code.html">Bryan, J., &amp; Hester, J. (2021). Chapter 11 Debugging R code. In What They Forgot to Teach You About R.</a></li>
 <li>
@@ -121,19 +123,16 @@ Below is the tentative schedule for the course. While we will try to keep to thi
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #F4CAE4 !important;"> 4 </td>
    <td style="text-align:left;"> 2/13/2023 (Mon) </td>
-   <td style="text-align:left;"> Web Scraping </td>
-   <td style="text-align:left;"> <ol>
-<li><a href="https://rafalab.github.io/dsbook/web-scraping.html">Irizarry, R. A. (2022). Chapter 24 Web scraping. In Introduction to Data Science.</a></li>
-<li>
-<a href="http://www.sfu.ca/%7Epalys/Zimmer-2010-EthicsOfResearchFromFacebook.pdf">Zimmer, M. (2010). But the data is already public: On the ethics of research in Facebook. Ethics and Information Technology, 12(4), 313-325.</a>
-</li>
-</ol> </td>
+   <td style="text-align:left;"> Iteration </td>
+   <td style="text-align:left;"> <ol><li>
+<a href="https://r4ds.had.co.nz/iteration.html"><strong>[21.1-21.3 Only]</strong> Wickham, H., &amp; Grolemund, G. (2017). 21 Iteration. In R for Data Science. O&lt;92&gt;Reilly.</a>
+</li></ol> </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #F4CAE4 !important;"> 4 </td>
    <td style="text-align:left;"> 2/15/2023 (Wed) </td>
-   <td style="text-align:left;"> RegEx </td>
+   <td style="text-align:left;"> Apply &amp; Lists </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> <ol><li>Lab 2
 </li></ol> </td>
@@ -148,16 +147,19 @@ Below is the tentative schedule for the course. While we will try to keep to thi
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #E6F5C9 !important;"> 5 </td>
    <td style="text-align:left;"> 2/20/2023 (Mon) </td>
-   <td style="text-align:left;"> Iteration </td>
-   <td style="text-align:left;"> <ol><li>
-<a href="https://r4ds.had.co.nz/iteration.html"><strong>[21.1-21.3 Only]</strong> Wickham, H., &amp; Grolemund, G. (2017). 21 Iteration. In R for Data Science. O&lt;92&gt;Reilly.</a>
-</li></ol> </td>
+   <td style="text-align:left;"> Web Scraping </td>
+   <td style="text-align:left;"> <ol>
+<li><a href="https://rafalab.github.io/dsbook/web-scraping.html">Irizarry, R. A. (2022). Chapter 24 Web scraping. In Introduction to Data Science.</a></li>
+<li>
+<a href="http://www.sfu.ca/%7Epalys/Zimmer-2010-EthicsOfResearchFromFacebook.pdf">Zimmer, M. (2010). But the data is already public: On the ethics of research in Facebook. Ethics and Information Technology, 12(4), 313-325.</a>
+</li>
+</ol> </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #E6F5C9 !important;"> 5 </td>
    <td style="text-align:left;"> 2/22/2023 (Wed) </td>
-   <td style="text-align:left;"> Apply &amp; Lists </td>
+   <td style="text-align:left;"> RegEx </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> <ol><li>Lab 3
 </li></ol> </td>
