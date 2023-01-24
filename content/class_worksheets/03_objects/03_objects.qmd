@@ -1,0 +1,179 @@
+---
+pre: <b>2/1. </b>
+title: "Objects in R"
+weight: 3
+summary: "Learn the many ways R sees objects."
+format:
+    gfm:
+      toc: true
+      output-file: "_index.en.md"
+      reference-links: true
+      code-link: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, include=FALSE}
+answers = TRUE
+```
+
+## Overview
+
+Objects in R are *the* thing we typically work with. We load data into objects, manipulate those objects, and run analyses on them. But for that seamless workflow to happen a surprising amount of work is happening behind the scenes. Today we will be looking behind the curtain a bit to see how R understands objects. We will also be spending some time working with lists. 
+
+For each of the following questions, write the answer in an R script or Quarto document. The answers are due at the start of the next class day, but *will not* be turned in. Rather, the answers to these worksheet act as valuable reference for the labs on Friday. Further, if you are not able to answer all of the questions here, you will have a difficult time on the more complex labs. Answers for worksheets will be shared after lecture the day they are due.
+
+## Class
+
+The most common way we thing of vectors in R relates to the three big classes: character, numeric, and logical. A vector can only contain one of these types, and R will force that to be the case if it is not already.
+
+::: {.question}
+
+Can you predict what class each of the following vectors will be before running them?
+
+```{r, eval=FALSE}
+# example 1
+c(TRUE, 8)
+
+# example 2
+c("TRUE", FALSE)
+
+# example 3
+c(F, F, F, T)
+
+# example 4
+c(TRUE, TRUE, TRUE, 1)
+```
+
+:::
+
+```{r, include=answers, results='asis', echo=FALSE}
+cat('
+::: {.answer}
+
+* Example 1: Numeric
+* Example 2: Character
+* Example 3: Logical
+* Example 4: Numeric
+:::
+
+')
+```
+
+It is possible to force a vector into a specific type though *coercion*. R will basically take the vector, and do it's best to present it in the way you ask. You can do this using the `as.xxxx()` family of functions. For example:
+
+```{r}
+as.numeric(c("1", "8", "10"))
+class(as.numeric(c("1", "8", "10")))
+```
+
+However, this doesn't always work. This coercion is actually the cause of one of the more common warnings you may have seen. 
+
+::: {.question}
+
+What will happen when I run the following?
+
+```{r, eval=FALSE}
+as.numeric(c("Will", "I", "work?"))
+```
+
+:::
+
+```{r, include=answers, results='asis', echo=FALSE}
+cat('
+::: {.answer}
+\`\`\`
+[1] NA NA NA
+Warning message:
+NAs introduced by coercion 
+\`\`\`
+:::
+
+')
+```
+
+Here is where we can really start to do odd things given our knowledge of R. the `as.xxxx()` functions are basically just telling R to look at a vector a different way. If we know what is happening under the hood, we can do it ourselves without the need of the function.
+
+
+::: {.question}
+
+Try running the following. What happened? Explain the process.
+
+```{r}
+test_vec = c(1, 3, 3, 7)
+class(test_vec) = "character"
+
+test_vec
+```
+
+:::
+
+```{r, include=answers, results='asis', echo=FALSE}
+cat('
+::: {.answer}
+Just like how we can subset elemetns from a vector or assign to it depending on what side of the equal sign our objects are, we can do the same with object classes. Rather than use an `as.xxxx()` function to turn this numeric vector into a character, we changed by editing the class ourselves. 
+:::
+
+')
+```
+
+## Attributes
+
+Attributes are another way R understands objects. You may not have knowingly interacted with them very often, but they are one of the main ways R decides what to do when given an object. There are a few pre-defined attributes, the most common of which being *names*. The *names* attribute is what makes named vectors work. For example:
+
+```{r}
+# make a named vector (weather forecast in degrees F)
+named_vec = c("Mon" = 39, "Tues" = 36, "Wed" = 44, "Thur" = 36, "Fri" = 44, "Sat" = 45, "Sun" = 37)
+named_vec
+```
+
+Each of the values in the vector are named, such that when they are shown, the corresponding name will be shown above them. We can still using it like a normal numeric vector in every way though!
+
+```{r}
+# quick maths
+named_vec * 2
+```
+
+We can see how these names are stored using the `str()` or "structure" function. You may have used this to preview dataframes before. In this case, we can see the vector, and beneath it is shows all the attributes attached to it. 
+
+```{r}
+str(named_vec)
+```
+
+*names* is a special attribute that R recognizes, but you can create your own custom attributes too.
+
+::: {.question}
+
+Using the `attr()` function, add a new attribute to the `named_vec` from above. 
+
+:::
+
+```{r, include=answers, results='asis', echo=FALSE}
+cat('
+::: {.answer}
+attr(named_vec, "happy_score") = c(1, 1, 3, 3, 4, 5, 2)
+:::
+')
+```
+
+
+
+
+## Lists
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
