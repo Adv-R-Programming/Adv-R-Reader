@@ -208,7 +208,7 @@ You can demonstrate proficiency in any reviewed assignment, **but can only fulfi
    <td style="text-align:left;"> Cannot differentiate between data types (numeric, logical, character, etc.). Uses the wrong type during analyses. </td>
    <td style="text-align:left;"> Can subset data from vectors or dataframes by position or condition. </td>
    <td style="text-align:left;"> Works with lists when appropriate and can subset list elements effectively by position or condition. </td>
-   <td style="text-align:left;"> Works with attributes effectively. Can modify and use attributes manipulate or create data structures. </td>
+   <td style="text-align:left;"> Works with attributes effectively. Can modify and use attributes to manipulate or create data structures. </td>
    <td style="text-align:left;border-right:1px solid;"> Works with nested lists by inputting and sub-setting programmatically defined arbitrary elements. </td>
    <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
   </tr>
