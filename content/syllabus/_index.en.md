@@ -191,7 +191,7 @@ You can demonstrate proficiency in any reviewed assignment, **but can only fulfi
    <td style="text-align:left;"> Creates simple functions with predetermined inputs. </td>
    <td style="text-align:left;"> Creates functions that that make use of arguments to modify their output. </td>
    <td style="text-align:left;"> Creates functions that can handle novel inputs, with logic and error checking to determine outputs. </td>
-   <td style="text-align:left;border-right:1px solid;"> Creates functions that can handle arbitrary input through the use of "&lt;85&gt;" or S3 classes. </td>
+   <td style="text-align:left;border-right:1px solid;"> Creates functions that can handle arbitrary input through the use of ". . ." or S3 classes. </td>
    <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
   </tr>
   <tr>
@@ -206,9 +206,9 @@ You can demonstrate proficiency in any reviewed assignment, **but can only fulfi
   <tr>
    <td style="text-align:left;font-weight: bold;background-color: #FBB4AE !important;border-right:1px solid;"> Data Structures </td>
    <td style="text-align:left;"> Cannot differentiate between data types (numeric, logical, character, etc.). Uses the wrong type during analyses. </td>
-   <td style="text-align:left;"> Can subset data from vectors by position or condition. </td>
-   <td style="text-align:left;"> Works with dataframes effectively. Can subset data from dataframes by position or condition. </td>
+   <td style="text-align:left;"> Can subset data from vectors or dataframes by position or condition. </td>
    <td style="text-align:left;"> Works with lists when appropriate and can subset list elements effectively by position or condition. </td>
+   <td style="text-align:left;"> Works with attributes effectively. Can modify and use attributes manipulate or create data structures. </td>
    <td style="text-align:left;border-right:1px solid;"> Works with nested lists by inputting and sub-setting programmatically defined arbitrary elements. </td>
    <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
   </tr>
@@ -218,13 +218,13 @@ You can demonstrate proficiency in any reviewed assignment, **but can only fulfi
    <td style="text-align:left;"> Code comments explain the general purpose of the code file. Indentation is consistent and predictable. </td>
    <td style="text-align:left;"> Code comments explain the broad strokes of intended behavior per section. Files make use of the built-in section headings in R Studio. </td>
    <td style="text-align:left;"> Comments explain code step-by-step. All dependencies and parameters are clearly provided and explained at the top of code files. </td>
-   <td style="text-align:left;border-right:1px solid;"> Code includes built in error checking for anticipated problems. These check will output warnings or stop execution of code. </td>
+   <td style="text-align:left;border-right:1px solid;"> Code includes built in error checking for anticipated problems. These checks will output warnings or stop execution of code. </td>
    <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
   </tr>
   <tr>
-   <td style="text-align:left;font-weight: bold;background-color: #CCEBC5 !important;border-right:1px solid;"> Git/Github </td>
+   <td style="text-align:left;font-weight: bold;background-color: #CCEBC5 !important;border-right:1px solid;"> git/Github </td>
    <td style="text-align:left;"> Does not use git for version control. </td>
-   <td style="text-align:left;"> Uses git for version control on individual projects. </td>
+   <td style="text-align:left;"> Uses git for version control on individual projects with appropriately sized commits with descriptive commit messages. </td>
    <td style="text-align:left;"> Uses git and GitHub for version control on group work with appropriately sized commits with descriptive commit messages. </td>
    <td style="text-align:left;"> Effectively creates and merges branches of appropriate size. No sensitive files are committed. </td>
    <td style="text-align:left;border-right:1px solid;"> Effectively requests and performs code review on pull requests using GitHub. </td>
