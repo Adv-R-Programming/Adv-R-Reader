@@ -52,7 +52,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:left;"> <ol><li>Roadmap
 </li></ol> </td>
    <td style="text-align:left;"> <ol><li>
-<a href="/syllabus/">Class Syllabus</a>
+<a href="https://adv-r-programming.github.io/Adv-R-Reader/syllabus/">Class Syllabus</a>
 </li></ol> </td>
    <td style="text-align:left;"> <ol>
 <li>Update R/R Studio</li>
