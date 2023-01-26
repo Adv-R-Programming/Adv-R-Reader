@@ -1,5 +1,5 @@
 Week,Class,Date,Day,Topic,Readings,Due,Resources,,,,,,,,,,,,,,,,,,,,
-1,1,1/27/2023,Fri,Roadmap,[Class Syllabus](Adv-R-Reader/syllabus/),Update R/R Studio;Sign up for class [slack](https://sds-270-01-202303.slack.com/),,,,,,,,,,,,,,,,,,,,,
+1,1,1/27/2023,Fri,Roadmap,[Class Syllabus](/syllabus/),Update R/R Studio;Sign up for class [slack](https://sds-270-01-202303.slack.com/),,,,,,,,,,,,,,,,,,,,,
 2,2,1/30/2023,Mon,Intro Git,"[Bryan, J. (2018). Excuse Me, Do You Have a Moment to Talk About Version Control? American Statistician, 72(1), 20-27.](https://search.ebscohost.com/login.aspx?direct=true&AuthType=ip,sso&db=asn&AN=129302223&site=eds-live&scope=site&custid=s8897501)",Complete all [Install Guides](/Adv-R-Reader/install_guide/);[Welcome Survey](https://forms.gle/jJR59W6L2PBrbmk76);[Data Survey](https://forms.gle/LTLfzAKrfye69aT98),,,,,,,,,,,,,,,,,,,,,
 2,3,2/1/2023,Wed,Objects in R,"[Wickham, H. (2020). 3 Vectors. In Advanced R. Chapman & Hall.](https://adv-r.hadley.nz/vectors-chap.html)",,,,,,,,,,,,,,,,,,,,,,modify to use regex Lab 8 from intro
 2,4,2/3/2023,Fri,Lab 1,,,,,,,,,,,,,,,,,,,,,,,
