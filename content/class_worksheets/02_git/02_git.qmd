@@ -43,7 +43,7 @@ Now that we have a project with a git repository, we can start adding files that
 *It is also critically important that you do not commit any files with sensitive information like passwords*. Other people will be able to see them, as git is in no way encrypted. It is also very difficult to remove a file from git's memory; it was made to save things!
 
 {{% notice warning %}}
-Never commit sensitive files like passwords of API keys.
+Never commit sensitive files like passwords or API keys.
 {{% /notice %}}
 
 Before we go on, a quick review of the git workflow. First, we tell git to start watching the file by *staging* it. Then, we commit it to git's memory by *committing* the file. Later in this worksheet, we will then work on *pushing* files to a remote server online. It is crucial to understand that each of these are **separate and distinct** steps!
