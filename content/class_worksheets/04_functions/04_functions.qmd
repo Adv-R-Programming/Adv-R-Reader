@@ -483,7 +483,7 @@ Create a function that will intake a **ROW** from the `survey` dataframe, and ou
 ```{r eval=FALSE}
 total_na(survey_row = survey[1,])
 
-OUTPUT: 2
+OUTPUT: 4
 ```
 
 :::
