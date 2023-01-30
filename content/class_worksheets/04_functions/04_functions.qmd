@@ -285,7 +285,7 @@ work_pets = trimws(work_pets)
 work_pets
 ```
 
-If we look at `work_pets` now, all that is left are things not in our pets categories. We can now either turn this into a logical, or assign these values to our new `other` column in `pet_output`. I'll do the latter. I'll also convert our blanks into proper `NA`s.
+If we look at `work_pets` now, all that is left are things not in our pets categories (in the case of this class, nothing!). We can now either turn this into a logical, or assign these values to our new `other` column in `pet_output`. I'll do the latter. I'll also convert our blanks into proper `NA`s.
 
 ```{r}
 pet_output$other = work_pets

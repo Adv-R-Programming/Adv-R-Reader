@@ -192,7 +192,9 @@ survey$pets
      [1] "Cat"            "None"           "Dog"            "None"          
      [5] "None"           "Dog, Cat, Rock" "Bird"           "Dog"           
      [9] "None"           "Cat"            "None"           "Bird"          
-    [13] "None"           "Dog, Cat"      
+    [13] "None"           "Dog, Cat"       "Dog, Bird"      "Bird"          
+    [17] "None"           "None"           "Reptile"        "Rock, None"    
+    [21] "None"           "Cat"            "None"          
 
 Here's where a custom function can help us. We know that each of the entries in `pets` is separated by a comma, and we can exploit that structure. We're going to write a function that will split those values for us by commas, and create a new pets dataframe that we can then attach to our current `survey` dataframe.
 
@@ -254,6 +256,15 @@ pet_output
     12 12 FALSE FALSE FALSE  TRUE   FALSE FALSE FALSE    NA
     13 13 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE    NA
     14 14  TRUE  TRUE FALSE FALSE   FALSE FALSE FALSE    NA
+    15 15  TRUE FALSE FALSE  TRUE   FALSE FALSE FALSE    NA
+    16 16 FALSE FALSE FALSE  TRUE   FALSE FALSE FALSE    NA
+    17 17 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE    NA
+    18 18 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE    NA
+    19 19 FALSE FALSE FALSE FALSE    TRUE FALSE FALSE    NA
+    20 20 FALSE FALSE FALSE FALSE   FALSE  TRUE  TRUE    NA
+    21 21 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE    NA
+    22 22 FALSE  TRUE FALSE FALSE   FALSE FALSE FALSE    NA
+    23 23 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE    NA
 
 Now, that works for everything except "other."
 
@@ -275,7 +286,9 @@ gsub(pattern = "dog", work_pets, replacement = "", ignore.case = TRUE)
 
      [1] "Cat"         "None"        ""            "None"        "None"       
      [6] ", Cat, Rock" "Bird"        ""            "None"        "Cat"        
-    [11] "None"        "Bird"        "None"        ", Cat"      
+    [11] "None"        "Bird"        "None"        ", Cat"       ", Bird"     
+    [16] "Bird"        "None"        "None"        "Reptile"     "Rock, None" 
+    [21] "None"        "Cat"         "None"       
 
 We can see in the output that now all the instances of "dog" have been removed. We will repeat this process for each of our known categories, each time saving our results back to `work_pets`. We will also remove commas, and use `trimws()`, or "trim white space," to delete extra spaces from the start and end of our characters.
 
@@ -293,9 +306,9 @@ work_pets = trimws(work_pets)
 work_pets
 ```
 
-     [1] "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+     [1] "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
 
-If we look at `work_pets` now, all that is left are things not in our pets categories. We can now either turn this into a logical, or assign these values to our new `other` column in `pet_output`. I'll do the latter. I'll also convert our blanks into proper `NA`s.
+If we look at `work_pets` now, all that is left are things not in our pets categories (in the case of this class, nothing!). We can now either turn this into a logical, or assign these values to our new `other` column in `pet_output`. I'll do the latter. I'll also convert our blanks into proper `NA`s.
 
 ``` r
 pet_output$other = work_pets
@@ -319,6 +332,15 @@ pet_output
     12 12 FALSE FALSE FALSE  TRUE   FALSE FALSE FALSE  <NA>
     13 13 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE  <NA>
     14 14  TRUE  TRUE FALSE FALSE   FALSE FALSE FALSE  <NA>
+    15 15  TRUE FALSE FALSE  TRUE   FALSE FALSE FALSE  <NA>
+    16 16 FALSE FALSE FALSE  TRUE   FALSE FALSE FALSE  <NA>
+    17 17 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE  <NA>
+    18 18 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE  <NA>
+    19 19 FALSE FALSE FALSE FALSE    TRUE FALSE FALSE  <NA>
+    20 20 FALSE FALSE FALSE FALSE   FALSE  TRUE  TRUE  <NA>
+    21 21 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE  <NA>
+    22 22 FALSE  TRUE FALSE FALSE   FALSE FALSE FALSE  <NA>
+    23 23 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE  <NA>
 
 If we look at out `pet_output` dataframe now, we can see we have a column for each pet type, a `TRUE` or `FALSE` for each known pet, and the text for other pets. All in all, the code to do this looks like:
 
@@ -424,6 +446,15 @@ pet_split(pet_vector = survey$pets)
     12 12  NA  NA   NA   NA      NA   NA   NA    NA
     13 13  NA  NA   NA   NA      NA   NA   NA    NA
     14 14  NA  NA   NA   NA      NA   NA   NA    NA
+    15 15  NA  NA   NA   NA      NA   NA   NA    NA
+    16 16  NA  NA   NA   NA      NA   NA   NA    NA
+    17 17  NA  NA   NA   NA      NA   NA   NA    NA
+    18 18  NA  NA   NA   NA      NA   NA   NA    NA
+    19 19  NA  NA   NA   NA      NA   NA   NA    NA
+    20 20  NA  NA   NA   NA      NA   NA   NA    NA
+    21 21  NA  NA   NA   NA      NA   NA   NA    NA
+    22 22  NA  NA   NA   NA      NA   NA   NA    NA
+    23 23  NA  NA   NA   NA      NA   NA   NA    NA
 
 Next, let's get this function to output something we actually want. I'll copy more of our code from above into the function. You'll notice that I replace any calls for `survey$pets` with our generic argument `pet_vector`. If we run this version, we start to see our desired output!
 
@@ -473,6 +504,15 @@ pet_split(pet_vector = survey$pets)
     12 12 FALSE FALSE FALSE  TRUE   FALSE FALSE FALSE    NA
     13 13 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE    NA
     14 14  TRUE  TRUE FALSE FALSE   FALSE FALSE FALSE    NA
+    15 15  TRUE FALSE FALSE  TRUE   FALSE FALSE FALSE    NA
+    16 16 FALSE FALSE FALSE  TRUE   FALSE FALSE FALSE    NA
+    17 17 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE    NA
+    18 18 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE    NA
+    19 19 FALSE FALSE FALSE FALSE    TRUE FALSE FALSE    NA
+    20 20 FALSE FALSE FALSE FALSE   FALSE  TRUE  TRUE    NA
+    21 21 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE    NA
+    22 22 FALSE  TRUE FALSE FALSE   FALSE FALSE FALSE    NA
+    23 23 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE    NA
 
 To finish it up, let's copy the rest of our code into this function. You'll notice that I don't need to make a new vector `work_pets` as before. That's because I'm working on the `pet_vector` object directly.
 
@@ -538,6 +578,15 @@ pet_split(pet_vector = survey$pets)
     12 12 FALSE FALSE FALSE  TRUE   FALSE FALSE FALSE  <NA>
     13 13 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE  <NA>
     14 14  TRUE  TRUE FALSE FALSE   FALSE FALSE FALSE  <NA>
+    15 15  TRUE FALSE FALSE  TRUE   FALSE FALSE FALSE  <NA>
+    16 16 FALSE FALSE FALSE  TRUE   FALSE FALSE FALSE  <NA>
+    17 17 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE  <NA>
+    18 18 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE  <NA>
+    19 19 FALSE FALSE FALSE FALSE    TRUE FALSE FALSE  <NA>
+    20 20 FALSE FALSE FALSE FALSE   FALSE  TRUE  TRUE  <NA>
+    21 21 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE  <NA>
+    22 22 FALSE  TRUE FALSE FALSE   FALSE FALSE FALSE  <NA>
+    23 23 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE  <NA>
 
 Our new `pet_split` function works! It will create a new dataframe we can combine with our `survey` data to get tidy data about pets. Now we could save this function somewhere, and re-use it on every survey with a question about pets without having to re-code all of those steps each time.
 
@@ -554,7 +603,7 @@ Create a function that will intake a **ROW** from the `survey` dataframe, and ou
 ``` r
 total_na(survey_row = survey[1,])
 
-OUTPUT: 2
+OUTPUT: 4
 ```
 
 total_na = function(survey_row) {
