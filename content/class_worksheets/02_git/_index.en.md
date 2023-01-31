@@ -196,9 +196,13 @@ Now we're going to go over how to set our new repo up on Github. Head to <https:
 
 ![][8]
 
-This will take us to the screen to create a new repo. Enter "git_worksheet" under *Repository name* and then scroll to the bottom of the page and click "Create repository." You will now see a page called "Quick Setup." Look at the second box that says "...or push an existing repository from the command line."
+This will take us to the screen to create a new repo. Enter "git_worksheet" under *Repository name* and then scroll to the bottom of the page and click "Create repository." You will now see a page called "Quick Setup." At the top of this page, make sure you select the "SSH" option. The HTTPS will work, but later you wil have to use your username and password to log in every time you want to push or pull.
 
 ![][9]
+
+Next, look at the second box that says "...or push an existing repository from the command line."
+
+![][10]
 
 We are going to use these commands to link our local repo with the one on Github. In R Studio, look at the lower left console pane, and click on the "Terminal" tab. Enter the three lines of code from Github into the terminal one by one. They should look like this (**but use the ones from Github, not these!**):
 
@@ -208,7 +212,7 @@ We are going to use these commands to link our local repo with the one on Github
 
 Once you have done that, close R Studio and re-open your project (or right click or command click anywhere on R Studio and select "Reload"). Once you have done that, look at the git pane in the upper right. You will notice you now have the option to click on the "Pull" and "Push" buttons. Click "Push" now, wait for the process to finish, then refresh the page for your new repo on github. You should see your files there!
 
-![][10]
+![][11]
 
 ### 8. Conflict
 
@@ -218,7 +222,7 @@ So far so good, but sometimes things go awry. On Github, click on the `octocat_c
 
 Scroll to the bottom of the page and click "Commit Changes." This simulates as if someone else, or yourself, changed the file somewhere else. We'll get into more detail about collaborating with git later on in the semester.
 
-![][11]
+![][12]
 
 Now, in R Studio, open up `octocat_count.R` and on line 2 there, add a comment that says:
 
@@ -265,6 +269,7 @@ While it can be a chore, having good git disciple not only can save yourself a l
   [6]: img/octo_print.png
   [7]: img/git_history.png
   [8]: img/github_new.png
-  [9]: img/git_existing.png
-  [10]: img/github_code.png
-  [11]: img/github_conflict.png
+  [9]: img/git_ssh.png
+  [10]: img/git_existing.png
+  [11]: img/github_code.png
+  [12]: img/github_conflict.png
