@@ -202,7 +202,11 @@ Now we're going to go over how to set our new repo up on Github. Head to <https:
 
 ![](img/github_new.png)
 
-This will take us to the screen to create a new repo. Enter "git_worksheet" under *Repository name* and then scroll to the bottom of the page and click "Create repository." You will now see a page called "Quick Setup." Look at the second box that says "…or push an existing repository from the command line."
+This will take us to the screen to create a new repo. Enter "git_worksheet" under *Repository name* and then scroll to the bottom of the page and click "Create repository." You will now see a page called "Quick Setup." At the top of this page, make sure you select the "SSH" option. The HTTPS will work, but later you wil have to use your username and password to log in every time you want to push or pull.
+
+![](img/git_ssh.png)
+
+Next, look at the second box that says "…or push an existing repository from the command line."
 
 ![](img/git_existing.png)
 
