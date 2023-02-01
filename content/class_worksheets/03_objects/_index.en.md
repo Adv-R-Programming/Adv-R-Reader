@@ -93,11 +93,7 @@ Try running the following. What happened? Explain the process.
 ``` r
 test_vec = c(1, 3, 3, 7)
 class(test_vec) = "character"
-
-test_vec
 ```
-
-    [1] "1" "3" "3" "7"
 
 </div>
 
