@@ -1,5 +1,17 @@
-Objects in R
-================
+---
+pre: <b>2/1. </b>
+title: "Objects in R"
+weight: 3
+summary: "Learn the many ways R sees objects."
+format:
+    hugo:
+      toc: true
+      output-file: "_index.en.md"
+      reference-links: true
+      code-link: true
+editor_options: 
+  chunk_output_type: console
+---
 
 - [Overview][]
 - [Class][]
