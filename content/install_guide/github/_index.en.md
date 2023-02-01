@@ -2,6 +2,7 @@
 pre: <b>3. </b>
 title: "Github"
 weight: 3
+summary: "Learn to create SSH keys and link them with GitHub."
 format:
   hugo:
     toc: true
@@ -10,15 +11,13 @@ format:
     code-link: true
 ---
 
-
-
--   [Overview][]
--   [Create an Account][]
--   [Creating SSH Keys and Adding to Github][]
+-   [Overview]
+-   [Create an Account]
+-   [Creating SSH Keys and Adding to Github]
 
 ## Overview
 
-[Github][] is a online code repository that great expands the utility of git. It acts as a clearinghouse for code, and is used worldwide by researchers, government, and industry.
+[Github] is a online code repository that great expands the utility of git. It acts as a clearinghouse for code, and is used worldwide by researchers, government, and industry.
 
 ## Create an Account
 
@@ -35,13 +34,13 @@ You will most likely receive an email from Github asking to confirm your account
 ## Creating SSH Keys and Adding to Github
 
 {{% notice warning %}}
-Creating a new SSH key will invalidate all the places your current SSH key is used!
+Creating a new SSH key will invalidate all the places your current SSH key is used! Do not create a new one if you already have one!
 {{% /notice %}}
 
 **SSH Keys** are a way to identify your computer when accessing external resources. Think about it like a password for your computer to log in by itself. The first thing we need to do is create an SSH key for your computer. Open up R Studio, and click on the **Terminal** tab in the bottom left pane. Copy the following, enter your correct email, and press enter to create a key: `ssh-keygen -t ed25519 -C "your_email@example.com"`
 
 {{% notice info %}}
-The terminal will look slightly different in my pictures, but the process is the same in the R Studio terminal.
+Your terminal will look slightly different than my pictures, but the process is the same.
 {{% /notice %}}
 
 ![][3]

@@ -138,7 +138,7 @@ This Code of Conduct is adapted from the [Contributor Covenant].
 
 ### Accommodation
 
-Smith College is committed to providing support services and reasonable accommodations to all students with disabilities. To request an accommodation, please register with the [Office of Disability Services Office (ODS)] at the beginning of the semester.
+Smith College is committed to providing support services and reasonable accommodations to all students with disabilities. To request an accommodation, please register with the [Office of Disability Services (ODS)] at the beginning of the semester.
 
 ## Grading
 
@@ -208,7 +208,7 @@ You can demonstrate proficiency in any reviewed assignment, **but can only fulfi
    <td style="text-align:left;"> Cannot differentiate between data types (numeric, logical, character, etc.). Uses the wrong type during analyses. </td>
    <td style="text-align:left;"> Can subset data from vectors or dataframes by position or condition. </td>
    <td style="text-align:left;"> Works with lists when appropriate and can subset list elements effectively by position or condition. </td>
-   <td style="text-align:left;"> Works with attributes effectively. Can modify and use attributes manipulate or create data structures. </td>
+   <td style="text-align:left;"> Works with attributes effectively. Can modify and use attributes to manipulate or create data structures. </td>
    <td style="text-align:left;border-right:1px solid;"> Works with nested lists by inputting and sub-setting programmatically defined arbitrary elements. </td>
    <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
   </tr>
@@ -323,6 +323,6 @@ A: Theoretically yes, but I would recommend you answer all questions to make sur
   [schedule]: /Adv-R-Reader/#schedule
   [1]: https://filedn.com/l7C36orhaIP0u9d6RtOoEES/jnjoseph_headshot_live.jpg?classes=floatright,inline,headshot&featherlight=false "Dr. Jared Joseph"
   [Contributor Covenant]: https://www.contributor-covenant.org/version/1/0/0/code-of-conduct/
-  [Office of Disability Services Office (ODS)]: https://www.smith.edu/about-smith/disability-services
+  [Office of Disability Services (ODS)]: https://www.smith.edu/about-smith/disability-services
   [2]: points_total.png
   [3]: standards_total.png

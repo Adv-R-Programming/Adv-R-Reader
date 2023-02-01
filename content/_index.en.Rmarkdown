@@ -52,6 +52,7 @@ convert_schedule = function(column){
 }
 
 # convert
+schedule$Topic = convert_schedule(schedule$Topic)
 schedule$Due = convert_schedule(schedule$Due)
 schedule$Readings = convert_schedule(schedule$Readings)
 
