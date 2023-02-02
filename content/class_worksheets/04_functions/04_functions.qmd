@@ -4,8 +4,7 @@ title: "Functions"
 weight: 4
 summary: "Fundamentals of functions."
 format:
-    hugo:
-      
+    gfm:
       toc: true
       output-file: "_index.en.md"
       reference-links: true
@@ -15,7 +14,7 @@ editor_options:
 ---
 
 ```{r, include=FALSE}
-answers = TRUE
+answers = FALSE
 ```
 
 ## Overview
@@ -152,7 +151,7 @@ function (..., exclude = if (useNA == "no") c(NA, NaN), useNA = c("no",
 That's pretty complex looking; and it is. However, the point is that *this is the same code that runs when we call `table`*. We could, it we wanted, type this out ourselves and create our own `table` function using the... `function()` function, like we see at the top the the previous code.
 
 ::: {.question}
-Copy the code from the `table()` function, and assign it to a new function called `my_table()`. Run both of them on the `mint_choc` column from our survey data. Does the output make sense?
+Copy the code from the `table()` function I showed above, and create a new function called `my_table()` using that code. Run both `table()` and `my_table()` on the `mint_choc` column from our survey data. Does the output make sense?
 :::
 
 ```{r, include=answers, results='asis', echo=FALSE}
@@ -166,16 +165,22 @@ my_table(survey$mint_choc)
 ")
 ```
 
-Not all functions are as transparent. Try looking at the code behind the `sum()` function and you may be disappointed. The most basic functions in R are "primitives," and are actually calling a lower level programming language than we can access through R. Looking at `sum` we see:
+Not all functions are as transparent. Try looking at the code behind the `sum()` function and you may be disappointed. The most basic functions in R are "primitives," and are actually calling a lower level programming language (C) than we can access through R. Looking at `sum` we see:
 
 ```{r, eval=FALSE}
 function (..., na.rm = FALSE)  .Primitive("sum")
 ```
 
-You may also be surprised to learn that pretty much everything in R is a function, though often a primitive one. For example, we can look at the `+` sign as a function by warping it in ticks like so:
+You may also be surprised to learn that pretty much everything that isn't data in R is a function. For example, we can look at the `+` sign as a function by warping it in ticks like so:
 
 ```{r}
 `+`
+```
+
+Thus, we could also call:
+
+```{r}
+`+`(1, 5)
 ```
 
 Neat.
@@ -184,7 +189,7 @@ Neat.
 
 It's cool that we can make a copy of table, but why would we? We wouldn't really. What we would do is create our own functions. While there a *ton* of packages out there to do all sorts of things, sometimes you will just need to make something yourself. This is often the case when working with your own unique data sets.
 
-Let's take a look at our survey data, specifically the `pets` column. As you can see below, we have some issues that violate our tidy data principles. Specifically, in our one column of pets, we have values on multiple types of pets. Ideally, we would like a column for each type of pet, and then a `TRUE` or `FALSE` for if people had that kind of pet.
+Let's take a look at our survey data, specifically the `pets` column. As you can see below, we have some issues that violate tidy data principles. Specifically, in our one column of pets, we have values on multiple types of pets. Ideally, we would like a column for each type of pet, and then a `TRUE` or `FALSE` for if people had that kind of pet.
 
 ```{r}
 survey$pets
