@@ -14,4 +14,4 @@ All labs will be turned in through Github Classroom. You will set up your studen
 
 -   [Lab 01: R Objects]
 
-  [Lab 01: R Objects]: /labs/lab1-objects.html
+  [Lab 01: R Objects]: /Adv-R-Reader/labs/lab1-objects.html
