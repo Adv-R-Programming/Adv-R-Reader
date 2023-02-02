@@ -2659,7 +2659,7 @@ vertical-align: -.125em;
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>For this first lab we will be manipulating R objects is some novel ways. Most of the changes we make wouldn’t be something you would really <em>want</em> to do normally, but understanding how they work give you insight into R’s structures which will be helpful in developing your own later. For now, treat thee questions as puzzles to be solved.</p>
-<p>In this lab, I am particularly looking at the Data Structures, Code Style, and git/GitHub standards. We will primarily be looking at data within R. However, you will need to install the <code>jsonlite</code> package if you do not have it already. We will use it later when talking about lists to load some data.</p>
+<p>In this lab, I am particularly looking at the Data Structures, Code Style, and git/GitHub standards. We will primarily be using data within R. However, you will need to install the <code>jsonlite</code> package if you do not have it already. We will use it later when talking about lists to load some data.</p>
 <section id="vectors" class="level3">
 <h3 class="anchored" data-anchor-id="vectors">Vectors</h3>
 <p>We’ll start by doing some normal sub-setting with vectors.</p>
@@ -2729,7 +2729,7 @@ Question 3
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>To warm up, subset our <code>current_space</code> to get the name of the craft that astronaut “Nicole Mann” is currently on.</p>
+<p>To warm up, subset our <code>current_space</code> object to get the name of the <strong>craft</strong> that astronaut “Nicole Mann” is currently on.</p>
 </div>
 </div>
 <div class="cell">
@@ -2768,7 +2768,7 @@ Question 5
 <div class="cell">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># &lt;REPLACE THIS COMMENT WITH YOUR ANSWER&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Now that we have a named list, we can create a dataframe from it.</p>
+<p>Now that we have a named vector, we can create a dataframe from it.</p>
 <div class="callout-note callout callout-style-default callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -2802,7 +2802,7 @@ CHALLANGE QUESTION
 </div>
 <div class="callout-body-container callout-body">
 <p>Now that we know a bit more about how dataframes and lists are related, we can use that knowledge to break things.</p>
-<p>Using attributes, a dataframe (<code>df_a</code>) where an entirely different dataframe (<code>df_b</code>) is contained within <strong>one cell</strong> of the first dataframe (<code>df_a</code>). R <em>does not</em> want you to do this, so you’ll need to get creative.</p>
+<p>Using attributes, create a dataframe (<code>df_a</code>) where an entirely different dataframe (<code>df_b</code>) is contained within <strong>one cell</strong> of the first dataframe (<code>df_a</code>). R <em>does not</em> want you to do this, so you’ll need to get creative.</p>
 </div>
 </div>
 <div class="cell">
