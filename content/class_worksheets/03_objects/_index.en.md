@@ -4,7 +4,7 @@ title: "Objects in R"
 weight: 3
 summary: "Learn the many ways R sees objects."
 format:
-    hugo:
+    gfm:
       toc: true
       output-file: "_index.en.md"
       reference-links: true
@@ -63,6 +63,15 @@ c(TRUE, TRUE, TRUE, 1)
 
 </div>
 
+<div class="answer">
+
+- Example 1: Numeric
+- Example 2: Character
+- Example 3: Logical
+- Example 4: Numeric
+
+</div>
+
 It is possible to force a vector into a specific type though *coercion*.
 R will basically take the vector, and do it’s best to present it in the
 way you ask. You can do this using the `as.xxxx()` family of functions.
@@ -93,6 +102,16 @@ as.numeric(c("Will", "I", "work?"))
 
 </div>
 
+<div class="answer">
+
+    [1] NA NA NA
+    Warning message:
+    NAs introduced by coercion 
+
+Words are not numbers, so it fails!
+
+</div>
+
 Here is where we can really start to do odd things given our knowledge
 of R. the `as.xxxx()` functions are basically just telling R to look at
 a vector a different way. If we know what is happening under the hood,
@@ -106,6 +125,16 @@ Try running the following. What happened? Explain the process.
 test_vec = c(1, 3, 3, 7)
 class(test_vec) = "character"
 ```
+
+</div>
+
+<div class="answer">
+
+Just like how we can subset elemetns from a vector or assign to it
+depending on what side of the equal sign our objects are, we can do the
+same with object classes. Rather than use an `as.xxxx()` function to
+turn this numeric vector into a character, we changed by editing the
+class ourselves.
 
 </div>
 
@@ -157,6 +186,12 @@ your own custom attributes too.
 
 Using the `attr()` function, add a new attribute to the `named_vec` from
 above.
+
+</div>
+
+<div class="answer">
+
+attr(named_vec, “happy_score”) = c(1, 1, 3, 3, 4, 5, 2)
 
 </div>
 
@@ -261,6 +296,15 @@ From the example list we just made, subset the following:
 - The number 7 from the number vector
 - The letters “y” and “t” from the character vector
 - This entire `mtcars` dataframe
+
+</div>
+
+<div class="answer">
+
+- example_list$numbers[4] / example_list[["numbers]][4] / example_list$numbers\[4\]
+- example_list\$letters\[c(1, 5)\] / example_list\[\[“letters”\]\]\[c(1,
+  5)\] / example_list\[\[2\]\]\[c(1, 5)\]
+- example_list\$df / example_list\[\[“df”\]\] / example_list\[\[3\]\]
 
 </div>
 
