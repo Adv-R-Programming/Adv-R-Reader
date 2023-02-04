@@ -1,17 +1,5 @@
----
-pre: <b>2/8. </b>
-title: "Debugging & Flow"
-weight: 5
-summary: "Tools to fix errors and test conditions."
-format:
-    gfm:
-      toc: true
-      output-file: "_index.en.md"
-      reference-links: true
-      code-link: true
-editor_options: 
-  chunk_output_type: console
----
+Debugging & Flow
+================
 
 - [Overview][]
 - [Our Toolbox][]

@@ -1,7 +1,7 @@
 ---
 pre: <b>2/8. </b>
 title: "Debugging & Flow"
-weight: 5
+weight: 6
 summary: "Tools to fix errors and test conditions."
 format:
     gfm:
