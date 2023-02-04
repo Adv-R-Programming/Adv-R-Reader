@@ -45,7 +45,8 @@ We can peek behind the curtain on any of the functions we have used so
 far an see how they tick. All you have to do is enter the function into
 the console, and remove the `()` where the arguments go. Let’s look at
 our friend `table()` by typing `table` into the console and hitting
-enter. You should see the following (click the code fold button to see):
+enter. You should see the following (click the green “Code” fold button
+to see):
 
 <details>
 <summary>Code</summary>
@@ -168,8 +169,7 @@ function (..., exclude = if (useNA == "no") c(NA, NaN), useNA = c("no",
 That’s pretty complex looking; and it is. However, the point is that
 *this is the same code that runs when we call `table`*. We could, it we
 wanted, type this out ourselves and create our own `table` function
-using the… `function()` function, like we see at the top the the
-previous code.
+using the `function()` function.
 
 <div class="question">
 
@@ -222,7 +222,7 @@ Let’s take a look at our survey data, specifically the `pets` column. As
 you can see below, we have some issues that violate tidy data
 principles. Specifically, in our one column of pets, we have values on
 multiple types of pets. Ideally, we would like a column for each type of
-pet, and then a `TRUE` or `FALSE` for if people had that kind of pet.
+pet, and then a `TRUE` or `FALSE` if people had that kind of pet.
 
 ``` r
 survey$pets

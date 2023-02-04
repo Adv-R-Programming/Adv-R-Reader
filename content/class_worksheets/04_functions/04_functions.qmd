@@ -31,7 +31,7 @@ survey = readRDS(url("https://github.com/Adv-R-Programming/Adv-R-Reader/raw/main
 
 ## Functions Under the Hood
 
-We can peek behind the curtain on any of the functions we have used so far an see how they tick. All you have to do is enter the function into the console, and remove the `()` where the arguments go. Let's look at our friend `table()` by typing `table` into the console and hitting enter. You should see the following (click the code fold button to see):
+We can peek behind the curtain on any of the functions we have used so far an see how they tick. All you have to do is enter the function into the console, and remove the `()` where the arguments go. Let's look at our friend `table()` by typing `table` into the console and hitting enter. You should see the following (click the green "Code" fold button to see):
 
 ```{r eval=FALSE}
 #| code-fold: true
@@ -148,7 +148,7 @@ function (..., exclude = if (useNA == "no") c(NA, NaN), useNA = c("no",
 }
 ```
 
-That's pretty complex looking; and it is. However, the point is that *this is the same code that runs when we call `table`*. We could, it we wanted, type this out ourselves and create our own `table` function using the... `function()` function, like we see at the top the the previous code.
+That's pretty complex looking; and it is. However, the point is that *this is the same code that runs when we call `table`*. We could, it we wanted, type this out ourselves and create our own `table` function using the `function()` function.
 
 ::: {.question}
 Copy the code from the `table()` function I showed above, and create a new function called `my_table()` using that code. Run both `table()` and `my_table()` on the `mint_choc` column from our survey data. Does the output make sense?
@@ -189,7 +189,7 @@ Neat.
 
 It's cool that we can make a copy of table, but why would we? We wouldn't really. What we would do is create our own functions. While there a *ton* of packages out there to do all sorts of things, sometimes you will just need to make something yourself. This is often the case when working with your own unique data sets.
 
-Let's take a look at our survey data, specifically the `pets` column. As you can see below, we have some issues that violate tidy data principles. Specifically, in our one column of pets, we have values on multiple types of pets. Ideally, we would like a column for each type of pet, and then a `TRUE` or `FALSE` for if people had that kind of pet.
+Let's take a look at our survey data, specifically the `pets` column. As you can see below, we have some issues that violate tidy data principles. Specifically, in our one column of pets, we have values on multiple types of pets. Ideally, we would like a column for each type of pet, and then a `TRUE` or `FALSE` if people had that kind of pet.
 
 ```{r}
 survey$pets
