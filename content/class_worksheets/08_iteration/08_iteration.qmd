@@ -28,7 +28,7 @@ For our worksheet today, we are going to be solving some annoyances of the past.
 We are going to be using class survey data for lab today. Please load it in using the following:
 
 ```{r}
-survey = read.csv("https://raw.githubusercontent.com/Intro-to-Data-Science-Template/intro_to_data_science_reader/main/content/class_worksheets/4_r_rstudio/data/survey_data.csv")
+survey = readRDS(url("https://github.com/Adv-R-Programming/Adv-R-Reader/raw/main/class_survey.rds"))
 ```
 
 ## A Refresher on our `pet_split()` Function
@@ -86,7 +86,7 @@ Now, that is cool, but we can make it better. Specifically, if we look at our su
 
 ## Break it Down
 
-Our first step is going to be writing the code to accomplish what we want, then we can package it as a function. I've gutted our `pet_split()` function below. We will be starting from that base and working to make it so that we never explicitly call for anything in our code. For example, instead of coding all of the possibilities of pet (dog, cat, fish, bird, reptile, rock, none) inside the function itself, we want to write our code such that it can accept *any* list of possibilities as an argument and work from that.
+Our first step is going to be writing the code to accomplish what we want, then we can package it as a function. I've gutted our `pet_split()` function below. We will be starting from that base and working to make it so that we never call for anything specific to pets in our code. For example, instead of coding all of the possibilities of pet (dog, cat, fish, bird, reptile, rock, none) inside the function itself, we want to write our code such that it can accept *any* list of possibilities as an argument and work from that.
 
 ```{r}
 # set up a psudo argument
@@ -148,7 +148,7 @@ pet_output = data.frame(
   "id" = 1:length(pet_vector)
   )
 
-# iterate through all optinos and create a column with NAs for it
+# iterate through all options and create a column with NAs for it
 for(option in possible_columns){
   
   # make a new column with a character version of each possible option.
@@ -159,12 +159,16 @@ for(option in possible_columns){
 
 If we look at out output now, it is *exactly* the same as if we made each column ourselves, but now it is done by providing a vector of options. *And we can change those options to whatever we want*. This will come in handy later.
 
+```{r}
+pet_output
+```
+
 ### Test for Each Option
 
-Our next step, as before, is to test for each possible option and fill in the respective columns. We will use iteration here as well. 
+Our next step is to test for each possible option (in this case types of pets) and fill in the respective columns. We will use iteration here as well. 
 
 ::: {.question}
-Using the same principle as above, iterate over each option in `possible_columns` and use `grepl()` to test if the pet appeared in that case. Fill the respective columns. *Make sure that `pet_vector` and `possible_columns` are reset to normal before you try!*
+Using the same principle as above, iterate over each option in `possible_columns` and use `grepl()` to test if the pet appeared in that case. Fill the respective columns.
 :::
 
 ```{r, include=answers, results='asis', echo=FALSE}
@@ -270,21 +274,26 @@ pet_output$other = pet_vector
 pet_output[pet_output$other == '' & !is.na(pet_output$other), 'other'] = NA
 ```
 
-If we turn it into a function, it will look like this:
+::: {.question}
+Convert our code back into a function, call the function `comma_split()`.
+:::
 
-```{r}
-pet_split = function(pet_vector, possible_columns){
+```{r, include=answers, results='asis', echo=FALSE}
+cat('
+::: {.answer}
+\```
+comma_split = function(vector_to_split, possible_columns){
   
   # make a base dataframe with rows for each of our cases.
-  pet_output = data.frame(
-    "id" = 1:length(pet_vector)
+  output = data.frame(
+    "id" = 1:length(vector_to_split)
     )
   
   # iterate through all options and create a column with NAs for it
   for(option in possible_columns){
     
     # make a new column with a character version of each possible option.
-    pet_output[, as.character(option)] = NA
+    output[, as.character(option)] = NA
     
   }
   
@@ -292,7 +301,7 @@ pet_split = function(pet_vector, possible_columns){
   for(option in possible_columns){
     
     # fill dataframe iterativly.
-    pet_output[ , option] = grepl(option, pet_vector, ignore.case = TRUE)
+    output[ , option] = grepl(option, vector_to_split, ignore.case = TRUE)
     
   }
   
@@ -300,31 +309,81 @@ pet_split = function(pet_vector, possible_columns){
   for(option in possible_columns){
     
     # remove all known options
-    pet_vector = gsub(pattern = option, pet_vector, replacement = '', ignore.case = TRUE)
+    vector_to_split = gsub(pattern = option, vector_to_split, replacement = "", ignore.case = TRUE)
     
   }
   
   # clear commas and whitespace
-  pet_vector = gsub(pattern = ',', pet_vector, replacement = '', ignore.case = TRUE)
-  pet_vector = trimws(pet_vector)
+  vector_to_split = gsub(pattern = ",", vector_to_split, replacement = "", ignore.case = TRUE)
+  vector_to_split = trimws(vector_to_split)
   
-  # Fill in 'other'
-  pet_output$other = pet_vector
+  # Fill in "other"
+  output$other = vector_to_split
   # Turn blanks into NAs
-  pet_output[pet_output$other == "" & !is.na(pet_output$other), 'other'] = NA
+  output[output$other == "" & !is.na(output$other), "other"] = NA
   
   # return output
-  return(pet_output)
+  return(output)
 }
 
-pet_split(pet_vector = survey$pets,
+comma_split(vector_to_split = survey$pets,
           possible_columns = c("dog", "cat", "fish", "bird", "reptile", "rock", "none"))
+\```
+:::
+
+')
 ```
 
-That's pretty cool, but what do you think would happen if we tried it on another column?
+Once you have the function created, try it on another column! Your output should match mine.
+
+```{r, include=FALSE}
+comma_split = function(vector_to_split, possible_columns){
+  
+  # make a base dataframe with rows for each of our cases.
+  output = data.frame(
+    'id' = 1:length(vector_to_split)
+    )
+  
+  # iterate through all options and create a column with NAs for it
+  for(option in possible_columns){
+    
+    # make a new column with a character version of each possible option.
+    output[, as.character(option)] = NA
+    
+  }
+  
+  # fill output df
+  for(option in possible_columns){
+    
+    # fill dataframe iterativly.
+    output[ , option] = grepl(option, vector_to_split, ignore.case = TRUE)
+    
+  }
+  
+  # clear all know options
+  for(option in possible_columns){
+    
+    # remove all known options
+    vector_to_split = gsub(pattern = option, vector_to_split, replacement = '', ignore.case = TRUE)
+    
+  }
+  
+  # clear commas and whitespace
+  vector_to_split = gsub(pattern = ',', vector_to_split, replacement = '', ignore.case = TRUE)
+  vector_to_split = trimws(vector_to_split)
+  
+  # Fill in 'other'
+  output$other = vector_to_split
+  # Turn blanks into NAs
+  output[output$other == "" & !is.na(output$other), 'other'] = NA
+  
+  # return output
+  return(output)
+}
+```
 
 ```{r}
-pet_split(pet_vector = survey$tea_days,
+comma_split(vector_to_split = survey$tea_days,
           possible_columns = c("monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"))
 ```
 

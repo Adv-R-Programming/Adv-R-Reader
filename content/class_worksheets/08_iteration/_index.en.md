@@ -29,7 +29,7 @@ We are going to be using class survey data for lab today. Please load it
 in using the following:
 
 ``` r
-survey = read.csv("https://raw.githubusercontent.com/Intro-to-Data-Science-Template/intro_to_data_science_reader/main/content/class_worksheets/4_r_rstudio/data/survey_data.csv")
+survey = readRDS(url("https://github.com/Adv-R-Programming/Adv-R-Reader/raw/main/class_survey.rds"))
 ```
 
 ## A Refresher on our `pet_split()` Function
@@ -87,22 +87,31 @@ pet_split = function(pet_vector) {
 pet_split(pet_vector = survey$pets)
 ```
 
-       id   dog   cat  fish  bird reptile  rock  none        other
-    1   1 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE         <NA>
-    2   2 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE         <NA>
-    3   3  TRUE FALSE FALSE FALSE   FALSE FALSE FALSE Plants (two)
-    4   4 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE         <NA>
-    5   5  TRUE FALSE FALSE FALSE   FALSE FALSE FALSE         <NA>
-    6   6  TRUE FALSE FALSE FALSE   FALSE FALSE FALSE         <NA>
-    7   7 FALSE  TRUE FALSE FALSE   FALSE  TRUE FALSE         <NA>
-    8   8  TRUE FALSE FALSE FALSE   FALSE FALSE FALSE         <NA>
-    9   9 FALSE FALSE FALSE FALSE   FALSE FALSE FALSE Spider Plant
-    10 10 FALSE  TRUE FALSE FALSE   FALSE FALSE FALSE         <NA>
-    11 11  TRUE FALSE FALSE FALSE    TRUE FALSE FALSE         <NA>
-    12 12  TRUE FALSE FALSE FALSE   FALSE FALSE FALSE         <NA>
-    13 13 FALSE  TRUE FALSE FALSE   FALSE FALSE FALSE         <NA>
-    14 14 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE         <NA>
-    15 15 FALSE FALSE FALSE FALSE    TRUE FALSE FALSE        Plant
+       id   dog   cat  fish  bird reptile  rock  none                    other
+    1   1 FALSE  TRUE FALSE FALSE   FALSE FALSE FALSE                     <NA>
+    2   2 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE                     <NA>
+    3   3  TRUE FALSE FALSE FALSE   FALSE FALSE FALSE                     <NA>
+    4   4 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE                     <NA>
+    5   5 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE                     <NA>
+    6   6  TRUE  TRUE FALSE FALSE   FALSE  TRUE FALSE                     <NA>
+    7   7 FALSE FALSE FALSE  TRUE   FALSE FALSE FALSE                     <NA>
+    8   8  TRUE FALSE FALSE FALSE   FALSE FALSE FALSE                     <NA>
+    9   9 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE                     <NA>
+    10 10 FALSE  TRUE FALSE FALSE   FALSE FALSE FALSE                     <NA>
+    11 11 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE                     <NA>
+    12 12 FALSE FALSE FALSE  TRUE   FALSE FALSE FALSE                     <NA>
+    13 13 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE                     <NA>
+    14 14  TRUE  TRUE FALSE FALSE   FALSE FALSE FALSE                     <NA>
+    15 15  TRUE FALSE FALSE  TRUE   FALSE FALSE FALSE                     <NA>
+    16 16 FALSE FALSE FALSE  TRUE   FALSE FALSE FALSE                     <NA>
+    17 17 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE                     <NA>
+    18 18 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE                     <NA>
+    19 19 FALSE FALSE FALSE FALSE    TRUE FALSE FALSE                     <NA>
+    20 20 FALSE FALSE FALSE FALSE   FALSE  TRUE  TRUE                     <NA>
+    21 21 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE                     <NA>
+    22 22 FALSE  TRUE FALSE FALSE   FALSE FALSE FALSE                     <NA>
+    23 23 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE                     <NA>
+    24 24 FALSE FALSE FALSE FALSE   FALSE FALSE FALSE Robot Vacuum named Tobie
 
 Now, that is cool, but we can make it better. Specifically, if we look
 at our survey dataframe, we have the exact same problem in our
@@ -115,10 +124,10 @@ comma separated values.
 Our first step is going to be writing the code to accomplish what we
 want, then we can package it as a function. I’ve gutted our
 `pet_split()` function below. We will be starting from that base and
-working to make it so that we never explicitly call for anything in our
-code. For example, instead of coding all of the possibilities of pet
-(dog, cat, fish, bird, reptile, rock, none) inside the function itself,
-we want to write our code such that it can accept *any* list of
+working to make it so that we never call for anything specific to pets
+in our code. For example, instead of coding all of the possibilities of
+pet (dog, cat, fish, bird, reptile, rock, none) inside the function
+itself, we want to write our code such that it can accept *any* list of
 possibilities as an argument and work from that.
 
 ``` r
@@ -192,7 +201,7 @@ pet_output = data.frame(
   "id" = 1:length(pet_vector)
   )
 
-# iterate through all optinos and create a column with NAs for it
+# iterate through all options and create a column with NAs for it
 for(option in possible_columns){
   
   # make a new column with a character version of each possible option.
@@ -206,17 +215,47 @@ each column ourselves, but now it is done by providing a vector of
 options. *And we can change those options to whatever we want*. This
 will come in handy later.
 
+``` r
+pet_output
+```
+
+       id dog cat fish bird reptile rock none
+    1   1  NA  NA   NA   NA      NA   NA   NA
+    2   2  NA  NA   NA   NA      NA   NA   NA
+    3   3  NA  NA   NA   NA      NA   NA   NA
+    4   4  NA  NA   NA   NA      NA   NA   NA
+    5   5  NA  NA   NA   NA      NA   NA   NA
+    6   6  NA  NA   NA   NA      NA   NA   NA
+    7   7  NA  NA   NA   NA      NA   NA   NA
+    8   8  NA  NA   NA   NA      NA   NA   NA
+    9   9  NA  NA   NA   NA      NA   NA   NA
+    10 10  NA  NA   NA   NA      NA   NA   NA
+    11 11  NA  NA   NA   NA      NA   NA   NA
+    12 12  NA  NA   NA   NA      NA   NA   NA
+    13 13  NA  NA   NA   NA      NA   NA   NA
+    14 14  NA  NA   NA   NA      NA   NA   NA
+    15 15  NA  NA   NA   NA      NA   NA   NA
+    16 16  NA  NA   NA   NA      NA   NA   NA
+    17 17  NA  NA   NA   NA      NA   NA   NA
+    18 18  NA  NA   NA   NA      NA   NA   NA
+    19 19  NA  NA   NA   NA      NA   NA   NA
+    20 20  NA  NA   NA   NA      NA   NA   NA
+    21 21  NA  NA   NA   NA      NA   NA   NA
+    22 22  NA  NA   NA   NA      NA   NA   NA
+    23 23  NA  NA   NA   NA      NA   NA   NA
+    24 24  NA  NA   NA   NA      NA   NA   NA
+
 ### Test for Each Option
 
-Our next step, as before, is to test for each possible option and fill
-in the respective columns. We will use iteration here as well.
+Our next step is to test for each possible option (in this case types of
+pets) and fill in the respective columns. We will use iteration here as
+well.
 
 <div class="question">
 
 Using the same principle as above, iterate over each option in
 `possible_columns` and use `grepl()` to test if the pet appeared in that
-case. Fill the respective columns. *Make sure that `pet_vector` and
-`possible_columns` are reset to normal before you try!*
+case. Fill the respective columns.
 
 </div>
 
@@ -289,98 +328,46 @@ pet_output$other = pet_vector
 pet_output[pet_output$other == '' & !is.na(pet_output$other), 'other'] = NA
 ```
 
-If we turn it into a function, it will look like this:
+<div class="question">
+
+Convert our code back into a function, call the function
+`comma_split()`.
+
+</div>
+
+Once you have the function created, try it on another column! Your
+output should match mine.
 
 ``` r
-pet_split = function(pet_vector, possible_columns){
-  
-  # make a base dataframe with rows for each of our cases.
-  pet_output = data.frame(
-    "id" = 1:length(pet_vector)
-    )
-  
-  # iterate through all options and create a column with NAs for it
-  for(option in possible_columns){
-    
-    # make a new column with a character version of each possible option.
-    pet_output[, as.character(option)] = NA
-    
-  }
-  
-  # fill output df
-  for(option in possible_columns){
-    
-    # fill dataframe iterativly.
-    pet_output[ , option] = grepl(option, pet_vector, ignore.case = TRUE)
-    
-  }
-  
-  # clear all know options
-  for(option in possible_columns){
-    
-    # remove all known options
-    pet_vector = gsub(pattern = option, pet_vector, replacement = '', ignore.case = TRUE)
-    
-  }
-  
-  # clear commas and whitespace
-  pet_vector = gsub(pattern = ',', pet_vector, replacement = '', ignore.case = TRUE)
-  pet_vector = trimws(pet_vector)
-  
-  # Fill in 'other'
-  pet_output$other = pet_vector
-  # Turn blanks into NAs
-  pet_output[pet_output$other == "" & !is.na(pet_output$other), 'other'] = NA
-  
-  # return output
-  return(pet_output)
-}
-
-pet_split(pet_vector = survey$pets,
-          possible_columns = c("dog", "cat", "fish", "bird", "reptile", "rock", "none"))
-```
-
-       id   dog   cat  fish  bird reptile  rock  none        other
-    1   1 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE         <NA>
-    2   2 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE         <NA>
-    3   3  TRUE FALSE FALSE FALSE   FALSE FALSE FALSE Plants (two)
-    4   4 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE         <NA>
-    5   5  TRUE FALSE FALSE FALSE   FALSE FALSE FALSE         <NA>
-    6   6  TRUE FALSE FALSE FALSE   FALSE FALSE FALSE         <NA>
-    7   7 FALSE  TRUE FALSE FALSE   FALSE  TRUE FALSE         <NA>
-    8   8  TRUE FALSE FALSE FALSE   FALSE FALSE FALSE         <NA>
-    9   9 FALSE FALSE FALSE FALSE   FALSE FALSE FALSE Spider Plant
-    10 10 FALSE  TRUE FALSE FALSE   FALSE FALSE FALSE         <NA>
-    11 11  TRUE FALSE FALSE FALSE    TRUE FALSE FALSE         <NA>
-    12 12  TRUE FALSE FALSE FALSE   FALSE FALSE FALSE         <NA>
-    13 13 FALSE  TRUE FALSE FALSE   FALSE FALSE FALSE         <NA>
-    14 14 FALSE FALSE FALSE FALSE   FALSE FALSE  TRUE         <NA>
-    15 15 FALSE FALSE FALSE FALSE    TRUE FALSE FALSE        Plant
-
-That’s pretty cool, but what do you think would happen if we tried it on
-another column?
-
-``` r
-pet_split(pet_vector = survey$tea_days,
+comma_split(vector_to_split = survey$tea_days,
           possible_columns = c("monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"))
 ```
 
        id monday tuesday wednesday thursday friday saturday sunday other
-    1   1  FALSE   FALSE     FALSE    FALSE  FALSE    FALSE   TRUE  <NA>
+    1   1  FALSE   FALSE     FALSE    FALSE  FALSE    FALSE  FALSE  <NA>
     2   2  FALSE   FALSE     FALSE    FALSE  FALSE    FALSE  FALSE  <NA>
-    3   3  FALSE   FALSE      TRUE    FALSE  FALSE    FALSE  FALSE  <NA>
-    4   4  FALSE   FALSE     FALSE    FALSE  FALSE     TRUE  FALSE  <NA>
-    5   5  FALSE   FALSE     FALSE    FALSE   TRUE    FALSE   TRUE  <NA>
+    3   3   TRUE    TRUE      TRUE    FALSE  FALSE     TRUE   TRUE  <NA>
+    4   4   TRUE    TRUE     FALSE    FALSE  FALSE    FALSE   TRUE  <NA>
+    5   5  FALSE    TRUE     FALSE    FALSE  FALSE    FALSE  FALSE  <NA>
     6   6  FALSE   FALSE     FALSE    FALSE  FALSE    FALSE  FALSE  <NA>
-    7   7  FALSE   FALSE      TRUE    FALSE  FALSE    FALSE   TRUE  <NA>
+    7   7  FALSE   FALSE     FALSE    FALSE  FALSE    FALSE  FALSE  <NA>
     8   8  FALSE   FALSE     FALSE    FALSE  FALSE    FALSE  FALSE  <NA>
-    9   9  FALSE   FALSE     FALSE    FALSE  FALSE    FALSE  FALSE  <NA>
-    10 10  FALSE   FALSE     FALSE    FALSE  FALSE    FALSE  FALSE  <NA>
-    11 11  FALSE   FALSE     FALSE    FALSE  FALSE    FALSE  FALSE  <NA>
+    9   9   TRUE   FALSE     FALSE     TRUE  FALSE    FALSE  FALSE  <NA>
+    10 10  FALSE   FALSE     FALSE     TRUE   TRUE    FALSE  FALSE  <NA>
+    11 11  FALSE   FALSE     FALSE     TRUE  FALSE    FALSE  FALSE  <NA>
     12 12  FALSE   FALSE     FALSE    FALSE  FALSE    FALSE  FALSE  <NA>
-    13 13  FALSE   FALSE     FALSE    FALSE  FALSE    FALSE  FALSE  <NA>
-    14 14  FALSE   FALSE     FALSE    FALSE  FALSE    FALSE  FALSE  <NA>
+    13 13   TRUE    TRUE      TRUE     TRUE   TRUE    FALSE   TRUE  <NA>
+    14 14   TRUE   FALSE     FALSE     TRUE  FALSE    FALSE   TRUE  <NA>
     15 15  FALSE   FALSE     FALSE    FALSE  FALSE    FALSE  FALSE  <NA>
+    16 16  FALSE   FALSE     FALSE    FALSE   TRUE     TRUE  FALSE  <NA>
+    17 17  FALSE   FALSE     FALSE    FALSE  FALSE    FALSE  FALSE  <NA>
+    18 18  FALSE   FALSE     FALSE    FALSE  FALSE    FALSE   TRUE  <NA>
+    19 19  FALSE   FALSE     FALSE    FALSE  FALSE    FALSE  FALSE  <NA>
+    20 20  FALSE   FALSE     FALSE    FALSE  FALSE    FALSE  FALSE  <NA>
+    21 21   TRUE    TRUE      TRUE    FALSE   TRUE     TRUE   TRUE  <NA>
+    22 22  FALSE   FALSE     FALSE    FALSE  FALSE    FALSE  FALSE  <NA>
+    23 23  FALSE   FALSE     FALSE    FALSE  FALSE    FALSE  FALSE  <NA>
+    24 24   TRUE   FALSE     FALSE    FALSE  FALSE    FALSE  FALSE  <NA>
 
 While it now has a bit of an odd name, our function can now work on
 *any* column! It is hard to express how big of a deal that is. We now
