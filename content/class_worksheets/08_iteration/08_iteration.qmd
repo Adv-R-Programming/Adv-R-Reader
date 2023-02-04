@@ -1,19 +1,20 @@
 ---
-pre: <b>10/24. </b>
+pre: <b>2/13. </b>
 title: "Iteration"
-weight: 20
+weight: 8
 summary: "Iterate through elements and give our function superpowers."
 format:
-    hugo:
+    gfm:
       toc: true
       output-file: "_index.en.md"
       reference-links: true
       code-link: true
-      
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r, include=FALSE}
-answers = TRUE
+answers = FALSE
 ```
 
 ## Overview
