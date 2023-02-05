@@ -109,30 +109,33 @@ You will have gotten a list object of length 5 back. Recall that lists are super
 
 Using `lapply()` does not need to be limited to uses within R. One common way to use it is when loading in data. To try this, we're going to load in a number of `.csv` files containing economic and population data on Massachusetts from the [American Community Survey five-year estimates (ACS5)](https://www.census.gov/data/developers/data-sets/acs-5year.html). You can think of it as a yearly mini-census.
 
-First, we need to have a directory of data files with identical structures. For this example, we can use some data I have hosted on GitHub. 
-
-
-
-we will use the data from lab 3 (aggregation and merging). First, specify the path to the data folder of lab 3. You have to find the specific path on your computer.
+First, we need to have a directory of data files with identical structures. For this example, we can use some data I have hosted on GitHub. Run the following code to download the `zip` archive into your project directory and un-zip it.
 
 ```{r}
-# change this to match your system
-lab_3_data = "path/to/lab-3-tidy-agg-merge-NAME/data/"
+# download file into project directory
+download.file("https://github.com/Adv-R-Programming/Adv-R-Reader/raw/main/content/class_worksheets/09_apply_lists/09_data.zip", "./09_data.zip")
+
+# unzip into folder
+unzip("./09_data.zip", exdir = "./09_data_dir/")
 ```
 
-Next, we will get a vector of all the file paths of the data inside that folder using `list.files()`. I use the *pattern* argument here to say "I only want files that contain this." In this case, it is the "econ_" prefix so I only get our "econ_acs5_YEAR.csv" files.
+Now that we have the files, we can treat them like any other `.csvs` we may have used for data analysis. Typically, you would need to run `read.csv()` to load in these files one at a time. That is a chore. Instead, we'll combine a few of the skills we've learned in the worksheets thus far.
+
+First, get a vector of all the file paths of the data inside that folder using `list.files()`. I use the *pattern* argument here to say "I only want files that contain this." In this case, it is the "econ_" prefix so I only get our "econ_acs5_YEAR.csv" files which contain economic data.
 
 ```{r eval=FALSE}
-econ_data_paths = list.files(lab_3_data, pattern = "econ_", full.names = TRUE)
+econ_data_paths = list.files("./09_data_dir/", pattern = "econ_", full.names = TRUE)
 ```
 
-Now, we will use `lapply()` to read in all of the econ_X dataframes from that lab at once.
+Now, we will use `lapply()` to read in all of the econ_X dataframes at once.
 
 ```{r eval=FALSE}
 all_econ_data = lapply(econ_data_paths, read.csv)
 ```
 
-You now have a list of length 6 with all of the econ data from that lab! No copy and pasting required. You can even pivot and merge them all at once too. First, I'll pivot everything from long to wide:
+You now have a list of length 6 with all of the econ data! No copy and pasting required. Take a moment to look through the list and see how it is structured.
+
+You may notice each element is a dataframe in the long format (key-value pairs). Rather than try to re-format them one at a time, we can pivot and merge them all at once. First, I'll pivot everything from long to wide:
 
 ```{r eval=FALSE}
 library(tidyr)
@@ -144,10 +147,10 @@ all_econ_data_wide = lapply(all_econ_data,
       values_from = c("estimate", "moe"))
 ```
 
-Next, we'll use `basename()` to give each dataframe a year identifier (we'll just use the file name for now). I'll do this one in a `for()` loop as it's easier to match the file names vector and our data list elements.
+Next, we'll use `basename()` to give each dataframe a year identifier (we'll just use the file name for now). I'll do this one in a `for()` loop as it's easier to match the file names vector and our data list elements. Here we are combining our file function and list knowledge.
 
 ```{r eval=FALSE}
-for(i in 1:6){
+for(i in 1:length(all_econ_data_wide)){
   
   # get the file name I want
   file_name = basename(econ_data_paths[i])
@@ -157,14 +160,16 @@ for(i in 1:6){
 }
 ```
 
-Now we can bind them all together. I'll use `do.call()` here. Really this is the only time I ever use it, and I don't know what else it is helpful for.
+Now we can bind them all together. *Binding* a dataframe is one method to join them together. Here I'll use a function called `do.call()`. This is really this is the only time I ever use it, and I don't know what else it is helpful for, but in this case it allows us to take all component dataframes of our list, and bind them all together at once.
 
 ```{r eval=FALSE}
 merged_econ = do.call(rbind, all_econ_data_wide)
 ```
 
+Tada! Rather than needing to load everything in one at a time, clean it one at a time, and combine them one at a time, using the power of `apply` we have completed each *process* by writing the code once, and applying it to several objects.
+
 ::: {.question}
-Repeat this process with the "pop_acs5_XXXX" CSVs from lab 3.
+Repeat this process with the "pop_acs5_XXXX" CSVs.
 :::
 
 ```{r, include=answers, results='asis', echo=FALSE}
@@ -195,6 +200,21 @@ merged_pop = do.call(rbind, all_pop_data_wide)
 :::
 ')
 ```
+
+## Conclusion
+
+Becoming comfortable with iteration, and apply especially, takes time. However, when combined with your ability to write your own functions *this* is where you start to see the power of working in code. You can solve a task *once* and apply that solution to dozens or hundreds of cases at once.
+
+You can use the same process we went through here to look at your music collection and rip meta-data. You could analyze your photo collection. Generate and save text. Whatever you want. Let the mechanisms we have learned here start framing what you want to do as a final project. You now know how to build the scaffold to nearly any project.
+
+
+
+
+
+
+
+
+
 
 
 
