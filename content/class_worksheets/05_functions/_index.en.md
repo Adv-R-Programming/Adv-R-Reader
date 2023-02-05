@@ -1,7 +1,7 @@
 ---
 pre: <b>2/6. </b>
 title: "Functions"
-weight: 4
+weight: 5
 summary: "Fundamentals of functions."
 format:
     gfm:
