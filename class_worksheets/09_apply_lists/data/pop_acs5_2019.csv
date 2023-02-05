@@ -1,0 +1,736 @@
+"GEOID","NAME","variable","estimate","moe"
+"2500135","Abington CDP, Massachusetts","pop_male",8124,384
+"2500135","Abington CDP, Massachusetts","pop_female",8312,384
+"2500135","Abington CDP, Massachusetts","pop_total",16436,36
+"2500530","Acushnet Center CDP, Massachusetts","pop_male",1534,339
+"2500530","Acushnet Center CDP, Massachusetts","pop_female",1643,182
+"2500530","Acushnet Center CDP, Massachusetts","pop_total",3177,442
+"2500590","Adams CDP, Massachusetts","pop_male",2788,255
+"2500590","Adams CDP, Massachusetts","pop_female",2547,209
+"2500590","Adams CDP, Massachusetts","pop_total",5335,290
+"2500840","Agawam Town city, Massachusetts","pop_male",14000,383
+"2500840","Agawam Town city, Massachusetts","pop_female",14696,385
+"2500840","Agawam Town city, Massachusetts","pop_total",28696,25
+"2501260","Amesbury Town city, Massachusetts","pop_male",8499,305
+"2501260","Amesbury Town city, Massachusetts","pop_female",8935,306
+"2501260","Amesbury Town city, Massachusetts","pop_total",17434,46
+"2501360","Amherst Center CDP, Massachusetts","pop_male",9721,642
+"2501360","Amherst Center CDP, Massachusetts","pop_female",10688,732
+"2501360","Amherst Center CDP, Massachusetts","pop_total",20409,950
+"2501430","Andover CDP, Massachusetts","pop_male",4155,333
+"2501430","Andover CDP, Massachusetts","pop_female",4759,344
+"2501430","Andover CDP, Massachusetts","pop_total",8914,511
+"2501640","Arlington CDP, Massachusetts","pop_male",21022,436
+"2501640","Arlington CDP, Massachusetts","pop_female",24282,428
+"2501640","Arlington CDP, Massachusetts","pop_total",45304,32
+"2502515","Athol CDP, Massachusetts","pop_male",3903,334
+"2502515","Athol CDP, Massachusetts","pop_female",4714,435
+"2502515","Athol CDP, Massachusetts","pop_total",8617,386
+"2502690","Attleboro city, Massachusetts","pop_male",21911,618
+"2502690","Attleboro city, Massachusetts","pop_female",22878,617
+"2502690","Attleboro city, Massachusetts","pop_total",44789,41
+"2503040","Ayer CDP, Massachusetts","pop_male",1397,239
+"2503040","Ayer CDP, Massachusetts","pop_female",1513,255
+"2503040","Ayer CDP, Massachusetts","pop_total",2910,391
+"2503355","Baldwinville CDP, Massachusetts","pop_male",903,255
+"2503355","Baldwinville CDP, Massachusetts","pop_female",833,243
+"2503355","Baldwinville CDP, Massachusetts","pop_total",1736,439
+"2503690","Barnstable Town city, Massachusetts","pop_male",21621,486
+"2503690","Barnstable Town city, Massachusetts","pop_female",22785,487
+"2503690","Barnstable Town city, Massachusetts","pop_total",44406,31
+"2503705","Barre CDP, Massachusetts","pop_male",490,199
+"2503705","Barre CDP, Massachusetts","pop_female",496,223
+"2503705","Barre CDP, Massachusetts","pop_total",986,347
+"2504790","Belchertown CDP, Massachusetts","pop_male",1430,242
+"2504790","Belchertown CDP, Massachusetts","pop_female",1444,260
+"2504790","Belchertown CDP, Massachusetts","pop_total",2874,405
+"2504965","Bellingham CDP, Massachusetts","pop_male",2002,335
+"2504965","Bellingham CDP, Massachusetts","pop_female",2381,392
+"2504965","Bellingham CDP, Massachusetts","pop_total",4383,599
+"2505105","Belmont CDP, Massachusetts","pop_male",12109,294
+"2505105","Belmont CDP, Massachusetts","pop_female",14004,296
+"2505105","Belmont CDP, Massachusetts","pop_total",26113,33
+"2505595","Beverly city, Massachusetts","pop_male",19503,515
+"2505595","Beverly city, Massachusetts","pop_female",22382,517
+"2505595","Beverly city, Massachusetts","pop_total",41885,25
+"2506050","Blandford CDP, Massachusetts","pop_male",161,41
+"2506050","Blandford CDP, Massachusetts","pop_female",117,39
+"2506050","Blandford CDP, Massachusetts","pop_total",278,73
+"2506170","Bliss Corner CDP, Massachusetts","pop_male",2240,341
+"2506170","Bliss Corner CDP, Massachusetts","pop_female",2910,431
+"2506170","Bliss Corner CDP, Massachusetts","pop_total",5150,595
+"2507000","Boston city, Massachusetts","pop_male",328503,930
+"2507000","Boston city, Massachusetts","pop_female",355876,928
+"2507000","Boston city, Massachusetts","pop_total",684379,52
+"2507140","Bourne CDP, Massachusetts","pop_male",588,206
+"2507140","Bourne CDP, Massachusetts","pop_female",820,170
+"2507140","Bourne CDP, Massachusetts","pop_total",1408,336
+"2507385","Boxford CDP, Massachusetts","pop_male",1286,238
+"2507385","Boxford CDP, Massachusetts","pop_female",1299,246
+"2507385","Boxford CDP, Massachusetts","pop_total",2585,427
+"2507740","Braintree Town city, Massachusetts","pop_male",18009,485
+"2507740","Braintree Town city, Massachusetts","pop_female",19211,483
+"2507740","Braintree Town city, Massachusetts","pop_total",37220,49
+"2507945","Brewster CDP, Massachusetts","pop_male",767,261
+"2507945","Brewster CDP, Massachusetts","pop_female",870,206
+"2507945","Brewster CDP, Massachusetts","pop_total",1637,412
+"2508130","Bridgewater Town city, Massachusetts","pop_male",14247,537
+"2508130","Bridgewater Town city, Massachusetts","pop_female",13189,534
+"2508130","Bridgewater Town city, Massachusetts","pop_total",27436,27
+"2509000","Brockton city, Massachusetts","pop_male",45543,570
+"2509000","Brockton city, Massachusetts","pop_female",50051,566
+"2509000","Brockton city, Massachusetts","pop_total",95594,34
+"2509070","Brookfield CDP, Massachusetts","pop_male",370,118
+"2509070","Brookfield CDP, Massachusetts","pop_female",320,116
+"2509070","Brookfield CDP, Massachusetts","pop_total",690,148
+"2509210","Brookline CDP, Massachusetts","pop_male",27859,810
+"2509210","Brookline CDP, Massachusetts","pop_female",31321,819
+"2509210","Brookline CDP, Massachusetts","pop_total",59180,48
+"2509875","Burlington CDP, Massachusetts","pop_male",13193,519
+"2509875","Burlington CDP, Massachusetts","pop_female",14457,528
+"2509875","Burlington CDP, Massachusetts","pop_total",27650,67
+"2510015","Buzzards Bay CDP, Massachusetts","pop_male",1918,314
+"2510015","Buzzards Bay CDP, Massachusetts","pop_female",1610,199
+"2510015","Buzzards Bay CDP, Massachusetts","pop_total",3528,449
+"2511000","Cambridge city, Massachusetts","pop_male",58150,960
+"2511000","Cambridge city, Massachusetts","pop_female",58482,968
+"2511000","Cambridge city, Massachusetts","pop_total",116632,59
+"2512960","Chatham CDP, Massachusetts","pop_male",650,127
+"2512960","Chatham CDP, Massachusetts","pop_female",778,134
+"2512960","Chatham CDP, Massachusetts","pop_total",1428,223
+"2513205","Chelsea city, Massachusetts","pop_male",20661,706
+"2513205","Chelsea city, Massachusetts","pop_female",19331,698
+"2513205","Chelsea city, Massachusetts","pop_total",39992,46
+"2513310","Cheshire CDP, Massachusetts","pop_male",270,109
+"2513310","Cheshire CDP, Massachusetts","pop_female",269,113
+"2513310","Cheshire CDP, Massachusetts","pop_total",539,216
+"2513450","Chester CDP, Massachusetts","pop_male",366,84
+"2513450","Chester CDP, Massachusetts","pop_female",421,94
+"2513450","Chester CDP, Massachusetts","pop_total",787,148
+"2513660","Chicopee city, Massachusetts","pop_male",26815,657
+"2513660","Chicopee city, Massachusetts","pop_female",28606,660
+"2513660","Chicopee city, Massachusetts","pop_total",55421,43
+"2514430","Clinton CDP, Massachusetts","pop_male",3626,328
+"2514430","Clinton CDP, Massachusetts","pop_female",3528,361
+"2514430","Clinton CDP, Massachusetts","pop_total",7154,505
+"2514570","Cochituate CDP, Massachusetts","pop_male",3799,246
+"2514570","Cochituate CDP, Massachusetts","pop_female",3427,194
+"2514570","Cochituate CDP, Massachusetts","pop_total",7226,300
+"2515340","Cordaville CDP, Massachusetts","pop_male",1428,174
+"2515340","Cordaville CDP, Massachusetts","pop_female",1611,237
+"2515340","Cordaville CDP, Massachusetts","pop_total",3039,327
+"2516285","Danvers CDP, Massachusetts","pop_male",12597,377
+"2516285","Danvers CDP, Massachusetts","pop_female",14989,375
+"2516285","Danvers CDP, Massachusetts","pop_total",27586,21
+"2516530","Dedham CDP, Massachusetts","pop_male",11749,386
+"2516530","Dedham CDP, Massachusetts","pop_female",13534,384
+"2516530","Dedham CDP, Massachusetts","pop_total",25283,53
+"2516635","Deerfield CDP, Massachusetts","pop_male",340,250
+"2516635","Deerfield CDP, Massachusetts","pop_female",281,123
+"2516635","Deerfield CDP, Massachusetts","pop_total",621,306
+"2516740","Dennis CDP, Massachusetts","pop_male",1117,157
+"2516740","Dennis CDP, Massachusetts","pop_female",1190,164
+"2516740","Dennis CDP, Massachusetts","pop_total",2307,292
+"2516810","Dennis Port CDP, Massachusetts","pop_male",1765,265
+"2516810","Dennis Port CDP, Massachusetts","pop_female",1663,240
+"2516810","Dennis Port CDP, Massachusetts","pop_total",3428,361
+"2516840","Devens CDP, Massachusetts","pop_male",1607,378
+"2516840","Devens CDP, Massachusetts","pop_female",362,209
+"2516840","Devens CDP, Massachusetts","pop_total",1969,428
+"2517370","Dover CDP, Massachusetts","pop_male",1315,213
+"2517370","Dover CDP, Massachusetts","pop_female",1224,174
+"2517370","Dover CDP, Massachusetts","pop_total",2539,339
+"2517860","Duxbury CDP, Massachusetts","pop_male",784,186
+"2517860","Duxbury CDP, Massachusetts","pop_female",783,160
+"2517860","Duxbury CDP, Massachusetts","pop_total",1567,304
+"2518595","East Brookfield CDP, Massachusetts","pop_male",556,118
+"2518595","East Brookfield CDP, Massachusetts","pop_female",481,108
+"2518595","East Brookfield CDP, Massachusetts","pop_total",1037,181
+"2518840","East Dennis CDP, Massachusetts","pop_male",1094,209
+"2518840","East Dennis CDP, Massachusetts","pop_female",1481,189
+"2518840","East Dennis CDP, Massachusetts","pop_total",2575,353
+"2518875","East Douglas CDP, Massachusetts","pop_male",1291,254
+"2518875","East Douglas CDP, Massachusetts","pop_female",1301,253
+"2518875","East Douglas CDP, Massachusetts","pop_total",2592,426
+"2518980","East Falmouth CDP, Massachusetts","pop_male",3048,437
+"2518980","East Falmouth CDP, Massachusetts","pop_female",3393,445
+"2518980","East Falmouth CDP, Massachusetts","pop_total",6441,815
+"2519370","Easthampton Town city, Massachusetts","pop_male",7822,355
+"2519370","Easthampton Town city, Massachusetts","pop_female",8138,356
+"2519370","Easthampton Town city, Massachusetts","pop_total",15960,21
+"2519400","East Harwich CDP, Massachusetts","pop_male",2328,346
+"2519400","East Harwich CDP, Massachusetts","pop_female",2468,263
+"2519400","East Harwich CDP, Massachusetts","pop_total",4796,477
+"2520310","East Pepperell CDP, Massachusetts","pop_male",863,151
+"2520310","East Pepperell CDP, Massachusetts","pop_female",948,170
+"2520310","East Pepperell CDP, Massachusetts","pop_total",1811,252
+"2520380","East Sandwich CDP, Massachusetts","pop_male",1673,182
+"2520380","East Sandwich CDP, Massachusetts","pop_female",1800,183
+"2520380","East Sandwich CDP, Massachusetts","pop_total",3473,280
+"2521115","Edgartown CDP, Massachusetts","pop_male",189,116
+"2521115","Edgartown CDP, Massachusetts","pop_female",319,174
+"2521115","Edgartown CDP, Massachusetts","pop_total",508,256
+"2521815","Essex CDP, Massachusetts","pop_male",657,141
+"2521815","Essex CDP, Massachusetts","pop_female",736,145
+"2521815","Essex CDP, Massachusetts","pop_total",1393,223
+"2521990","Everett city, Massachusetts","pop_male",22771,759
+"2521990","Everett city, Massachusetts","pop_female",23347,759
+"2521990","Everett city, Massachusetts","pop_total",46118,36
+"2523000","Fall River city, Massachusetts","pop_male",43383,804
+"2523000","Fall River city, Massachusetts","pop_female",46005,803
+"2523000","Fall River city, Massachusetts","pop_total",89388,60
+"2523070","Falmouth CDP, Massachusetts","pop_male",1585,200
+"2523070","Falmouth CDP, Massachusetts","pop_female",1955,207
+"2523070","Falmouth CDP, Massachusetts","pop_total",3540,328
+"2523840","Fiskdale CDP, Massachusetts","pop_male",1413,273
+"2523840","Fiskdale CDP, Massachusetts","pop_female",1674,325
+"2523840","Fiskdale CDP, Massachusetts","pop_total",3087,504
+"2523875","Fitchburg city, Massachusetts","pop_male",20317,564
+"2523875","Fitchburg city, Massachusetts","pop_female",20385,557
+"2523875","Fitchburg city, Massachusetts","pop_total",40702,34
+"2524190","Forestdale CDP, Massachusetts","pop_male",1802,252
+"2524190","Forestdale CDP, Massachusetts","pop_female",1989,267
+"2524190","Forestdale CDP, Massachusetts","pop_total",3791,416
+"2524855","Foxborough CDP, Massachusetts","pop_male",3201,463
+"2524855","Foxborough CDP, Massachusetts","pop_female",3095,392
+"2524855","Foxborough CDP, Massachusetts","pop_total",6296,707
+"2524960","Framingham city, Massachusetts","pop_male",35526,722
+"2524960","Framingham city, Massachusetts","pop_female",36782,721
+"2524960","Framingham city, Massachusetts","pop_total",72308,47
+"2525172","Franklin Town city, Massachusetts","pop_male",16018,497
+"2525172","Franklin Town city, Massachusetts","pop_female",17238,493
+"2525172","Franklin Town city, Massachusetts","pop_total",33256,36
+"2525485","Gardner city, Massachusetts","pop_male",10634,407
+"2525485","Gardner city, Massachusetts","pop_female",9976,410
+"2525485","Gardner city, Massachusetts","pop_total",20610,26
+"2526150","Gloucester city, Massachusetts","pop_male",14597,485
+"2526150","Gloucester city, Massachusetts","pop_female",15565,486
+"2526150","Gloucester city, Massachusetts","pop_total",30162,26
+"2526500","Granby CDP, Massachusetts","pop_male",629,189
+"2526500","Granby CDP, Massachusetts","pop_female",643,151
+"2526500","Granby CDP, Massachusetts","pop_total",1272,281
+"2526780","Great Barrington CDP, Massachusetts","pop_male",953,232
+"2526780","Great Barrington CDP, Massachusetts","pop_female",1117,233
+"2526780","Great Barrington CDP, Massachusetts","pop_total",2070,394
+"2527100","Greenfield Town city, Massachusetts","pop_male",8641,277
+"2527100","Greenfield Town city, Massachusetts","pop_female",8734,272
+"2527100","Greenfield Town city, Massachusetts","pop_total",17375,25
+"2527147","Green Harbor-Cedar Crest CDP, Massachusetts","pop_male",1226,279
+"2527147","Green Harbor-Cedar Crest CDP, Massachusetts","pop_female",1477,316
+"2527147","Green Harbor-Cedar Crest CDP, Massachusetts","pop_total",2703,535
+"2527445","Groton CDP, Massachusetts","pop_male",708,242
+"2527445","Groton CDP, Massachusetts","pop_female",637,169
+"2527445","Groton CDP, Massachusetts","pop_total",1345,379
+"2528425","Hanscom AFB CDP, Massachusetts","pop_male",1133,104
+"2528425","Hanscom AFB CDP, Massachusetts","pop_female",912,101
+"2528425","Hanscom AFB CDP, Massachusetts","pop_total",2045,139
+"2528460","Hanson CDP, Massachusetts","pop_male",904,200
+"2528460","Hanson CDP, Massachusetts","pop_female",865,166
+"2528460","Hanson CDP, Massachusetts","pop_total",1769,328
+"2529055","Harwich Center CDP, Massachusetts","pop_male",565,180
+"2529055","Harwich Center CDP, Massachusetts","pop_female",841,204
+"2529055","Harwich Center CDP, Massachusetts","pop_total",1406,362
+"2529090","Harwich Port CDP, Massachusetts","pop_male",822,163
+"2529090","Harwich Port CDP, Massachusetts","pop_female",987,206
+"2529090","Harwich Port CDP, Massachusetts","pop_total",1809,320
+"2529230","Hatfield CDP, Massachusetts","pop_male",624,132
+"2529230","Hatfield CDP, Massachusetts","pop_female",681,136
+"2529230","Hatfield CDP, Massachusetts","pop_total",1305,230
+"2529405","Haverhill city, Massachusetts","pop_male",30677,703
+"2529405","Haverhill city, Massachusetts","pop_female",32856,706
+"2529405","Haverhill city, Massachusetts","pop_total",63533,30
+"2530175","Hingham CDP, Massachusetts","pop_male",2938,322
+"2530175","Hingham CDP, Massachusetts","pop_female",3523,399
+"2530175","Hingham CDP, Massachusetts","pop_total",6461,632
+"2530420","Holbrook CDP, Massachusetts","pop_male",5166,283
+"2530420","Holbrook CDP, Massachusetts","pop_female",5879,282
+"2530420","Holbrook CDP, Massachusetts","pop_total",11045,24
+"2530630","Holland CDP, Massachusetts","pop_male",790,141
+"2530630","Holland CDP, Massachusetts","pop_female",757,129
+"2530630","Holland CDP, Massachusetts","pop_total",1547,249
+"2530840","Holyoke city, Massachusetts","pop_male",19494,570
+"2530840","Holyoke city, Massachusetts","pop_female",20747,568
+"2530840","Holyoke city, Massachusetts","pop_total",40241,59
+"2530980","Hopedale CDP, Massachusetts","pop_male",1695,347
+"2530980","Hopedale CDP, Massachusetts","pop_female",1668,236
+"2530980","Hopedale CDP, Massachusetts","pop_total",3363,489
+"2531050","Hopkinton CDP, Massachusetts","pop_male",1209,169
+"2531050","Hopkinton CDP, Massachusetts","pop_female",1889,467
+"2531050","Hopkinton CDP, Massachusetts","pop_total",3098,540
+"2531295","Housatonic CDP, Massachusetts","pop_male",339,185
+"2531295","Housatonic CDP, Massachusetts","pop_female",414,175
+"2531295","Housatonic CDP, Massachusetts","pop_total",753,302
+"2531575","Hudson CDP, Massachusetts","pop_male",7486,380
+"2531575","Hudson CDP, Massachusetts","pop_female",7860,383
+"2531575","Hudson CDP, Massachusetts","pop_total",15346,398
+"2531680","Hull CDP, Massachusetts","pop_male",4845,231
+"2531680","Hull CDP, Massachusetts","pop_female",5610,234
+"2531680","Hull CDP, Massachusetts","pop_total",10455,24
+"2531750","Huntington CDP, Massachusetts","pop_male",314,73
+"2531750","Huntington CDP, Massachusetts","pop_female",320,81
+"2531750","Huntington CDP, Massachusetts","pop_total",634,133
+"2532275","Ipswich CDP, Massachusetts","pop_male",2154,252
+"2532275","Ipswich CDP, Massachusetts","pop_female",2545,296
+"2532275","Ipswich CDP, Massachusetts","pop_total",4699,437
+"2533185","Kingston CDP, Massachusetts","pop_male",3130,394
+"2533185","Kingston CDP, Massachusetts","pop_female",3148,405
+"2533185","Kingston CDP, Massachusetts","pop_total",6278,591
+"2534550","Lawrence city, Massachusetts","pop_male",39118,799
+"2534550","Lawrence city, Massachusetts","pop_female",40824,806
+"2534550","Lawrence city, Massachusetts","pop_total",79942,48
+"2534620","Lee CDP, Massachusetts","pop_male",913,278
+"2534620","Lee CDP, Massachusetts","pop_female",804,182
+"2534620","Lee CDP, Massachusetts","pop_total",1717,407
+"2534935","Lenox CDP, Massachusetts","pop_male",771,223
+"2534935","Lenox CDP, Massachusetts","pop_female",1128,183
+"2534935","Lenox CDP, Massachusetts","pop_total",1899,337
+"2535075","Leominster city, Massachusetts","pop_male",19775,606
+"2535075","Leominster city, Massachusetts","pop_female",21831,610
+"2535075","Leominster city, Massachusetts","pop_total",41606,38
+"2535250","Lexington CDP, Massachusetts","pop_male",16150,377
+"2535250","Lexington CDP, Massachusetts","pop_female",17190,372
+"2535250","Lexington CDP, Massachusetts","pop_total",33340,35
+"2536020","Littleton Common CDP, Massachusetts","pop_male",1560,185
+"2536020","Littleton Common CDP, Massachusetts","pop_female",1733,200
+"2536020","Littleton Common CDP, Massachusetts","pop_total",3293,286
+"2536335","Longmeadow CDP, Massachusetts","pop_male",7497,324
+"2536335","Longmeadow CDP, Massachusetts","pop_female",8294,323
+"2536335","Longmeadow CDP, Massachusetts","pop_total",15791,22
+"2537000","Lowell city, Massachusetts","pop_male",55617,989
+"2537000","Lowell city, Massachusetts","pop_female",55689,994
+"2537000","Lowell city, Massachusetts","pop_total",111306,61
+"2537385","Lunenburg CDP, Massachusetts","pop_male",797,164
+"2537385","Lunenburg CDP, Massachusetts","pop_female",981,192
+"2537385","Lunenburg CDP, Massachusetts","pop_total",1778,312
+"2537490","Lynn city, Massachusetts","pop_male",47227,817
+"2537490","Lynn city, Massachusetts","pop_female",46516,829
+"2537490","Lynn city, Massachusetts","pop_total",93743,65
+"2537595","Lynnfield CDP, Massachusetts","pop_male",6215,286
+"2537595","Lynnfield CDP, Massachusetts","pop_female",6679,290
+"2537595","Lynnfield CDP, Massachusetts","pop_total",12894,43
+"2537735","Madaket CDP, Massachusetts","pop_male",124,56
+"2537735","Madaket CDP, Massachusetts","pop_female",150,73
+"2537735","Madaket CDP, Massachusetts","pop_total",274,95
+"2537875","Malden city, Massachusetts","pop_male",29190,715
+"2537875","Malden city, Massachusetts","pop_female",31794,711
+"2537875","Malden city, Massachusetts","pop_total",60984,33
+"2538230","Mansfield Center CDP, Massachusetts","pop_male",3886,431
+"2538230","Mansfield Center CDP, Massachusetts","pop_female",4019,425
+"2538230","Mansfield Center CDP, Massachusetts","pop_total",7905,631
+"2538435","Marblehead CDP, Massachusetts","pop_male",9650,302
+"2538435","Marblehead CDP, Massachusetts","pop_female",10850,301
+"2538435","Marblehead CDP, Massachusetts","pop_total",20500,40
+"2538575","Marion Center CDP, Massachusetts","pop_male",485,161
+"2538575","Marion Center CDP, Massachusetts","pop_female",591,131
+"2538575","Marion Center CDP, Massachusetts","pop_total",1076,207
+"2538715","Marlborough city, Massachusetts","pop_male",19257,643
+"2538715","Marlborough city, Massachusetts","pop_female",20479,644
+"2538715","Marlborough city, Massachusetts","pop_total",39736,24
+"2538820","Marshfield CDP, Massachusetts","pop_male",2364,311
+"2538820","Marshfield CDP, Massachusetts","pop_female",2564,402
+"2538820","Marshfield CDP, Massachusetts","pop_total",4928,609
+"2538960","Marshfield Hills CDP, Massachusetts","pop_male",1054,283
+"2538960","Marshfield Hills CDP, Massachusetts","pop_female",1261,323
+"2538960","Marshfield Hills CDP, Massachusetts","pop_total",2315,573
+"2539152","Mashpee Neck CDP, Massachusetts","pop_male",673,169
+"2539152","Mashpee Neck CDP, Massachusetts","pop_female",713,181
+"2539152","Mashpee Neck CDP, Massachusetts","pop_total",1386,322
+"2539485","Mattapoisett Center CDP, Massachusetts","pop_male",1577,284
+"2539485","Mattapoisett Center CDP, Massachusetts","pop_female",1777,343
+"2539485","Mattapoisett Center CDP, Massachusetts","pop_total",3354,502
+"2539660","Maynard CDP, Massachusetts","pop_male",5245,269
+"2539660","Maynard CDP, Massachusetts","pop_female",5509,268
+"2539660","Maynard CDP, Massachusetts","pop_total",10754,29
+"2539730","Medfield CDP, Massachusetts","pop_male",3428,329
+"2539730","Medfield CDP, Massachusetts","pop_female",3538,318
+"2539730","Medfield CDP, Massachusetts","pop_total",6966,520
+"2539835","Medford city, Massachusetts","pop_male",28252,731
+"2539835","Medford city, Massachusetts","pop_female",29385,739
+"2539835","Medford city, Massachusetts","pop_total",57637,67
+"2540115","Melrose city, Massachusetts","pop_male",12978,392
+"2540115","Melrose city, Massachusetts","pop_female",15135,394
+"2540115","Melrose city, Massachusetts","pop_total",28113,56
+"2540710","Methuen Town city, Massachusetts","pop_male",24172,689
+"2540710","Methuen Town city, Massachusetts","pop_female",26110,691
+"2540710","Methuen Town city, Massachusetts","pop_total",50282,59
+"2540885","Middleborough Center CDP, Massachusetts","pop_male",3702,334
+"2540885","Middleborough Center CDP, Massachusetts","pop_female",3641,340
+"2540885","Middleborough Center CDP, Massachusetts","pop_total",7343,445
+"2541200","Milford CDP, Massachusetts","pop_male",12878,525
+"2541200","Milford CDP, Massachusetts","pop_female",13206,490
+"2541200","Milford CDP, Massachusetts","pop_total",26084,439
+"2541410","Millers Falls CDP, Massachusetts","pop_male",611,142
+"2541410","Millers Falls CDP, Massachusetts","pop_female",673,118
+"2541410","Millers Falls CDP, Massachusetts","pop_total",1284,225
+"2541532","Millis-Clicquot CDP, Massachusetts","pop_male",2226,303
+"2541532","Millis-Clicquot CDP, Massachusetts","pop_female",2432,305
+"2541532","Millis-Clicquot CDP, Massachusetts","pop_total",4658,419
+"2541725","Milton CDP, Massachusetts","pop_male",12964,461
+"2541725","Milton CDP, Massachusetts","pop_female",14608,463
+"2541725","Milton CDP, Massachusetts","pop_total",27572,34
+"2541960","Monomoscoy Island CDP, Massachusetts","pop_male",50,26
+"2541960","Monomoscoy Island CDP, Massachusetts","pop_female",50,30
+"2541960","Monomoscoy Island CDP, Massachusetts","pop_total",100,45
+"2542180","Monson Center CDP, Massachusetts","pop_male",948,190
+"2542180","Monson Center CDP, Massachusetts","pop_female",933,165
+"2542180","Monson Center CDP, Massachusetts","pop_total",1881,302
+"2542670","Monument Beach CDP, Massachusetts","pop_male",1362,340
+"2542670","Monument Beach CDP, Massachusetts","pop_female",1445,259
+"2542670","Monument Beach CDP, Massachusetts","pop_total",2807,526
+"2543615","Nahant CDP, Massachusetts","pop_male",1625,110
+"2543615","Nahant CDP, Massachusetts","pop_female",1877,108
+"2543615","Nahant CDP, Massachusetts","pop_total",3502,20
+"2543755","Nantucket CDP, Massachusetts","pop_male",3989,283
+"2543755","Nantucket CDP, Massachusetts","pop_female",3995,226
+"2543755","Nantucket CDP, Massachusetts","pop_total",7984,440
+"2544140","Needham CDP, Massachusetts","pop_male",14855,434
+"2544140","Needham CDP, Massachusetts","pop_female",16115,436
+"2544140","Needham CDP, Massachusetts","pop_total",30970,35
+"2545000","New Bedford city, Massachusetts","pop_male",45908,765
+"2545000","New Bedford city, Massachusetts","pop_female",49331,767
+"2545000","New Bedford city, Massachusetts","pop_total",95239,89
+"2545245","Newburyport city, Massachusetts","pop_male",8229,283
+"2545245","Newburyport city, Massachusetts","pop_female",9848,279
+"2545245","Newburyport city, Massachusetts","pop_total",18077,30
+"2545500","New Seabury CDP, Massachusetts","pop_male",341,107
+"2545500","New Seabury CDP, Massachusetts","pop_female",369,109
+"2545500","New Seabury CDP, Massachusetts","pop_total",710,188
+"2545560","Newton city, Massachusetts","pop_male",41195,590
+"2545560","Newton city, Massachusetts","pop_female",47398,588
+"2545560","Newton city, Massachusetts","pop_total",88593,66
+"2546225","North Adams city, Massachusetts","pop_male",6469,281
+"2546225","North Adams city, Massachusetts","pop_female",6490,285
+"2546225","North Adams city, Massachusetts","pop_total",12959,33
+"2546295","North Amherst CDP, Massachusetts","pop_male",3605,565
+"2546295","North Amherst CDP, Massachusetts","pop_female",3302,520
+"2546295","North Amherst CDP, Massachusetts","pop_total",6907,793
+"2546330","Northampton city, Massachusetts","pop_male",11966,415
+"2546330","Northampton city, Massachusetts","pop_female",16550,416
+"2546330","Northampton city, Massachusetts","pop_total",28516,31
+"2546785","Northborough CDP, Massachusetts","pop_male",2961,232
+"2546785","Northborough CDP, Massachusetts","pop_female",3337,358
+"2546785","Northborough CDP, Massachusetts","pop_total",6298,431
+"2547100","North Brookfield CDP, Massachusetts","pop_male",1081,158
+"2547100","North Brookfield CDP, Massachusetts","pop_female",1385,183
+"2547100","North Brookfield CDP, Massachusetts","pop_total",2466,271
+"2547590","North Eastham CDP, Massachusetts","pop_male",734,145
+"2547590","North Eastham CDP, Massachusetts","pop_female",878,197
+"2547590","North Eastham CDP, Massachusetts","pop_total",1612,294
+"2547730","North Falmouth CDP, Massachusetts","pop_male",1124,216
+"2547730","North Falmouth CDP, Massachusetts","pop_female",1392,223
+"2547730","North Falmouth CDP, Massachusetts","pop_total",2516,366
+"2547800","Northfield CDP, Massachusetts","pop_male",471,89
+"2547800","Northfield CDP, Massachusetts","pop_female",561,119
+"2547800","Northfield CDP, Massachusetts","pop_total",1032,176
+"2548220","North Lakeville CDP, Massachusetts","pop_male",1558,164
+"2548220","North Lakeville CDP, Massachusetts","pop_female",1556,195
+"2548220","North Lakeville CDP, Massachusetts","pop_total",3114,267
+"2548710","North Pembroke CDP, Massachusetts","pop_male",1663,314
+"2548710","North Pembroke CDP, Massachusetts","pop_female",1795,295
+"2548710","North Pembroke CDP, Massachusetts","pop_total",3458,452
+"2548780","North Plymouth CDP, Massachusetts","pop_male",1908,221
+"2548780","North Plymouth CDP, Massachusetts","pop_female",2183,290
+"2548780","North Plymouth CDP, Massachusetts","pop_total",4091,328
+"2549165","North Scituate CDP, Massachusetts","pop_male",2531,293
+"2549165","North Scituate CDP, Massachusetts","pop_female",2513,250
+"2549165","North Scituate CDP, Massachusetts","pop_total",5044,452
+"2549200","North Seekonk CDP, Massachusetts","pop_male",1204,228
+"2549200","North Seekonk CDP, Massachusetts","pop_female",1194,231
+"2549200","North Seekonk CDP, Massachusetts","pop_total",2398,389
+"2549700","Northwest Harwich CDP, Massachusetts","pop_male",2039,301
+"2549700","Northwest Harwich CDP, Massachusetts","pop_female",2097,281
+"2549700","Northwest Harwich CDP, Massachusetts","pop_total",4136,441
+"2549710","North Westport CDP, Massachusetts","pop_male",2225,333
+"2549710","North Westport CDP, Massachusetts","pop_female",2285,322
+"2549710","North Westport CDP, Massachusetts","pop_total",4510,525
+"2550005","Norton Center CDP, Massachusetts","pop_male",1319,244
+"2550005","Norton Center CDP, Massachusetts","pop_female",1455,202
+"2550005","Norton Center CDP, Massachusetts","pop_total",2774,328
+"2550285","Norwood CDP, Massachusetts","pop_male",13805,444
+"2550285","Norwood CDP, Massachusetts","pop_female",15501,448
+"2550285","Norwood CDP, Massachusetts","pop_total",29306,31
+"2550862","Ocean Bluff-Brant Rock CDP, Massachusetts","pop_male",2444,307
+"2550862","Ocean Bluff-Brant Rock CDP, Massachusetts","pop_female",2755,397
+"2550862","Ocean Bluff-Brant Rock CDP, Massachusetts","pop_total",5199,550
+"2550880","Ocean Grove CDP, Massachusetts","pop_male",1597,279
+"2550880","Ocean Grove CDP, Massachusetts","pop_female",1495,329
+"2550880","Ocean Grove CDP, Massachusetts","pop_total",3092,526
+"2551160","Onset CDP, Massachusetts","pop_male",373,157
+"2551160","Onset CDP, Massachusetts","pop_female",381,229
+"2551160","Onset CDP, Massachusetts","pop_total",754,292
+"2551230","Orange CDP, Massachusetts","pop_male",1814,192
+"2551230","Orange CDP, Massachusetts","pop_female",1958,217
+"2551230","Orange CDP, Massachusetts","pop_total",3772,230
+"2551405","Orleans CDP, Massachusetts","pop_male",785,148
+"2551405","Orleans CDP, Massachusetts","pop_female",1013,180
+"2551405","Orleans CDP, Massachusetts","pop_total",1798,287
+"2551790","Oxford CDP, Massachusetts","pop_male",2984,360
+"2551790","Oxford CDP, Massachusetts","pop_female",2611,271
+"2551790","Oxford CDP, Massachusetts","pop_total",5595,406
+"2552144","Palmer Town city, Massachusetts","pop_male",5849,310
+"2552144","Palmer Town city, Massachusetts","pop_female",6388,311
+"2552144","Palmer Town city, Massachusetts","pop_total",12237,21
+"2552490","Peabody city, Massachusetts","pop_male",25372,603
+"2552490","Peabody city, Massachusetts","pop_female",27534,610
+"2552490","Peabody city, Massachusetts","pop_total",52906,40
+"2552770","Pepperell CDP, Massachusetts","pop_male",1340,178
+"2552770","Pepperell CDP, Massachusetts","pop_female",1486,237
+"2552770","Pepperell CDP, Massachusetts","pop_total",2826,323
+"2553085","Petersham CDP, Massachusetts","pop_male",122,38
+"2553085","Petersham CDP, Massachusetts","pop_female",137,41
+"2553085","Petersham CDP, Massachusetts","pop_total",259,72
+"2553680","Pinehurst CDP, Massachusetts","pop_male",3734,243
+"2553680","Pinehurst CDP, Massachusetts","pop_female",3549,231
+"2553680","Pinehurst CDP, Massachusetts","pop_total",7283,380
+"2553960","Pittsfield city, Massachusetts","pop_male",20261,419
+"2553960","Pittsfield city, Massachusetts","pop_female",22505,430
+"2553960","Pittsfield city, Massachusetts","pop_total",42766,37
+"2554275","Plymouth CDP, Massachusetts","pop_male",3182,398
+"2554275","Plymouth CDP, Massachusetts","pop_female",3899,415
+"2554275","Plymouth CDP, Massachusetts","pop_total",7081,576
+"2554450","Pocasset CDP, Massachusetts","pop_male",1476,272
+"2554450","Pocasset CDP, Massachusetts","pop_female",1417,210
+"2554450","Pocasset CDP, Massachusetts","pop_total",2893,414
+"2555070","Popponesset CDP, Massachusetts","pop_male",91,70
+"2555070","Popponesset CDP, Massachusetts","pop_female",59,45
+"2555070","Popponesset CDP, Massachusetts","pop_total",150,108
+"2555090","Popponesset Island CDP, Massachusetts","pop_male",17,18
+"2555090","Popponesset Island CDP, Massachusetts","pop_female",17,19
+"2555090","Popponesset Island CDP, Massachusetts","pop_total",34,37
+"2555535","Provincetown CDP, Massachusetts","pop_male",1559,160
+"2555535","Provincetown CDP, Massachusetts","pop_female",1171,156
+"2555535","Provincetown CDP, Massachusetts","pop_total",2730,100
+"2555745","Quincy city, Massachusetts","pop_male",45781,788
+"2555745","Quincy city, Massachusetts","pop_female",48426,794
+"2555745","Quincy city, Massachusetts","pop_total",94207,50
+"2556000","Randolph Town city, Massachusetts","pop_male",16393,473
+"2556000","Randolph Town city, Massachusetts","pop_female",17671,476
+"2556000","Randolph Town city, Massachusetts","pop_total",34064,38
+"2556095","Raynham Center CDP, Massachusetts","pop_male",2165,277
+"2556095","Raynham Center CDP, Massachusetts","pop_female",2758,397
+"2556095","Raynham Center CDP, Massachusetts","pop_total",4923,557
+"2556165","Reading CDP, Massachusetts","pop_male",12403,322
+"2556165","Reading CDP, Massachusetts","pop_female",12729,323
+"2556165","Reading CDP, Massachusetts","pop_total",25132,21
+"2556585","Revere city, Massachusetts","pop_male",27018,686
+"2556585","Revere city, Massachusetts","pop_female",26674,675
+"2556585","Revere city, Massachusetts","pop_total",53692,59
+"2557845","Rockport CDP, Massachusetts","pop_male",2226,183
+"2557845","Rockport CDP, Massachusetts","pop_female",3034,221
+"2557845","Rockport CDP, Massachusetts","pop_total",5260,295
+"2558370","Rowley CDP, Massachusetts","pop_male",757,181
+"2558370","Rowley CDP, Massachusetts","pop_female",872,175
+"2558370","Rowley CDP, Massachusetts","pop_total",1629,296
+"2558615","Russell CDP, Massachusetts","pop_male",228,78
+"2558615","Russell CDP, Massachusetts","pop_female",298,79
+"2558615","Russell CDP, Massachusetts","pop_total",526,141
+"2558790","Rutland CDP, Massachusetts","pop_male",1309,421
+"2558790","Rutland CDP, Massachusetts","pop_female",1051,268
+"2558790","Rutland CDP, Massachusetts","pop_total",2360,649
+"2558965","Sagamore CDP, Massachusetts","pop_male",1767,246
+"2558965","Sagamore CDP, Massachusetts","pop_female",1908,287
+"2558965","Sagamore CDP, Massachusetts","pop_total",3675,427
+"2559105","Salem city, Massachusetts","pop_male",19614,745
+"2559105","Salem city, Massachusetts","pop_female",23638,742
+"2559105","Salem city, Massachusetts","pop_total",43252,33
+"2559210","Salisbury CDP, Massachusetts","pop_male",2703,285
+"2559210","Salisbury CDP, Massachusetts","pop_female",2428,245
+"2559210","Salisbury CDP, Massachusetts","pop_total",5131,387
+"2559700","Sandwich CDP, Massachusetts","pop_male",1414,182
+"2559700","Sandwich CDP, Massachusetts","pop_female",1588,212
+"2559700","Sandwich CDP, Massachusetts","pop_total",3002,297
+"2560050","Saugus CDP, Massachusetts","pop_male",13817,479
+"2560050","Saugus CDP, Massachusetts","pop_female",14398,480
+"2560050","Saugus CDP, Massachusetts","pop_total",28215,40
+"2560295","Scituate CDP, Massachusetts","pop_male",2471,291
+"2560295","Scituate CDP, Massachusetts","pop_female",3087,340
+"2560295","Scituate CDP, Massachusetts","pop_total",5558,435
+"2560505","Seabrook CDP, Massachusetts","pop_male",229,109
+"2560505","Seabrook CDP, Massachusetts","pop_female",288,112
+"2560505","Seabrook CDP, Massachusetts","pop_total",517,193
+"2560627","Seconsett Island CDP, Massachusetts","pop_male",19,21
+"2560627","Seconsett Island CDP, Massachusetts","pop_female",21,23
+"2560627","Seconsett Island CDP, Massachusetts","pop_total",40,44
+"2560820","Sharon CDP, Massachusetts","pop_male",2929,240
+"2560820","Sharon CDP, Massachusetts","pop_female",2985,255
+"2560820","Sharon CDP, Massachusetts","pop_total",5914,402
+"2561205","Shelburne Falls CDP, Massachusetts","pop_male",849,150
+"2561205","Shelburne Falls CDP, Massachusetts","pop_female",957,117
+"2561205","Shelburne Falls CDP, Massachusetts","pop_total",1806,192
+"2561555","Shirley CDP, Massachusetts","pop_male",974,248
+"2561555","Shirley CDP, Massachusetts","pop_female",887,239
+"2561555","Shirley CDP, Massachusetts","pop_total",1861,401
+"2561940","Siasconset CDP, Massachusetts","pop_male",50,32
+"2561940","Siasconset CDP, Massachusetts","pop_female",31,27
+"2561940","Siasconset CDP, Massachusetts","pop_total",81,50
+"2562300","Smith Mills CDP, Massachusetts","pop_male",2214,356
+"2562300","Smith Mills CDP, Massachusetts","pop_female",2464,292
+"2562300","Smith Mills CDP, Massachusetts","pop_total",4678,472
+"2562465","Somerset CDP, Massachusetts","pop_male",9001,380
+"2562465","Somerset CDP, Massachusetts","pop_female",9164,383
+"2562465","Somerset CDP, Massachusetts","pop_total",18165,24
+"2562535","Somerville city, Massachusetts","pop_male",40106,942
+"2562535","Somerville city, Massachusetts","pop_female",40800,936
+"2562535","Somerville city, Massachusetts","pop_total",80906,47
+"2562675","South Amherst CDP, Massachusetts","pop_male",2515,450
+"2562675","South Amherst CDP, Massachusetts","pop_female",2591,343
+"2562675","South Amherst CDP, Massachusetts","pop_total",5106,591
+"2562780","South Ashburnham CDP, Massachusetts","pop_male",445,167
+"2562780","South Ashburnham CDP, Massachusetts","pop_female",479,180
+"2562780","South Ashburnham CDP, Massachusetts","pop_total",924,295
+"2563345","Southbridge Town city, Massachusetts","pop_male",8251,277
+"2563345","Southbridge Town city, Massachusetts","pop_female",8636,276
+"2563345","Southbridge Town city, Massachusetts","pop_total",16887,32
+"2563620","South Deerfield CDP, Massachusetts","pop_male",1016,244
+"2563620","South Deerfield CDP, Massachusetts","pop_female",1025,185
+"2563620","South Deerfield CDP, Massachusetts","pop_total",2041,372
+"2563655","South Dennis CDP, Massachusetts","pop_male",1523,218
+"2563655","South Dennis CDP, Massachusetts","pop_female",1870,234
+"2563655","South Dennis CDP, Massachusetts","pop_total",3393,372
+"2563690","South Duxbury CDP, Massachusetts","pop_male",1825,175
+"2563690","South Duxbury CDP, Massachusetts","pop_female",1804,163
+"2563690","South Duxbury CDP, Massachusetts","pop_total",3629,259
+"2564460","South Lancaster CDP, Massachusetts","pop_male",808,281
+"2564460","South Lancaster CDP, Massachusetts","pop_female",822,232
+"2564460","South Lancaster CDP, Massachusetts","pop_total",1630,427
+"2566035","South Yarmouth CDP, Massachusetts","pop_male",5192,452
+"2566035","South Yarmouth CDP, Massachusetts","pop_female",5899,372
+"2566035","South Yarmouth CDP, Massachusetts","pop_total",11091,654
+"2566070","Spencer CDP, Massachusetts","pop_male",3117,301
+"2566070","Spencer CDP, Massachusetts","pop_female",2675,267
+"2566070","Spencer CDP, Massachusetts","pop_total",5792,383
+"2567000","Springfield city, Massachusetts","pop_male",73749,807
+"2567000","Springfield city, Massachusetts","pop_female",80390,811
+"2567000","Springfield city, Massachusetts","pop_total",154139,66
+"2567700","Stoneham CDP, Massachusetts","pop_male",11629,369
+"2567700","Stoneham CDP, Massachusetts","pop_female",11594,373
+"2567700","Stoneham CDP, Massachusetts","pop_total",23223,27
+"2568120","Sturbridge CDP, Massachusetts","pop_male",1033,212
+"2568120","Sturbridge CDP, Massachusetts","pop_female",1210,267
+"2568120","Sturbridge CDP, Massachusetts","pop_total",2243,429
+"2568680","Swampscott CDP, Massachusetts","pop_male",6882,247
+"2568680","Swampscott CDP, Massachusetts","pop_female",8120,241
+"2568680","Swampscott CDP, Massachusetts","pop_total",15002,48
+"2569170","Taunton city, Massachusetts","pop_male",27266,642
+"2569170","Taunton city, Massachusetts","pop_female",29858,649
+"2569170","Taunton city, Massachusetts","pop_total",57124,40
+"2569205","Teaticket CDP, Massachusetts","pop_male",865,184
+"2569205","Teaticket CDP, Massachusetts","pop_female",832,132
+"2569205","Teaticket CDP, Massachusetts","pop_total",1697,280
+"2569585","The Pinehills CDP, Massachusetts","pop_male",570,154
+"2569585","The Pinehills CDP, Massachusetts","pop_female",849,151
+"2569585","The Pinehills CDP, Massachusetts","pop_total",1419,246
+"2570115","Topsfield CDP, Massachusetts","pop_male",1607,315
+"2570115","Topsfield CDP, Massachusetts","pop_female",1609,267
+"2570115","Topsfield CDP, Massachusetts","pop_total",3216,489
+"2570325","Townsend CDP, Massachusetts","pop_male",603,163
+"2570325","Townsend CDP, Massachusetts","pop_female",707,146
+"2570325","Townsend CDP, Massachusetts","pop_total",1310,259
+"2570815","Turners Falls CDP, Massachusetts","pop_male",1812,211
+"2570815","Turners Falls CDP, Massachusetts","pop_female",2198,232
+"2570815","Turners Falls CDP, Massachusetts","pop_total",4010,325
+"2571445","Upton CDP, Massachusetts","pop_male",1325,327
+"2571445","Upton CDP, Massachusetts","pop_female",967,220
+"2571445","Upton CDP, Massachusetts","pop_total",2292,502
+"2571970","Vineyard Haven CDP, Massachusetts","pop_male",1170,260
+"2571970","Vineyard Haven CDP, Massachusetts","pop_female",953,231
+"2571970","Vineyard Haven CDP, Massachusetts","pop_total",2123,395
+"2572250","Wakefield CDP, Massachusetts","pop_male",12862,401
+"2572250","Wakefield CDP, Massachusetts","pop_female",14131,407
+"2572250","Wakefield CDP, Massachusetts","pop_total",26993,25
+"2572460","Walpole CDP, Massachusetts","pop_male",3135,484
+"2572460","Walpole CDP, Massachusetts","pop_female",3062,344
+"2572460","Walpole CDP, Massachusetts","pop_total",6197,757
+"2572600","Waltham city, Massachusetts","pop_male",30645,776
+"2572600","Waltham city, Massachusetts","pop_female",32132,777
+"2572600","Waltham city, Massachusetts","pop_total",62777,52
+"2572845","Ware CDP, Massachusetts","pop_male",2791,277
+"2572845","Ware CDP, Massachusetts","pop_female",3097,295
+"2572845","Ware CDP, Massachusetts","pop_total",5888,444
+"2573020","Wareham Center CDP, Massachusetts","pop_male",1444,392
+"2573020","Wareham Center CDP, Massachusetts","pop_female",1761,380
+"2573020","Wareham Center CDP, Massachusetts","pop_total",3205,638
+"2573055","Warren CDP, Massachusetts","pop_male",225,122
+"2573055","Warren CDP, Massachusetts","pop_female",285,176
+"2573055","Warren CDP, Massachusetts","pop_total",510,242
+"2573440","Watertown Town city, Massachusetts","pop_male",16520,486
+"2573440","Watertown Town city, Massachusetts","pop_female",18881,484
+"2573440","Watertown Town city, Massachusetts","pop_total",35401,35
+"2573930","Webster CDP, Massachusetts","pop_male",5699,337
+"2573930","Webster CDP, Massachusetts","pop_female",6244,345
+"2573930","Webster CDP, Massachusetts","pop_total",11943,386
+"2574210","Wellesley CDP, Massachusetts","pop_male",12445,350
+"2574210","Wellesley CDP, Massachusetts","pop_female",16302,350
+"2574210","Wellesley CDP, Massachusetts","pop_total",28747,32
+"2575050","Westborough CDP, Massachusetts","pop_male",1946,168
+"2575050","Westborough CDP, Massachusetts","pop_female",2011,196
+"2575050","Westborough CDP, Massachusetts","pop_total",3957,281
+"2575365","West Brookfield CDP, Massachusetts","pop_male",669,182
+"2575365","West Brookfield CDP, Massachusetts","pop_female",810,182
+"2575365","West Brookfield CDP, Massachusetts","pop_total",1479,321
+"2575505","West Chatham CDP, Massachusetts","pop_male",540,144
+"2575505","West Chatham CDP, Massachusetts","pop_female",614,195
+"2575505","West Chatham CDP, Massachusetts","pop_total",1154,281
+"2575680","West Concord CDP, Massachusetts","pop_male",4042,287
+"2575680","West Concord CDP, Massachusetts","pop_female",3352,204
+"2575680","West Concord CDP, Massachusetts","pop_total",7394,340
+"2575820","West Dennis CDP, Massachusetts","pop_male",1124,146
+"2575820","West Dennis CDP, Massachusetts","pop_female",1112,136
+"2575820","West Dennis CDP, Massachusetts","pop_total",2236,223
+"2575960","West Falmouth CDP, Massachusetts","pop_male",939,302
+"2575960","West Falmouth CDP, Massachusetts","pop_female",1032,370
+"2575960","West Falmouth CDP, Massachusetts","pop_total",1971,608
+"2576030","Westfield city, Massachusetts","pop_male",19928,512
+"2576030","Westfield city, Massachusetts","pop_female",21521,509
+"2576030","Westfield city, Massachusetts","pop_total",41449,39
+"2577890","West Springfield Town city, Massachusetts","pop_male",13963,506
+"2577890","West Springfield Town city, Massachusetts","pop_female",14646,504
+"2577890","West Springfield Town city, Massachusetts","pop_total",28609,42
+"2578410","West Wareham CDP, Massachusetts","pop_male",1037,252
+"2578410","West Wareham CDP, Massachusetts","pop_female",1222,245
+"2578410","West Wareham CDP, Massachusetts","pop_total",2259,431
+"2578795","West Yarmouth CDP, Massachusetts","pop_male",2568,386
+"2578795","West Yarmouth CDP, Massachusetts","pop_female",3173,334
+"2578795","West Yarmouth CDP, Massachusetts","pop_total",5741,636
+"2578850","Weweantic CDP, Massachusetts","pop_male",819,258
+"2578850","Weweantic CDP, Massachusetts","pop_female",978,248
+"2578850","Weweantic CDP, Massachusetts","pop_total",1797,480
+"2578972","Weymouth Town city, Massachusetts","pop_male",26934,747
+"2578972","Weymouth Town city, Massachusetts","pop_female",29800,749
+"2578972","Weymouth Town city, Massachusetts","pop_total",56734,28
+"2579390","White Island Shores CDP, Massachusetts","pop_male",1404,365
+"2579390","White Island Shores CDP, Massachusetts","pop_female",1230,328
+"2579390","White Island Shores CDP, Massachusetts","pop_total",2634,531
+"2579495","Whitinsville CDP, Massachusetts","pop_male",3210,351
+"2579495","Whitinsville CDP, Massachusetts","pop_female",4010,378
+"2579495","Whitinsville CDP, Massachusetts","pop_total",7220,447
+"2579705","Wilbraham CDP, Massachusetts","pop_male",1691,263
+"2579705","Wilbraham CDP, Massachusetts","pop_female",1775,342
+"2579705","Wilbraham CDP, Massachusetts","pop_total",3466,518
+"2579950","Williamstown CDP, Massachusetts","pop_male",2024,174
+"2579950","Williamstown CDP, Massachusetts","pop_female",2482,207
+"2579950","Williamstown CDP, Massachusetts","pop_total",4506,267
+"2580195","Wilmington CDP, Massachusetts","pop_male",11516,362
+"2580195","Wilmington CDP, Massachusetts","pop_female",11861,363
+"2580195","Wilmington CDP, Massachusetts","pop_total",23377,45
+"2580370","Winchendon CDP, Massachusetts","pop_male",1998,366
+"2580370","Winchendon CDP, Massachusetts","pop_female",2001,311
+"2580370","Winchendon CDP, Massachusetts","pop_total",3999,549
+"2580545","Winchester CDP, Massachusetts","pop_male",11059,319
+"2580545","Winchester CDP, Massachusetts","pop_female",11679,325
+"2580545","Winchester CDP, Massachusetts","pop_total",22738,35
+"2581005","Winthrop Town city, Massachusetts","pop_male",8696,268
+"2581005","Winthrop Town city, Massachusetts","pop_female",9846,270
+"2581005","Winthrop Town city, Massachusetts","pop_total",18542,24
+"2581035","Woburn city, Massachusetts","pop_male",20383,510
+"2581035","Woburn city, Massachusetts","pop_female",19921,511
+"2581035","Woburn city, Massachusetts","pop_total",40304,29
+"2581245","Woods Hole CDP, Massachusetts","pop_male",242,85
+"2581245","Woods Hole CDP, Massachusetts","pop_female",574,166
+"2581245","Woods Hole CDP, Massachusetts","pop_total",816,206
+"2582000","Worcester city, Massachusetts","pop_male",90836,1009
+"2582000","Worcester city, Massachusetts","pop_female",94307,1012
+"2582000","Worcester city, Massachusetts","pop_total",185143,67
+"2582595","Yarmouth Port CDP, Massachusetts","pop_male",2294,281
+"2582595","Yarmouth Port CDP, Massachusetts","pop_female",2948,302
+"2582595","Yarmouth Port CDP, Massachusetts","pop_total",5242,511

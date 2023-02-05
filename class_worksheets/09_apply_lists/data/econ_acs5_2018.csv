@@ -1,0 +1,739 @@
+"GEOID","NAME","variable","estimate","moe"
+"2500135","Abington CDP, Massachusetts","inc_12_pov",607,219
+"2500135","Abington CDP, Massachusetts","inc_12_pov_m",264,143
+"2500135","Abington CDP, Massachusetts","inc_12_pov_f",343,128
+"2500530","Acushnet Center CDP, Massachusetts","inc_12_pov",235,154
+"2500530","Acushnet Center CDP, Massachusetts","inc_12_pov_m",90,62
+"2500530","Acushnet Center CDP, Massachusetts","inc_12_pov_f",145,103
+"2500590","Adams CDP, Massachusetts","inc_12_pov",839,291
+"2500590","Adams CDP, Massachusetts","inc_12_pov_m",357,138
+"2500590","Adams CDP, Massachusetts","inc_12_pov_f",482,188
+"2500840","Agawam Town city, Massachusetts","inc_12_pov",2256,508
+"2500840","Agawam Town city, Massachusetts","inc_12_pov_m",946,305
+"2500840","Agawam Town city, Massachusetts","inc_12_pov_f",1310,330
+"2501260","Amesbury Town city, Massachusetts","inc_12_pov",1068,363
+"2501260","Amesbury Town city, Massachusetts","inc_12_pov_m",529,250
+"2501260","Amesbury Town city, Massachusetts","inc_12_pov_f",539,169
+"2501360","Amherst Center CDP, Massachusetts","inc_12_pov",2319,503
+"2501360","Amherst Center CDP, Massachusetts","inc_12_pov_m",933,357
+"2501360","Amherst Center CDP, Massachusetts","inc_12_pov_f",1386,362
+"2501430","Andover CDP, Massachusetts","inc_12_pov",721,242
+"2501430","Andover CDP, Massachusetts","inc_12_pov_m",448,165
+"2501430","Andover CDP, Massachusetts","inc_12_pov_f",273,130
+"2501640","Arlington CDP, Massachusetts","inc_12_pov",2405,505
+"2501640","Arlington CDP, Massachusetts","inc_12_pov_m",999,273
+"2501640","Arlington CDP, Massachusetts","inc_12_pov_f",1406,321
+"2502515","Athol CDP, Massachusetts","inc_12_pov",1506,502
+"2502515","Athol CDP, Massachusetts","inc_12_pov_m",450,159
+"2502515","Athol CDP, Massachusetts","inc_12_pov_f",1056,460
+"2502690","Attleboro city, Massachusetts","inc_12_pov",3903,725
+"2502690","Attleboro city, Massachusetts","inc_12_pov_m",1915,485
+"2502690","Attleboro city, Massachusetts","inc_12_pov_f",1988,382
+"2503040","Ayer CDP, Massachusetts","inc_12_pov",232,139
+"2503040","Ayer CDP, Massachusetts","inc_12_pov_m",121,119
+"2503040","Ayer CDP, Massachusetts","inc_12_pov_f",111,77
+"2503355","Baldwinville CDP, Massachusetts","inc_12_pov",129,128
+"2503355","Baldwinville CDP, Massachusetts","inc_12_pov_m",56,70
+"2503355","Baldwinville CDP, Massachusetts","inc_12_pov_f",73,73
+"2503690","Barnstable Town city, Massachusetts","inc_12_pov",3823,641
+"2503690","Barnstable Town city, Massachusetts","inc_12_pov_m",1734,327
+"2503690","Barnstable Town city, Massachusetts","inc_12_pov_f",2089,476
+"2503705","Barre CDP, Massachusetts","inc_12_pov",55,57
+"2503705","Barre CDP, Massachusetts","inc_12_pov_m",33,42
+"2503705","Barre CDP, Massachusetts","inc_12_pov_f",22,35
+"2504790","Belchertown CDP, Massachusetts","inc_12_pov",297,162
+"2504790","Belchertown CDP, Massachusetts","inc_12_pov_m",151,95
+"2504790","Belchertown CDP, Massachusetts","inc_12_pov_f",146,117
+"2504965","Bellingham CDP, Massachusetts","inc_12_pov",160,106
+"2504965","Bellingham CDP, Massachusetts","inc_12_pov_m",40,29
+"2504965","Bellingham CDP, Massachusetts","inc_12_pov_f",120,95
+"2505105","Belmont CDP, Massachusetts","inc_12_pov",1439,369
+"2505105","Belmont CDP, Massachusetts","inc_12_pov_m",562,176
+"2505105","Belmont CDP, Massachusetts","inc_12_pov_f",877,238
+"2505595","Beverly city, Massachusetts","inc_12_pov",3171,715
+"2505595","Beverly city, Massachusetts","inc_12_pov_m",1336,374
+"2505595","Beverly city, Massachusetts","inc_12_pov_f",1835,440
+"2506050","Blandford CDP, Massachusetts","inc_12_pov",13,11
+"2506050","Blandford CDP, Massachusetts","inc_12_pov_m",3,5
+"2506050","Blandford CDP, Massachusetts","inc_12_pov_f",10,8
+"2506170","Bliss Corner CDP, Massachusetts","inc_12_pov",441,156
+"2506170","Bliss Corner CDP, Massachusetts","inc_12_pov_m",159,73
+"2506170","Bliss Corner CDP, Massachusetts","inc_12_pov_f",282,148
+"2507000","Boston city, Massachusetts","inc_12_pov",128415,3801
+"2507000","Boston city, Massachusetts","inc_12_pov_m",55384,1884
+"2507000","Boston city, Massachusetts","inc_12_pov_f",73031,2627
+"2507140","Bourne CDP, Massachusetts","inc_12_pov",65,54
+"2507140","Bourne CDP, Massachusetts","inc_12_pov_m",11,18
+"2507140","Bourne CDP, Massachusetts","inc_12_pov_f",54,44
+"2507385","Boxford CDP, Massachusetts","inc_12_pov",154,211
+"2507385","Boxford CDP, Massachusetts","inc_12_pov_m",46,70
+"2507385","Boxford CDP, Massachusetts","inc_12_pov_f",108,142
+"2507740","Braintree Town city, Massachusetts","inc_12_pov",1720,416
+"2507740","Braintree Town city, Massachusetts","inc_12_pov_m",693,195
+"2507740","Braintree Town city, Massachusetts","inc_12_pov_f",1027,279
+"2507945","Brewster CDP, Massachusetts","inc_12_pov",68,66
+"2507945","Brewster CDP, Massachusetts","inc_12_pov_m",14,23
+"2507945","Brewster CDP, Massachusetts","inc_12_pov_f",54,53
+"2508050","Bridgewater CDP, Massachusetts","inc_12_pov",1366,703
+"2508050","Bridgewater CDP, Massachusetts","inc_12_pov_m",542,343
+"2508050","Bridgewater CDP, Massachusetts","inc_12_pov_f",824,537
+"2509000","Brockton city, Massachusetts","inc_12_pov",14663,1579
+"2509000","Brockton city, Massachusetts","inc_12_pov_m",5838,735
+"2509000","Brockton city, Massachusetts","inc_12_pov_f",8825,988
+"2509070","Brookfield CDP, Massachusetts","inc_12_pov",41,41
+"2509070","Brookfield CDP, Massachusetts","inc_12_pov_m",11,17
+"2509070","Brookfield CDP, Massachusetts","inc_12_pov_f",30,29
+"2509210","Brookline CDP, Massachusetts","inc_12_pov",6861,852
+"2509210","Brookline CDP, Massachusetts","inc_12_pov_m",3261,555
+"2509210","Brookline CDP, Massachusetts","inc_12_pov_f",3600,587
+"2509875","Burlington CDP, Massachusetts","inc_12_pov",1049,308
+"2509875","Burlington CDP, Massachusetts","inc_12_pov_m",337,149
+"2509875","Burlington CDP, Massachusetts","inc_12_pov_f",712,212
+"2510015","Buzzards Bay CDP, Massachusetts","inc_12_pov",180,157
+"2510015","Buzzards Bay CDP, Massachusetts","inc_12_pov_m",97,90
+"2510015","Buzzards Bay CDP, Massachusetts","inc_12_pov_f",83,71
+"2511000","Cambridge city, Massachusetts","inc_12_pov",13070,944
+"2511000","Cambridge city, Massachusetts","inc_12_pov_m",6215,622
+"2511000","Cambridge city, Massachusetts","inc_12_pov_f",6855,671
+"2512960","Chatham CDP, Massachusetts","inc_12_pov",168,75
+"2512960","Chatham CDP, Massachusetts","inc_12_pov_m",58,45
+"2512960","Chatham CDP, Massachusetts","inc_12_pov_f",110,61
+"2513205","Chelsea city, Massachusetts","inc_12_pov",7402,1032
+"2513205","Chelsea city, Massachusetts","inc_12_pov_m",3208,561
+"2513205","Chelsea city, Massachusetts","inc_12_pov_f",4194,646
+"2513310","Cheshire CDP, Massachusetts","inc_12_pov",0,12
+"2513310","Cheshire CDP, Massachusetts","inc_12_pov_m",0,12
+"2513310","Cheshire CDP, Massachusetts","inc_12_pov_f",0,12
+"2513450","Chester CDP, Massachusetts","inc_12_pov",109,85
+"2513450","Chester CDP, Massachusetts","inc_12_pov_m",33,23
+"2513450","Chester CDP, Massachusetts","inc_12_pov_f",76,80
+"2513660","Chicopee city, Massachusetts","inc_12_pov",8397,970
+"2513660","Chicopee city, Massachusetts","inc_12_pov_m",3877,601
+"2513660","Chicopee city, Massachusetts","inc_12_pov_f",4520,604
+"2514430","Clinton CDP, Massachusetts","inc_12_pov",808,261
+"2514430","Clinton CDP, Massachusetts","inc_12_pov_m",213,100
+"2514430","Clinton CDP, Massachusetts","inc_12_pov_f",595,209
+"2514570","Cochituate CDP, Massachusetts","inc_12_pov",161,82
+"2514570","Cochituate CDP, Massachusetts","inc_12_pov_m",36,26
+"2514570","Cochituate CDP, Massachusetts","inc_12_pov_f",125,73
+"2515340","Cordaville CDP, Massachusetts","inc_12_pov",18,16
+"2515340","Cordaville CDP, Massachusetts","inc_12_pov_m",18,16
+"2515340","Cordaville CDP, Massachusetts","inc_12_pov_f",0,12
+"2516285","Danvers CDP, Massachusetts","inc_12_pov",1637,387
+"2516285","Danvers CDP, Massachusetts","inc_12_pov_m",678,207
+"2516285","Danvers CDP, Massachusetts","inc_12_pov_f",959,239
+"2516530","Dedham CDP, Massachusetts","inc_12_pov",1173,298
+"2516530","Dedham CDP, Massachusetts","inc_12_pov_m",391,137
+"2516530","Dedham CDP, Massachusetts","inc_12_pov_f",782,221
+"2516635","Deerfield CDP, Massachusetts","inc_12_pov",140,144
+"2516635","Deerfield CDP, Massachusetts","inc_12_pov_m",78,132
+"2516635","Deerfield CDP, Massachusetts","inc_12_pov_f",62,54
+"2516740","Dennis CDP, Massachusetts","inc_12_pov",101,70
+"2516740","Dennis CDP, Massachusetts","inc_12_pov_m",51,36
+"2516740","Dennis CDP, Massachusetts","inc_12_pov_f",50,43
+"2516810","Dennis Port CDP, Massachusetts","inc_12_pov",458,325
+"2516810","Dennis Port CDP, Massachusetts","inc_12_pov_m",237,173
+"2516810","Dennis Port CDP, Massachusetts","inc_12_pov_f",221,204
+"2516840","Devens CDP, Massachusetts","inc_12_pov",211,158
+"2516840","Devens CDP, Massachusetts","inc_12_pov_m",99,92
+"2516840","Devens CDP, Massachusetts","inc_12_pov_f",112,149
+"2517370","Dover CDP, Massachusetts","inc_12_pov",13,21
+"2517370","Dover CDP, Massachusetts","inc_12_pov_m",0,12
+"2517370","Dover CDP, Massachusetts","inc_12_pov_f",13,21
+"2517860","Duxbury CDP, Massachusetts","inc_12_pov",0,12
+"2517860","Duxbury CDP, Massachusetts","inc_12_pov_m",0,12
+"2517860","Duxbury CDP, Massachusetts","inc_12_pov_f",0,12
+"2518595","East Brookfield CDP, Massachusetts","inc_12_pov",88,57
+"2518595","East Brookfield CDP, Massachusetts","inc_12_pov_m",44,42
+"2518595","East Brookfield CDP, Massachusetts","inc_12_pov_f",44,24
+"2518840","East Dennis CDP, Massachusetts","inc_12_pov",384,181
+"2518840","East Dennis CDP, Massachusetts","inc_12_pov_m",196,109
+"2518840","East Dennis CDP, Massachusetts","inc_12_pov_f",188,98
+"2518875","East Douglas CDP, Massachusetts","inc_12_pov",49,62
+"2518875","East Douglas CDP, Massachusetts","inc_12_pov_m",35,58
+"2518875","East Douglas CDP, Massachusetts","inc_12_pov_f",14,24
+"2518980","East Falmouth CDP, Massachusetts","inc_12_pov",374,174
+"2518980","East Falmouth CDP, Massachusetts","inc_12_pov_m",160,84
+"2518980","East Falmouth CDP, Massachusetts","inc_12_pov_f",214,110
+"2519370","Easthampton Town city, Massachusetts","inc_12_pov",1528,375
+"2519370","Easthampton Town city, Massachusetts","inc_12_pov_m",754,214
+"2519370","Easthampton Town city, Massachusetts","inc_12_pov_f",774,275
+"2519400","East Harwich CDP, Massachusetts","inc_12_pov",264,133
+"2519400","East Harwich CDP, Massachusetts","inc_12_pov_m",79,65
+"2519400","East Harwich CDP, Massachusetts","inc_12_pov_f",185,110
+"2520310","East Pepperell CDP, Massachusetts","inc_12_pov",131,82
+"2520310","East Pepperell CDP, Massachusetts","inc_12_pov_m",93,68
+"2520310","East Pepperell CDP, Massachusetts","inc_12_pov_f",38,31
+"2520380","East Sandwich CDP, Massachusetts","inc_12_pov",135,107
+"2520380","East Sandwich CDP, Massachusetts","inc_12_pov_m",87,65
+"2520380","East Sandwich CDP, Massachusetts","inc_12_pov_f",48,53
+"2521115","Edgartown CDP, Massachusetts","inc_12_pov",0,12
+"2521115","Edgartown CDP, Massachusetts","inc_12_pov_m",0,12
+"2521115","Edgartown CDP, Massachusetts","inc_12_pov_f",0,12
+"2521815","Essex CDP, Massachusetts","inc_12_pov",91,74
+"2521815","Essex CDP, Massachusetts","inc_12_pov_m",39,48
+"2521815","Essex CDP, Massachusetts","inc_12_pov_f",52,40
+"2521990","Everett city, Massachusetts","inc_12_pov",6055,1210
+"2521990","Everett city, Massachusetts","inc_12_pov_m",2327,508
+"2521990","Everett city, Massachusetts","inc_12_pov_f",3728,807
+"2523000","Fall River city, Massachusetts","inc_12_pov",17060,1298
+"2523000","Fall River city, Massachusetts","inc_12_pov_m",7850,739
+"2523000","Fall River city, Massachusetts","inc_12_pov_f",9210,814
+"2523070","Falmouth CDP, Massachusetts","inc_12_pov",280,111
+"2523070","Falmouth CDP, Massachusetts","inc_12_pov_m",130,82
+"2523070","Falmouth CDP, Massachusetts","inc_12_pov_f",150,65
+"2523840","Fiskdale CDP, Massachusetts","inc_12_pov",281,254
+"2523840","Fiskdale CDP, Massachusetts","inc_12_pov_m",25,32
+"2523840","Fiskdale CDP, Massachusetts","inc_12_pov_f",256,253
+"2523875","Fitchburg city, Massachusetts","inc_12_pov",6363,886
+"2523875","Fitchburg city, Massachusetts","inc_12_pov_m",2950,495
+"2523875","Fitchburg city, Massachusetts","inc_12_pov_f",3413,545
+"2524190","Forestdale CDP, Massachusetts","inc_12_pov",123,109
+"2524190","Forestdale CDP, Massachusetts","inc_12_pov_m",88,85
+"2524190","Forestdale CDP, Massachusetts","inc_12_pov_f",35,44
+"2524855","Foxborough CDP, Massachusetts","inc_12_pov",608,381
+"2524855","Foxborough CDP, Massachusetts","inc_12_pov_m",225,179
+"2524855","Foxborough CDP, Massachusetts","inc_12_pov_f",383,319
+"2524960","Framingham city, Massachusetts","inc_12_pov",6682,1015
+"2524960","Framingham city, Massachusetts","inc_12_pov_m",2743,529
+"2524960","Framingham city, Massachusetts","inc_12_pov_f",3939,636
+"2525172","Franklin Town city, Massachusetts","inc_12_pov",1271,496
+"2525172","Franklin Town city, Massachusetts","inc_12_pov_m",651,245
+"2525172","Franklin Town city, Massachusetts","inc_12_pov_f",620,281
+"2525485","Gardner city, Massachusetts","inc_12_pov",2896,561
+"2525485","Gardner city, Massachusetts","inc_12_pov_m",1287,332
+"2525485","Gardner city, Massachusetts","inc_12_pov_f",1609,348
+"2526150","Gloucester city, Massachusetts","inc_12_pov",2674,486
+"2526150","Gloucester city, Massachusetts","inc_12_pov_m",1056,271
+"2526150","Gloucester city, Massachusetts","inc_12_pov_f",1618,324
+"2526500","Granby CDP, Massachusetts","inc_12_pov",81,67
+"2526500","Granby CDP, Massachusetts","inc_12_pov_m",45,49
+"2526500","Granby CDP, Massachusetts","inc_12_pov_f",36,41
+"2526780","Great Barrington CDP, Massachusetts","inc_12_pov",174,137
+"2526780","Great Barrington CDP, Massachusetts","inc_12_pov_m",143,131
+"2526780","Great Barrington CDP, Massachusetts","inc_12_pov_f",31,40
+"2527100","Greenfield Town city, Massachusetts","inc_12_pov",2222,397
+"2527100","Greenfield Town city, Massachusetts","inc_12_pov_m",1056,234
+"2527100","Greenfield Town city, Massachusetts","inc_12_pov_f",1166,269
+"2527147","Green Harbor-Cedar Crest CDP, Massachusetts","inc_12_pov",117,103
+"2527147","Green Harbor-Cedar Crest CDP, Massachusetts","inc_12_pov_m",16,26
+"2527147","Green Harbor-Cedar Crest CDP, Massachusetts","inc_12_pov_f",101,87
+"2527445","Groton CDP, Massachusetts","inc_12_pov",138,110
+"2527445","Groton CDP, Massachusetts","inc_12_pov_m",92,87
+"2527445","Groton CDP, Massachusetts","inc_12_pov_f",46,69
+"2528425","Hanscom AFB CDP, Massachusetts","inc_12_pov",0,12
+"2528425","Hanscom AFB CDP, Massachusetts","inc_12_pov_m",0,12
+"2528425","Hanscom AFB CDP, Massachusetts","inc_12_pov_f",0,12
+"2528460","Hanson CDP, Massachusetts","inc_12_pov",54,44
+"2528460","Hanson CDP, Massachusetts","inc_12_pov_m",27,24
+"2528460","Hanson CDP, Massachusetts","inc_12_pov_f",27,25
+"2529055","Harwich Center CDP, Massachusetts","inc_12_pov",40,67
+"2529055","Harwich Center CDP, Massachusetts","inc_12_pov_m",0,12
+"2529055","Harwich Center CDP, Massachusetts","inc_12_pov_f",40,67
+"2529090","Harwich Port CDP, Massachusetts","inc_12_pov",205,90
+"2529090","Harwich Port CDP, Massachusetts","inc_12_pov_m",114,60
+"2529090","Harwich Port CDP, Massachusetts","inc_12_pov_f",91,45
+"2529230","Hatfield CDP, Massachusetts","inc_12_pov",59,40
+"2529230","Hatfield CDP, Massachusetts","inc_12_pov_m",23,21
+"2529230","Hatfield CDP, Massachusetts","inc_12_pov_f",36,31
+"2529405","Haverhill city, Massachusetts","inc_12_pov",8190,1144
+"2529405","Haverhill city, Massachusetts","inc_12_pov_m",3662,653
+"2529405","Haverhill city, Massachusetts","inc_12_pov_f",4528,628
+"2530175","Hingham CDP, Massachusetts","inc_12_pov",166,91
+"2530175","Hingham CDP, Massachusetts","inc_12_pov_m",59,39
+"2530175","Hingham CDP, Massachusetts","inc_12_pov_f",107,73
+"2530420","Holbrook CDP, Massachusetts","inc_12_pov",734,311
+"2530420","Holbrook CDP, Massachusetts","inc_12_pov_m",246,157
+"2530420","Holbrook CDP, Massachusetts","inc_12_pov_f",488,225
+"2530630","Holland CDP, Massachusetts","inc_12_pov",64,40
+"2530630","Holland CDP, Massachusetts","inc_12_pov_m",56,35
+"2530630","Holland CDP, Massachusetts","inc_12_pov_f",8,12
+"2530840","Holyoke city, Massachusetts","inc_12_pov",11630,1034
+"2530840","Holyoke city, Massachusetts","inc_12_pov_m",5305,592
+"2530840","Holyoke city, Massachusetts","inc_12_pov_f",6325,627
+"2530980","Hopedale CDP, Massachusetts","inc_12_pov",84,53
+"2530980","Hopedale CDP, Massachusetts","inc_12_pov_m",40,37
+"2530980","Hopedale CDP, Massachusetts","inc_12_pov_f",44,39
+"2531050","Hopkinton CDP, Massachusetts","inc_12_pov",56,39
+"2531050","Hopkinton CDP, Massachusetts","inc_12_pov_m",14,8
+"2531050","Hopkinton CDP, Massachusetts","inc_12_pov_f",42,37
+"2531295","Housatonic CDP, Massachusetts","inc_12_pov",118,135
+"2531295","Housatonic CDP, Massachusetts","inc_12_pov_m",108,134
+"2531295","Housatonic CDP, Massachusetts","inc_12_pov_f",10,18
+"2531575","Hudson CDP, Massachusetts","inc_12_pov",1079,370
+"2531575","Hudson CDP, Massachusetts","inc_12_pov_m",436,220
+"2531575","Hudson CDP, Massachusetts","inc_12_pov_f",643,204
+"2531680","Hull CDP, Massachusetts","inc_12_pov",440,172
+"2531680","Hull CDP, Massachusetts","inc_12_pov_m",196,90
+"2531680","Hull CDP, Massachusetts","inc_12_pov_f",244,111
+"2531750","Huntington CDP, Massachusetts","inc_12_pov",61,45
+"2531750","Huntington CDP, Massachusetts","inc_12_pov_m",24,28
+"2531750","Huntington CDP, Massachusetts","inc_12_pov_f",37,31
+"2532275","Ipswich CDP, Massachusetts","inc_12_pov",427,153
+"2532275","Ipswich CDP, Massachusetts","inc_12_pov_m",148,74
+"2532275","Ipswich CDP, Massachusetts","inc_12_pov_f",279,115
+"2533185","Kingston CDP, Massachusetts","inc_12_pov",160,143
+"2533185","Kingston CDP, Massachusetts","inc_12_pov_m",64,61
+"2533185","Kingston CDP, Massachusetts","inc_12_pov_f",96,100
+"2534550","Lawrence city, Massachusetts","inc_12_pov",18655,1699
+"2534550","Lawrence city, Massachusetts","inc_12_pov_m",8347,874
+"2534550","Lawrence city, Massachusetts","inc_12_pov_f",10308,1020
+"2534620","Lee CDP, Massachusetts","inc_12_pov",47,39
+"2534620","Lee CDP, Massachusetts","inc_12_pov_m",0,12
+"2534620","Lee CDP, Massachusetts","inc_12_pov_f",47,39
+"2534935","Lenox CDP, Massachusetts","inc_12_pov",89,55
+"2534935","Lenox CDP, Massachusetts","inc_12_pov_m",18,28
+"2534935","Lenox CDP, Massachusetts","inc_12_pov_f",71,49
+"2535075","Leominster city, Massachusetts","inc_12_pov",5485,888
+"2535075","Leominster city, Massachusetts","inc_12_pov_m",1967,435
+"2535075","Leominster city, Massachusetts","inc_12_pov_f",3518,568
+"2535250","Lexington CDP, Massachusetts","inc_12_pov",1197,346
+"2535250","Lexington CDP, Massachusetts","inc_12_pov_m",450,177
+"2535250","Lexington CDP, Massachusetts","inc_12_pov_f",747,212
+"2536020","Littleton Common CDP, Massachusetts","inc_12_pov",276,147
+"2536020","Littleton Common CDP, Massachusetts","inc_12_pov_m",156,98
+"2536020","Littleton Common CDP, Massachusetts","inc_12_pov_f",120,75
+"2536335","Longmeadow CDP, Massachusetts","inc_12_pov",393,118
+"2536335","Longmeadow CDP, Massachusetts","inc_12_pov_m",151,74
+"2536335","Longmeadow CDP, Massachusetts","inc_12_pov_f",242,77
+"2537000","Lowell city, Massachusetts","inc_12_pov",22042,1535
+"2537000","Lowell city, Massachusetts","inc_12_pov_m",10799,1069
+"2537000","Lowell city, Massachusetts","inc_12_pov_f",11243,863
+"2537385","Lunenburg CDP, Massachusetts","inc_12_pov",56,67
+"2537385","Lunenburg CDP, Massachusetts","inc_12_pov_m",40,64
+"2537385","Lunenburg CDP, Massachusetts","inc_12_pov_f",16,18
+"2537490","Lynn city, Massachusetts","inc_12_pov",16124,1302
+"2537490","Lynn city, Massachusetts","inc_12_pov_m",7034,688
+"2537490","Lynn city, Massachusetts","inc_12_pov_f",9090,864
+"2537595","Lynnfield CDP, Massachusetts","inc_12_pov",238,135
+"2537595","Lynnfield CDP, Massachusetts","inc_12_pov_m",82,57
+"2537595","Lynnfield CDP, Massachusetts","inc_12_pov_f",156,96
+"2537735","Madaket CDP, Massachusetts","inc_12_pov",39,50
+"2537735","Madaket CDP, Massachusetts","inc_12_pov_m",12,19
+"2537735","Madaket CDP, Massachusetts","inc_12_pov_f",27,48
+"2537875","Malden city, Massachusetts","inc_12_pov",9968,1233
+"2537875","Malden city, Massachusetts","inc_12_pov_m",4222,738
+"2537875","Malden city, Massachusetts","inc_12_pov_f",5746,768
+"2538230","Mansfield Center CDP, Massachusetts","inc_12_pov",336,176
+"2538230","Mansfield Center CDP, Massachusetts","inc_12_pov_m",146,85
+"2538230","Mansfield Center CDP, Massachusetts","inc_12_pov_f",190,115
+"2538435","Marblehead CDP, Massachusetts","inc_12_pov",968,297
+"2538435","Marblehead CDP, Massachusetts","inc_12_pov_m",391,171
+"2538435","Marblehead CDP, Massachusetts","inc_12_pov_f",577,175
+"2538575","Marion Center CDP, Massachusetts","inc_12_pov",139,85
+"2538575","Marion Center CDP, Massachusetts","inc_12_pov_m",7,11
+"2538575","Marion Center CDP, Massachusetts","inc_12_pov_f",132,85
+"2538715","Marlborough city, Massachusetts","inc_12_pov",2475,724
+"2538715","Marlborough city, Massachusetts","inc_12_pov_m",923,262
+"2538715","Marlborough city, Massachusetts","inc_12_pov_f",1552,591
+"2538820","Marshfield CDP, Massachusetts","inc_12_pov",429,266
+"2538820","Marshfield CDP, Massachusetts","inc_12_pov_m",163,102
+"2538820","Marshfield CDP, Massachusetts","inc_12_pov_f",266,224
+"2538960","Marshfield Hills CDP, Massachusetts","inc_12_pov",320,327
+"2538960","Marshfield Hills CDP, Massachusetts","inc_12_pov_m",134,164
+"2538960","Marshfield Hills CDP, Massachusetts","inc_12_pov_f",186,172
+"2539152","Mashpee Neck CDP, Massachusetts","inc_12_pov",60,55
+"2539152","Mashpee Neck CDP, Massachusetts","inc_12_pov_m",9,16
+"2539152","Mashpee Neck CDP, Massachusetts","inc_12_pov_f",51,48
+"2539485","Mattapoisett Center CDP, Massachusetts","inc_12_pov",182,143
+"2539485","Mattapoisett Center CDP, Massachusetts","inc_12_pov_m",77,74
+"2539485","Mattapoisett Center CDP, Massachusetts","inc_12_pov_f",105,80
+"2539660","Maynard CDP, Massachusetts","inc_12_pov",548,231
+"2539660","Maynard CDP, Massachusetts","inc_12_pov_m",264,121
+"2539660","Maynard CDP, Massachusetts","inc_12_pov_f",284,130
+"2539730","Medfield CDP, Massachusetts","inc_12_pov",239,111
+"2539730","Medfield CDP, Massachusetts","inc_12_pov_m",109,88
+"2539730","Medfield CDP, Massachusetts","inc_12_pov_f",130,65
+"2539835","Medford city, Massachusetts","inc_12_pov",5114,904
+"2539835","Medford city, Massachusetts","inc_12_pov_m",2233,583
+"2539835","Medford city, Massachusetts","inc_12_pov_f",2881,511
+"2540115","Melrose city, Massachusetts","inc_12_pov",1143,369
+"2540115","Melrose city, Massachusetts","inc_12_pov_m",490,211
+"2540115","Melrose city, Massachusetts","inc_12_pov_f",653,229
+"2540710","Methuen Town city, Massachusetts","inc_12_pov",4597,790
+"2540710","Methuen Town city, Massachusetts","inc_12_pov_m",2304,474
+"2540710","Methuen Town city, Massachusetts","inc_12_pov_f",2293,406
+"2540885","Middleborough Center CDP, Massachusetts","inc_12_pov",1195,536
+"2540885","Middleborough Center CDP, Massachusetts","inc_12_pov_m",569,271
+"2540885","Middleborough Center CDP, Massachusetts","inc_12_pov_f",626,302
+"2541200","Milford CDP, Massachusetts","inc_12_pov",2502,630
+"2541200","Milford CDP, Massachusetts","inc_12_pov_m",1154,340
+"2541200","Milford CDP, Massachusetts","inc_12_pov_f",1348,379
+"2541410","Millers Falls CDP, Massachusetts","inc_12_pov",109,41
+"2541410","Millers Falls CDP, Massachusetts","inc_12_pov_m",27,15
+"2541410","Millers Falls CDP, Massachusetts","inc_12_pov_f",82,33
+"2541532","Millis-Clicquot CDP, Massachusetts","inc_12_pov",85,88
+"2541532","Millis-Clicquot CDP, Massachusetts","inc_12_pov_m",37,42
+"2541532","Millis-Clicquot CDP, Massachusetts","inc_12_pov_f",48,54
+"2541725","Milton CDP, Massachusetts","inc_12_pov",1138,302
+"2541725","Milton CDP, Massachusetts","inc_12_pov_m",382,188
+"2541725","Milton CDP, Massachusetts","inc_12_pov_f",756,227
+"2541960","Monomoscoy Island CDP, Massachusetts","inc_12_pov",0,12
+"2541960","Monomoscoy Island CDP, Massachusetts","inc_12_pov_m",0,12
+"2541960","Monomoscoy Island CDP, Massachusetts","inc_12_pov_f",0,12
+"2542180","Monson Center CDP, Massachusetts","inc_12_pov",127,83
+"2542180","Monson Center CDP, Massachusetts","inc_12_pov_m",53,46
+"2542180","Monson Center CDP, Massachusetts","inc_12_pov_f",74,51
+"2542670","Monument Beach CDP, Massachusetts","inc_12_pov",101,85
+"2542670","Monument Beach CDP, Massachusetts","inc_12_pov_m",8,14
+"2542670","Monument Beach CDP, Massachusetts","inc_12_pov_f",93,81
+"2543615","Nahant CDP, Massachusetts","inc_12_pov",110,81
+"2543615","Nahant CDP, Massachusetts","inc_12_pov_m",54,52
+"2543615","Nahant CDP, Massachusetts","inc_12_pov_f",56,48
+"2543755","Nantucket CDP, Massachusetts","inc_12_pov",640,213
+"2543755","Nantucket CDP, Massachusetts","inc_12_pov_m",331,141
+"2543755","Nantucket CDP, Massachusetts","inc_12_pov_f",309,145
+"2544140","Needham CDP, Massachusetts","inc_12_pov",773,273
+"2544140","Needham CDP, Massachusetts","inc_12_pov_m",183,90
+"2544140","Needham CDP, Massachusetts","inc_12_pov_f",590,249
+"2545000","New Bedford city, Massachusetts","inc_12_pov",19717,1307
+"2545000","New Bedford city, Massachusetts","inc_12_pov_m",8702,761
+"2545000","New Bedford city, Massachusetts","inc_12_pov_f",11015,810
+"2545245","Newburyport city, Massachusetts","inc_12_pov",928,345
+"2545245","Newburyport city, Massachusetts","inc_12_pov_m",377,145
+"2545245","Newburyport city, Massachusetts","inc_12_pov_f",551,233
+"2545500","New Seabury CDP, Massachusetts","inc_12_pov",24,22
+"2545500","New Seabury CDP, Massachusetts","inc_12_pov_m",17,19
+"2545500","New Seabury CDP, Massachusetts","inc_12_pov_f",7,12
+"2545560","Newton city, Massachusetts","inc_12_pov",3466,498
+"2545560","Newton city, Massachusetts","inc_12_pov_m",1453,279
+"2545560","Newton city, Massachusetts","inc_12_pov_f",2013,297
+"2546225","North Adams city, Massachusetts","inc_12_pov",2099,440
+"2546225","North Adams city, Massachusetts","inc_12_pov_m",1006,328
+"2546225","North Adams city, Massachusetts","inc_12_pov_f",1093,319
+"2546295","North Amherst CDP, Massachusetts","inc_12_pov",1893,544
+"2546295","North Amherst CDP, Massachusetts","inc_12_pov_m",1347,386
+"2546295","North Amherst CDP, Massachusetts","inc_12_pov_f",546,363
+"2546330","Northampton city, Massachusetts","inc_12_pov",4064,554
+"2546330","Northampton city, Massachusetts","inc_12_pov_m",1966,320
+"2546330","Northampton city, Massachusetts","inc_12_pov_f",2098,431
+"2546785","Northborough CDP, Massachusetts","inc_12_pov",162,108
+"2546785","Northborough CDP, Massachusetts","inc_12_pov_m",53,53
+"2546785","Northborough CDP, Massachusetts","inc_12_pov_f",109,67
+"2547100","North Brookfield CDP, Massachusetts","inc_12_pov",142,88
+"2547100","North Brookfield CDP, Massachusetts","inc_12_pov_m",32,36
+"2547100","North Brookfield CDP, Massachusetts","inc_12_pov_f",110,65
+"2547590","North Eastham CDP, Massachusetts","inc_12_pov",97,72
+"2547590","North Eastham CDP, Massachusetts","inc_12_pov_m",16,18
+"2547590","North Eastham CDP, Massachusetts","inc_12_pov_f",81,64
+"2547730","North Falmouth CDP, Massachusetts","inc_12_pov",69,52
+"2547730","North Falmouth CDP, Massachusetts","inc_12_pov_m",57,46
+"2547730","North Falmouth CDP, Massachusetts","inc_12_pov_f",12,16
+"2547800","Northfield CDP, Massachusetts","inc_12_pov",53,40
+"2547800","Northfield CDP, Massachusetts","inc_12_pov_m",30,34
+"2547800","Northfield CDP, Massachusetts","inc_12_pov_f",23,25
+"2548220","North Lakeville CDP, Massachusetts","inc_12_pov",179,94
+"2548220","North Lakeville CDP, Massachusetts","inc_12_pov_m",68,45
+"2548220","North Lakeville CDP, Massachusetts","inc_12_pov_f",111,66
+"2548710","North Pembroke CDP, Massachusetts","inc_12_pov",53,54
+"2548710","North Pembroke CDP, Massachusetts","inc_12_pov_m",4,6
+"2548710","North Pembroke CDP, Massachusetts","inc_12_pov_f",49,54
+"2548780","North Plymouth CDP, Massachusetts","inc_12_pov",700,296
+"2548780","North Plymouth CDP, Massachusetts","inc_12_pov_m",339,199
+"2548780","North Plymouth CDP, Massachusetts","inc_12_pov_f",361,130
+"2549165","North Scituate CDP, Massachusetts","inc_12_pov",254,132
+"2549165","North Scituate CDP, Massachusetts","inc_12_pov_m",106,76
+"2549165","North Scituate CDP, Massachusetts","inc_12_pov_f",148,99
+"2549200","North Seekonk CDP, Massachusetts","inc_12_pov",166,142
+"2549200","North Seekonk CDP, Massachusetts","inc_12_pov_m",64,78
+"2549200","North Seekonk CDP, Massachusetts","inc_12_pov_f",102,76
+"2549700","Northwest Harwich CDP, Massachusetts","inc_12_pov",227,119
+"2549700","Northwest Harwich CDP, Massachusetts","inc_12_pov_m",60,44
+"2549700","Northwest Harwich CDP, Massachusetts","inc_12_pov_f",167,103
+"2549710","North Westport CDP, Massachusetts","inc_12_pov",321,179
+"2549710","North Westport CDP, Massachusetts","inc_12_pov_m",142,111
+"2549710","North Westport CDP, Massachusetts","inc_12_pov_f",179,99
+"2550005","Norton Center CDP, Massachusetts","inc_12_pov",217,130
+"2550005","Norton Center CDP, Massachusetts","inc_12_pov_m",207,129
+"2550005","Norton Center CDP, Massachusetts","inc_12_pov_f",10,15
+"2550285","Norwood CDP, Massachusetts","inc_12_pov",2316,594
+"2550285","Norwood CDP, Massachusetts","inc_12_pov_m",857,289
+"2550285","Norwood CDP, Massachusetts","inc_12_pov_f",1459,446
+"2550862","Ocean Bluff-Brant Rock CDP, Massachusetts","inc_12_pov",338,162
+"2550862","Ocean Bluff-Brant Rock CDP, Massachusetts","inc_12_pov_m",206,145
+"2550862","Ocean Bluff-Brant Rock CDP, Massachusetts","inc_12_pov_f",132,86
+"2550880","Ocean Grove CDP, Massachusetts","inc_12_pov",313,177
+"2550880","Ocean Grove CDP, Massachusetts","inc_12_pov_m",162,133
+"2550880","Ocean Grove CDP, Massachusetts","inc_12_pov_f",151,104
+"2551160","Onset CDP, Massachusetts","inc_12_pov",230,194
+"2551160","Onset CDP, Massachusetts","inc_12_pov_m",89,100
+"2551160","Onset CDP, Massachusetts","inc_12_pov_f",141,118
+"2551230","Orange CDP, Massachusetts","inc_12_pov",437,169
+"2551230","Orange CDP, Massachusetts","inc_12_pov_m",209,97
+"2551230","Orange CDP, Massachusetts","inc_12_pov_f",228,111
+"2551405","Orleans CDP, Massachusetts","inc_12_pov",135,79
+"2551405","Orleans CDP, Massachusetts","inc_12_pov_m",52,47
+"2551405","Orleans CDP, Massachusetts","inc_12_pov_f",83,53
+"2551790","Oxford CDP, Massachusetts","inc_12_pov",337,208
+"2551790","Oxford CDP, Massachusetts","inc_12_pov_m",166,106
+"2551790","Oxford CDP, Massachusetts","inc_12_pov_f",171,129
+"2552144","Palmer Town city, Massachusetts","inc_12_pov",1513,436
+"2552144","Palmer Town city, Massachusetts","inc_12_pov_m",710,206
+"2552144","Palmer Town city, Massachusetts","inc_12_pov_f",803,281
+"2552490","Peabody city, Massachusetts","inc_12_pov",5222,851
+"2552490","Peabody city, Massachusetts","inc_12_pov_m",1995,427
+"2552490","Peabody city, Massachusetts","inc_12_pov_f",3227,540
+"2552770","Pepperell CDP, Massachusetts","inc_12_pov",282,189
+"2552770","Pepperell CDP, Massachusetts","inc_12_pov_m",199,148
+"2552770","Pepperell CDP, Massachusetts","inc_12_pov_f",83,65
+"2553085","Petersham CDP, Massachusetts","inc_12_pov",15,13
+"2553085","Petersham CDP, Massachusetts","inc_12_pov_m",10,9
+"2553085","Petersham CDP, Massachusetts","inc_12_pov_f",5,5
+"2553680","Pinehurst CDP, Massachusetts","inc_12_pov",291,145
+"2553680","Pinehurst CDP, Massachusetts","inc_12_pov_m",90,53
+"2553680","Pinehurst CDP, Massachusetts","inc_12_pov_f",201,107
+"2553960","Pittsfield city, Massachusetts","inc_12_pov",6154,821
+"2553960","Pittsfield city, Massachusetts","inc_12_pov_m",2997,455
+"2553960","Pittsfield city, Massachusetts","inc_12_pov_f",3157,527
+"2554275","Plymouth CDP, Massachusetts","inc_12_pov",513,207
+"2554275","Plymouth CDP, Massachusetts","inc_12_pov_m",173,98
+"2554275","Plymouth CDP, Massachusetts","inc_12_pov_f",340,149
+"2554450","Pocasset CDP, Massachusetts","inc_12_pov",130,78
+"2554450","Pocasset CDP, Massachusetts","inc_12_pov_m",50,41
+"2554450","Pocasset CDP, Massachusetts","inc_12_pov_f",80,54
+"2555070","Popponesset CDP, Massachusetts","inc_12_pov",64,77
+"2555070","Popponesset CDP, Massachusetts","inc_12_pov_m",32,41
+"2555070","Popponesset CDP, Massachusetts","inc_12_pov_f",32,39
+"2555090","Popponesset Island CDP, Massachusetts","inc_12_pov",0,12
+"2555090","Popponesset Island CDP, Massachusetts","inc_12_pov_m",0,12
+"2555090","Popponesset Island CDP, Massachusetts","inc_12_pov_f",0,12
+"2555535","Provincetown CDP, Massachusetts","inc_12_pov",260,89
+"2555535","Provincetown CDP, Massachusetts","inc_12_pov_m",171,71
+"2555535","Provincetown CDP, Massachusetts","inc_12_pov_f",89,51
+"2555745","Quincy city, Massachusetts","inc_12_pov",10098,1093
+"2555745","Quincy city, Massachusetts","inc_12_pov_m",4288,643
+"2555745","Quincy city, Massachusetts","inc_12_pov_f",5810,619
+"2555990","Randolph CDP, Massachusetts","inc_12_pov",3621,874
+"2555990","Randolph CDP, Massachusetts","inc_12_pov_m",1427,387
+"2555990","Randolph CDP, Massachusetts","inc_12_pov_f",2194,642
+"2556095","Raynham Center CDP, Massachusetts","inc_12_pov",201,161
+"2556095","Raynham Center CDP, Massachusetts","inc_12_pov_m",21,29
+"2556095","Raynham Center CDP, Massachusetts","inc_12_pov_f",180,141
+"2556165","Reading CDP, Massachusetts","inc_12_pov",808,292
+"2556165","Reading CDP, Massachusetts","inc_12_pov_m",372,159
+"2556165","Reading CDP, Massachusetts","inc_12_pov_f",436,169
+"2556585","Revere city, Massachusetts","inc_12_pov",7040,1085
+"2556585","Revere city, Massachusetts","inc_12_pov_m",3057,511
+"2556585","Revere city, Massachusetts","inc_12_pov_f",3983,771
+"2557845","Rockport CDP, Massachusetts","inc_12_pov",361,148
+"2557845","Rockport CDP, Massachusetts","inc_12_pov_m",141,75
+"2557845","Rockport CDP, Massachusetts","inc_12_pov_f",220,95
+"2558370","Rowley CDP, Massachusetts","inc_12_pov",36,42
+"2558370","Rowley CDP, Massachusetts","inc_12_pov_m",36,42
+"2558370","Rowley CDP, Massachusetts","inc_12_pov_f",0,12
+"2558615","Russell CDP, Massachusetts","inc_12_pov",23,21
+"2558615","Russell CDP, Massachusetts","inc_12_pov_m",5,8
+"2558615","Russell CDP, Massachusetts","inc_12_pov_f",18,19
+"2558790","Rutland CDP, Massachusetts","inc_12_pov",96,96
+"2558790","Rutland CDP, Massachusetts","inc_12_pov_m",32,45
+"2558790","Rutland CDP, Massachusetts","inc_12_pov_f",64,59
+"2558965","Sagamore CDP, Massachusetts","inc_12_pov",172,117
+"2558965","Sagamore CDP, Massachusetts","inc_12_pov_m",75,59
+"2558965","Sagamore CDP, Massachusetts","inc_12_pov_f",97,71
+"2559105","Salem city, Massachusetts","inc_12_pov",6247,885
+"2559105","Salem city, Massachusetts","inc_12_pov_m",2057,384
+"2559105","Salem city, Massachusetts","inc_12_pov_f",4190,625
+"2559210","Salisbury CDP, Massachusetts","inc_12_pov",402,158
+"2559210","Salisbury CDP, Massachusetts","inc_12_pov_m",129,99
+"2559210","Salisbury CDP, Massachusetts","inc_12_pov_f",273,138
+"2559700","Sandwich CDP, Massachusetts","inc_12_pov",178,111
+"2559700","Sandwich CDP, Massachusetts","inc_12_pov_m",75,63
+"2559700","Sandwich CDP, Massachusetts","inc_12_pov_f",103,62
+"2560050","Saugus CDP, Massachusetts","inc_12_pov",2659,580
+"2560050","Saugus CDP, Massachusetts","inc_12_pov_m",1207,353
+"2560050","Saugus CDP, Massachusetts","inc_12_pov_f",1452,342
+"2560295","Scituate CDP, Massachusetts","inc_12_pov",269,187
+"2560295","Scituate CDP, Massachusetts","inc_12_pov_m",79,65
+"2560295","Scituate CDP, Massachusetts","inc_12_pov_f",190,136
+"2560505","Seabrook CDP, Massachusetts","inc_12_pov",10,15
+"2560505","Seabrook CDP, Massachusetts","inc_12_pov_m",0,12
+"2560505","Seabrook CDP, Massachusetts","inc_12_pov_f",10,15
+"2560627","Seconsett Island CDP, Massachusetts","inc_12_pov",0,12
+"2560627","Seconsett Island CDP, Massachusetts","inc_12_pov_m",0,12
+"2560627","Seconsett Island CDP, Massachusetts","inc_12_pov_f",0,12
+"2560820","Sharon CDP, Massachusetts","inc_12_pov",118,76
+"2560820","Sharon CDP, Massachusetts","inc_12_pov_m",69,66
+"2560820","Sharon CDP, Massachusetts","inc_12_pov_f",49,42
+"2561205","Shelburne Falls CDP, Massachusetts","inc_12_pov",307,161
+"2561205","Shelburne Falls CDP, Massachusetts","inc_12_pov_m",220,146
+"2561205","Shelburne Falls CDP, Massachusetts","inc_12_pov_f",87,37
+"2561555","Shirley CDP, Massachusetts","inc_12_pov",242,215
+"2561555","Shirley CDP, Massachusetts","inc_12_pov_m",113,89
+"2561555","Shirley CDP, Massachusetts","inc_12_pov_f",129,138
+"2561940","Siasconset CDP, Massachusetts","inc_12_pov",8,20
+"2561940","Siasconset CDP, Massachusetts","inc_12_pov_m",0,12
+"2561940","Siasconset CDP, Massachusetts","inc_12_pov_f",8,20
+"2562300","Smith Mills CDP, Massachusetts","inc_12_pov",626,244
+"2562300","Smith Mills CDP, Massachusetts","inc_12_pov_m",192,99
+"2562300","Smith Mills CDP, Massachusetts","inc_12_pov_f",434,206
+"2562465","Somerset CDP, Massachusetts","inc_12_pov",870,307
+"2562465","Somerset CDP, Massachusetts","inc_12_pov_m",371,156
+"2562465","Somerset CDP, Massachusetts","inc_12_pov_f",499,187
+"2562535","Somerville city, Massachusetts","inc_12_pov",9289,1005
+"2562535","Somerville city, Massachusetts","inc_12_pov_m",4164,521
+"2562535","Somerville city, Massachusetts","inc_12_pov_f",5125,684
+"2562675","South Amherst CDP, Massachusetts","inc_12_pov",1183,449
+"2562675","South Amherst CDP, Massachusetts","inc_12_pov_m",690,345
+"2562675","South Amherst CDP, Massachusetts","inc_12_pov_f",493,326
+"2562780","South Ashburnham CDP, Massachusetts","inc_12_pov",0,12
+"2562780","South Ashburnham CDP, Massachusetts","inc_12_pov_m",0,12
+"2562780","South Ashburnham CDP, Massachusetts","inc_12_pov_f",0,12
+"2563345","Southbridge Town city, Massachusetts","inc_12_pov",3203,574
+"2563345","Southbridge Town city, Massachusetts","inc_12_pov_m",1252,277
+"2563345","Southbridge Town city, Massachusetts","inc_12_pov_f",1951,392
+"2563620","South Deerfield CDP, Massachusetts","inc_12_pov",95,81
+"2563620","South Deerfield CDP, Massachusetts","inc_12_pov_m",22,35
+"2563620","South Deerfield CDP, Massachusetts","inc_12_pov_f",73,57
+"2563655","South Dennis CDP, Massachusetts","inc_12_pov",445,216
+"2563655","South Dennis CDP, Massachusetts","inc_12_pov_m",164,103
+"2563655","South Dennis CDP, Massachusetts","inc_12_pov_f",281,132
+"2563690","South Duxbury CDP, Massachusetts","inc_12_pov",81,49
+"2563690","South Duxbury CDP, Massachusetts","inc_12_pov_m",12,16
+"2563690","South Duxbury CDP, Massachusetts","inc_12_pov_f",69,41
+"2563840","Southfield CDP, Massachusetts","inc_12_pov",0,12
+"2563840","Southfield CDP, Massachusetts","inc_12_pov_m",0,12
+"2563840","Southfield CDP, Massachusetts","inc_12_pov_f",0,12
+"2564460","South Lancaster CDP, Massachusetts","inc_12_pov",88,73
+"2564460","South Lancaster CDP, Massachusetts","inc_12_pov_m",54,51
+"2564460","South Lancaster CDP, Massachusetts","inc_12_pov_f",34,40
+"2566035","South Yarmouth CDP, Massachusetts","inc_12_pov",816,202
+"2566035","South Yarmouth CDP, Massachusetts","inc_12_pov_m",194,83
+"2566035","South Yarmouth CDP, Massachusetts","inc_12_pov_f",622,183
+"2566070","Spencer CDP, Massachusetts","inc_12_pov",927,375
+"2566070","Spencer CDP, Massachusetts","inc_12_pov_m",513,230
+"2566070","Spencer CDP, Massachusetts","inc_12_pov_f",414,203
+"2567000","Springfield city, Massachusetts","inc_12_pov",42775,2279
+"2567000","Springfield city, Massachusetts","inc_12_pov_m",17887,1173
+"2567000","Springfield city, Massachusetts","inc_12_pov_f",24888,1601
+"2567700","Stoneham CDP, Massachusetts","inc_12_pov",1177,314
+"2567700","Stoneham CDP, Massachusetts","inc_12_pov_m",627,220
+"2567700","Stoneham CDP, Massachusetts","inc_12_pov_f",550,164
+"2568120","Sturbridge CDP, Massachusetts","inc_12_pov",99,130
+"2568120","Sturbridge CDP, Massachusetts","inc_12_pov_m",20,31
+"2568120","Sturbridge CDP, Massachusetts","inc_12_pov_f",79,100
+"2568680","Swampscott CDP, Massachusetts","inc_12_pov",438,189
+"2568680","Swampscott CDP, Massachusetts","inc_12_pov_m",117,63
+"2568680","Swampscott CDP, Massachusetts","inc_12_pov_f",321,148
+"2569170","Taunton city, Massachusetts","inc_12_pov",7761,1266
+"2569170","Taunton city, Massachusetts","inc_12_pov_m",3234,549
+"2569170","Taunton city, Massachusetts","inc_12_pov_f",4527,902
+"2569205","Teaticket CDP, Massachusetts","inc_12_pov",58,31
+"2569205","Teaticket CDP, Massachusetts","inc_12_pov_m",28,25
+"2569205","Teaticket CDP, Massachusetts","inc_12_pov_f",30,25
+"2569585","The Pinehills CDP, Massachusetts","inc_12_pov",44,41
+"2569585","The Pinehills CDP, Massachusetts","inc_12_pov_m",0,12
+"2569585","The Pinehills CDP, Massachusetts","inc_12_pov_f",44,41
+"2570115","Topsfield CDP, Massachusetts","inc_12_pov",268,347
+"2570115","Topsfield CDP, Massachusetts","inc_12_pov_m",193,263
+"2570115","Topsfield CDP, Massachusetts","inc_12_pov_f",75,88
+"2570325","Townsend CDP, Massachusetts","inc_12_pov",86,57
+"2570325","Townsend CDP, Massachusetts","inc_12_pov_m",25,25
+"2570325","Townsend CDP, Massachusetts","inc_12_pov_f",61,56
+"2570815","Turners Falls CDP, Massachusetts","inc_12_pov",606,165
+"2570815","Turners Falls CDP, Massachusetts","inc_12_pov_m",230,92
+"2570815","Turners Falls CDP, Massachusetts","inc_12_pov_f",376,134
+"2571445","Upton CDP, Massachusetts","inc_12_pov",93,56
+"2571445","Upton CDP, Massachusetts","inc_12_pov_m",50,40
+"2571445","Upton CDP, Massachusetts","inc_12_pov_f",43,35
+"2571970","Vineyard Haven CDP, Massachusetts","inc_12_pov",159,122
+"2571970","Vineyard Haven CDP, Massachusetts","inc_12_pov_m",48,53
+"2571970","Vineyard Haven CDP, Massachusetts","inc_12_pov_f",111,85
+"2572250","Wakefield CDP, Massachusetts","inc_12_pov",1078,261
+"2572250","Wakefield CDP, Massachusetts","inc_12_pov_m",466,165
+"2572250","Wakefield CDP, Massachusetts","inc_12_pov_f",612,162
+"2572460","Walpole CDP, Massachusetts","inc_12_pov",257,203
+"2572460","Walpole CDP, Massachusetts","inc_12_pov_m",104,130
+"2572460","Walpole CDP, Massachusetts","inc_12_pov_f",153,86
+"2572600","Waltham city, Massachusetts","inc_12_pov",6108,1116
+"2572600","Waltham city, Massachusetts","inc_12_pov_m",2741,595
+"2572600","Waltham city, Massachusetts","inc_12_pov_f",3367,703
+"2572845","Ware CDP, Massachusetts","inc_12_pov",1371,421
+"2572845","Ware CDP, Massachusetts","inc_12_pov_m",565,229
+"2572845","Ware CDP, Massachusetts","inc_12_pov_f",806,273
+"2573020","Wareham Center CDP, Massachusetts","inc_12_pov",649,512
+"2573020","Wareham Center CDP, Massachusetts","inc_12_pov_m",296,272
+"2573020","Wareham Center CDP, Massachusetts","inc_12_pov_f",353,264
+"2573055","Warren CDP, Massachusetts","inc_12_pov",100,100
+"2573055","Warren CDP, Massachusetts","inc_12_pov_m",80,90
+"2573055","Warren CDP, Massachusetts","inc_12_pov_f",20,35
+"2573440","Watertown Town city, Massachusetts","inc_12_pov",2756,597
+"2573440","Watertown Town city, Massachusetts","inc_12_pov_m",1171,399
+"2573440","Watertown Town city, Massachusetts","inc_12_pov_f",1585,314
+"2573930","Webster CDP, Massachusetts","inc_12_pov",1341,315
+"2573930","Webster CDP, Massachusetts","inc_12_pov_m",488,156
+"2573930","Webster CDP, Massachusetts","inc_12_pov_f",853,242
+"2574210","Wellesley CDP, Massachusetts","inc_12_pov",1010,271
+"2574210","Wellesley CDP, Massachusetts","inc_12_pov_m",390,121
+"2574210","Wellesley CDP, Massachusetts","inc_12_pov_f",620,189
+"2575050","Westborough CDP, Massachusetts","inc_12_pov",261,126
+"2575050","Westborough CDP, Massachusetts","inc_12_pov_m",104,75
+"2575050","Westborough CDP, Massachusetts","inc_12_pov_f",157,92
+"2575365","West Brookfield CDP, Massachusetts","inc_12_pov",89,49
+"2575365","West Brookfield CDP, Massachusetts","inc_12_pov_m",45,33
+"2575365","West Brookfield CDP, Massachusetts","inc_12_pov_f",44,31
+"2575505","West Chatham CDP, Massachusetts","inc_12_pov",256,219
+"2575505","West Chatham CDP, Massachusetts","inc_12_pov_m",73,77
+"2575505","West Chatham CDP, Massachusetts","inc_12_pov_f",183,182
+"2575680","West Concord CDP, Massachusetts","inc_12_pov",389,207
+"2575680","West Concord CDP, Massachusetts","inc_12_pov_m",90,59
+"2575680","West Concord CDP, Massachusetts","inc_12_pov_f",299,199
+"2575820","West Dennis CDP, Massachusetts","inc_12_pov",152,65
+"2575820","West Dennis CDP, Massachusetts","inc_12_pov_m",92,56
+"2575820","West Dennis CDP, Massachusetts","inc_12_pov_f",60,31
+"2575960","West Falmouth CDP, Massachusetts","inc_12_pov",128,179
+"2575960","West Falmouth CDP, Massachusetts","inc_12_pov_m",44,67
+"2575960","West Falmouth CDP, Massachusetts","inc_12_pov_f",84,115
+"2576030","Westfield city, Massachusetts","inc_12_pov",2787,514
+"2576030","Westfield city, Massachusetts","inc_12_pov_m",1154,239
+"2576030","Westfield city, Massachusetts","inc_12_pov_f",1633,378
+"2577890","West Springfield Town city, Massachusetts","inc_12_pov",3329,754
+"2577890","West Springfield Town city, Massachusetts","inc_12_pov_m",1756,442
+"2577890","West Springfield Town city, Massachusetts","inc_12_pov_f",1573,404
+"2578410","West Wareham CDP, Massachusetts","inc_12_pov",178,168
+"2578410","West Wareham CDP, Massachusetts","inc_12_pov_m",32,37
+"2578410","West Wareham CDP, Massachusetts","inc_12_pov_f",146,163
+"2578795","West Yarmouth CDP, Massachusetts","inc_12_pov",389,197
+"2578795","West Yarmouth CDP, Massachusetts","inc_12_pov_m",148,104
+"2578795","West Yarmouth CDP, Massachusetts","inc_12_pov_f",241,128
+"2578850","Weweantic CDP, Massachusetts","inc_12_pov",295,351
+"2578850","Weweantic CDP, Massachusetts","inc_12_pov_m",158,183
+"2578850","Weweantic CDP, Massachusetts","inc_12_pov_f",137,169
+"2578972","Weymouth Town city, Massachusetts","inc_12_pov",3448,756
+"2578972","Weymouth Town city, Massachusetts","inc_12_pov_m",1274,295
+"2578972","Weymouth Town city, Massachusetts","inc_12_pov_f",2174,535
+"2579390","White Island Shores CDP, Massachusetts","inc_12_pov",313,278
+"2579390","White Island Shores CDP, Massachusetts","inc_12_pov_m",232,200
+"2579390","White Island Shores CDP, Massachusetts","inc_12_pov_f",81,104
+"2579495","Whitinsville CDP, Massachusetts","inc_12_pov",434,183
+"2579495","Whitinsville CDP, Massachusetts","inc_12_pov_m",168,92
+"2579495","Whitinsville CDP, Massachusetts","inc_12_pov_f",266,137
+"2579705","Wilbraham CDP, Massachusetts","inc_12_pov",134,72
+"2579705","Wilbraham CDP, Massachusetts","inc_12_pov_m",118,68
+"2579705","Wilbraham CDP, Massachusetts","inc_12_pov_f",16,25
+"2579950","Williamstown CDP, Massachusetts","inc_12_pov",282,192
+"2579950","Williamstown CDP, Massachusetts","inc_12_pov_m",112,81
+"2579950","Williamstown CDP, Massachusetts","inc_12_pov_f",170,123
+"2580195","Wilmington CDP, Massachusetts","inc_12_pov",580,212
+"2580195","Wilmington CDP, Massachusetts","inc_12_pov_m",300,141
+"2580195","Wilmington CDP, Massachusetts","inc_12_pov_f",280,114
+"2580370","Winchendon CDP, Massachusetts","inc_12_pov",631,301
+"2580370","Winchendon CDP, Massachusetts","inc_12_pov_m",271,209
+"2580370","Winchendon CDP, Massachusetts","inc_12_pov_f",360,171
+"2580545","Winchester CDP, Massachusetts","inc_12_pov",551,196
+"2580545","Winchester CDP, Massachusetts","inc_12_pov_m",256,126
+"2580545","Winchester CDP, Massachusetts","inc_12_pov_f",295,106
+"2581005","Winthrop Town city, Massachusetts","inc_12_pov",1840,524
+"2581005","Winthrop Town city, Massachusetts","inc_12_pov_m",674,267
+"2581005","Winthrop Town city, Massachusetts","inc_12_pov_f",1166,320
+"2581035","Woburn city, Massachusetts","inc_12_pov",2328,615
+"2581035","Woburn city, Massachusetts","inc_12_pov_m",872,262
+"2581035","Woburn city, Massachusetts","inc_12_pov_f",1456,438
+"2581245","Woods Hole CDP, Massachusetts","inc_12_pov",70,54
+"2581245","Woods Hole CDP, Massachusetts","inc_12_pov_m",10,14
+"2581245","Woods Hole CDP, Massachusetts","inc_12_pov_f",60,52
+"2582000","Worcester city, Massachusetts","inc_12_pov",36419,1891
+"2582000","Worcester city, Massachusetts","inc_12_pov_m",16176,1154
+"2582000","Worcester city, Massachusetts","inc_12_pov_f",20243,1145
+"2582595","Yarmouth Port CDP, Massachusetts","inc_12_pov",301,165
+"2582595","Yarmouth Port CDP, Massachusetts","inc_12_pov_m",122,82
+"2582595","Yarmouth Port CDP, Massachusetts","inc_12_pov_f",179,90
