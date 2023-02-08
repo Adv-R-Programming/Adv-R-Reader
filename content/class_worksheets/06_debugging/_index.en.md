@@ -142,7 +142,7 @@ error will happen. Once you get in the spot in the function the error
 occurs, it will boot you out of the browser back to the global
 environment.
 
-As you step through the function you should notice the at line
+As you step through the function you should notice the code at line
 `vec_mode = mode(num_vec)` produces an output of `"numeric"`, which
 would be causing our error in the next line,
 `if(!all(is.numeric(output))){stop("Not all values are numeric!")}`.
