@@ -204,11 +204,9 @@ So that it looks at toss_2 rather than toss_1.
 ## Puzzle 2
 
 ::: {.question}
-The following function will input our survey dataframe, and is meant to output the number of times people responded `TRUE` to a question. The correct output is 33, however it is currently outputting 110. Debug this function to fix the issue.
+The following function will input our survey dataframe, and is meant to output the number of times people responded `TRUE` to a question. The correct output is 41, however it is currently outputting 112. Debug this function to fix the issue.
 
 ```{r eval=FALSE}
-# load data
-survey = read.csv("https://raw.githubusercontent.com/Intro-to-Data-Science-Template/intro_to_data_science_reader/main/content/class_worksheets/4_r_rstudio/data/survey_data.csv")
 
 puzzle_2 = function(survey_dataframe) {
   

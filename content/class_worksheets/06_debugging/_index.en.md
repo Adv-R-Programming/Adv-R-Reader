@@ -1,5 +1,17 @@
-Debugging & Flow
-================
+---
+pre: <b>2/8. </b>
+title: "Debugging & Flow"
+weight: 6
+summary: "Tools to fix errors and test conditions."
+format:
+    gfm:
+      toc: true
+      output-file: "_index.en.md"
+      reference-links: true
+      code-link: true
+editor_options: 
+  chunk_output_type: console
+---
 
 - [Overview][]
 - [Our Toolbox][]
@@ -243,13 +255,10 @@ puzzle_1(char_vec)
 
 The following function will input our survey dataframe, and is meant to
 output the number of times people responded `TRUE` to a question. The
-correct output is 33, however it is currently outputting 110. Debug this
+correct output is 41, however it is currently outputting 112. Debug this
 function to fix the issue.
 
 ``` r
-# load data
-survey = read.csv("https://raw.githubusercontent.com/Intro-to-Data-Science-Template/intro_to_data_science_reader/main/content/class_worksheets/4_r_rstudio/data/survey_data.csv")
-
 puzzle_2 = function(survey_dataframe) {
   
   # pivot the survey data from wide to long
