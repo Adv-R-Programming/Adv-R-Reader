@@ -1,5 +1,17 @@
-Iteration
-================
+---
+pre: <b>2/13. </b>
+title: "Iteration"
+weight: 8
+summary: "Iterate through elements and give our function superpowers."
+format:
+    gfm:
+      toc: true
+      output-file: "_index.en.md"
+      reference-links: true
+      code-link: true
+editor_options: 
+  chunk_output_type: console
+---
 
 - [Overview][]
 - [The Data][]
