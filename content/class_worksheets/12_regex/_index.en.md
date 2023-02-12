@@ -1,0 +1,30 @@
+RegEx
+================
+
+- [Overview][]
+
+## Overview
+
+Regular expressions (RegEx) are a super handy tool to have in your tool
+kit. Whenever you have a problem with text, you can probably make a
+RegEx pattern to fix it. However, making those patterns is usually an
+effort in trial and error. Thankfully, there are some great resources to
+make that process easier.
+
+The first tool is [Regex101][], a site where you can interactively test
+out your regex patterns on a sample of text. We won’t be using it for
+anything today, but it is great to know about. Just note, that any
+pattern you build here will need to be modified slightly for using in R.
+Specifically, and time you use a `\`, you will need to doulbe it to
+`\\`.
+
+What we will be using today is a great site called [Regexlearn][]. For
+today’s worksheet, **your task is to work though levels 1-49 in the
+interactive tutorial**. The site will dynamically update what your regex
+would do if used as you type, so it offers immediate feedback.
+
+That’s all there is for today!
+
+  [Overview]: #overview
+  [Regex101]: https://regex101.com/
+  [Regexlearn]: https://regexlearn.com/learn/regex101
