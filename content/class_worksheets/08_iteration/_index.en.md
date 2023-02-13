@@ -281,7 +281,7 @@ it to `pet_vector` like before.
 
 Iterate over each option in `possible_columns` and use `gsub()` to
 remove all of our known possibilities (and commas) from `pet_vector`.
-You can then use `trimsws()` to remove the extra spaces. Assign the
+You can then use `trimws()` to remove the extra spaces. Assign the
 remaining values to the “other” column of `pet_output`.
 
 </div>
