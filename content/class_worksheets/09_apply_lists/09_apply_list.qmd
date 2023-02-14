@@ -119,7 +119,7 @@ download.file("https://github.com/Adv-R-Programming/Adv-R-Reader/raw/main/conten
 unzip("./09_data.zip", exdir = "./09_data_dir/")
 ```
 
-Now that we have the files, we can treat them like any other `.csvs` we may have used for data analysis. Typically, you would need to run `read.csv()` to load in these files one at a time. That is a chore. Instead, we'll combine a few of the skills we've learned in the worksheets thus far.
+Now that we have the files, we can treat them like any other `.csv`s we may have used for data analysis. Typically, you would need to run `read.csv()` to load in these files one at a time. That is a chore. Instead, we'll combine a few of the skills we've learned in the worksheets thus far.
 
 First, get a vector of all the file paths of the data inside that folder using `list.files()`. I use the *pattern* argument here to say "I only want files that contain this." In this case, it is the "econ_" prefix so I only get our "econ_acs5_YEAR.csv" files which contain economic data.
 

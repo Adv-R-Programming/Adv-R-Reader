@@ -1,5 +1,17 @@
-List and Apply
-================
+---
+pre: <b>2/15. </b>
+title: "List and Apply"
+weight: 9
+summary: "Learn the apply family of functions."
+format:
+    gfm:
+      toc: true
+      output-file: "_index.en.md"
+      reference-links: true
+      code-link: true
+editor_options: 
+  chunk_output_type: console
+---
 
 - [Overview][]
 - [The Data][]
