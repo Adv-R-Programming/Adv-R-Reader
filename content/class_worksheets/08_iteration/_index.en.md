@@ -271,6 +271,21 @@ case. Fill the respective columns.
 
 </div>
 
+<div class="answer">
+
+The following code will iterate through `possible_columns` and replace
+the pattern `grepl()` is looking for with each option. It will test for
+that option, and save the results in the corresponding column.
+
+    for(option in possible_columns){
+      
+      # fill dataframe iterativly.
+      pet_output[ , option] = grepl(option, pet_vector, ignore.case = TRUE)
+      
+    }
+
+</div>
+
 ### Remove the Known Options to Find “Other”
 
 Once we have our “knowns” taken care of, we can work on the others. The
@@ -283,6 +298,29 @@ Iterate over each option in `possible_columns` and use `gsub()` to
 remove all of our known possibilities (and commas) from `pet_vector`.
 You can then use `trimws()` to remove the extra spaces. Assign the
 remaining values to the “other” column of `pet_output`.
+
+</div>
+
+<div class="answer">
+
+The following will remove all known possibilities, clean the remainder,
+and assign it to the ‘other’ column.
+
+    for(option in possible_columns){
+      
+      # remove all known options
+      pet_vector = gsub(pattern = option, pet_vector, replacement = '', ignore.case = TRUE)
+      
+    }
+
+    # clear commas and whitespace
+    pet_vector = gsub(pattern = ',', pet_vector, replacement = '', ignore.case = TRUE)
+    pet_vector = trimws(pet_vector)
+
+    # Fill in 'other'
+    pet_output$other = pet_vector
+    # Turn blanks into NAs
+    pet_output[pet_output$other == '', 'other'] = NA
 
 </div>
 
@@ -344,6 +382,57 @@ pet_output[pet_output$other == '' & !is.na(pet_output$other), 'other'] = NA
 
 Convert our code back into a function, call the function
 `comma_split()`.
+
+</div>
+
+<div class="answer">
+
+    comma_split = function(vector_to_split, possible_columns){
+      
+      # make a base dataframe with rows for each of our cases.
+      output = data.frame(
+        "id" = 1:length(vector_to_split)
+        )
+      
+      # iterate through all options and create a column with NAs for it
+      for(option in possible_columns){
+        
+        # make a new column with a character version of each possible option.
+        output[, as.character(option)] = NA
+        
+      }
+      
+      # fill output df
+      for(option in possible_columns){
+        
+        # fill dataframe iterativly.
+        output[ , option] = grepl(option, vector_to_split, ignore.case = TRUE)
+        
+      }
+      
+      # clear all know options
+      for(option in possible_columns){
+        
+        # remove all known options
+        vector_to_split = gsub(pattern = option, vector_to_split, replacement = "", ignore.case = TRUE)
+        
+      }
+      
+      # clear commas and whitespace
+      vector_to_split = gsub(pattern = ",", vector_to_split, replacement = "", ignore.case = TRUE)
+      vector_to_split = trimws(vector_to_split)
+      
+      # Fill in "other"
+      output$other = vector_to_split
+      # Turn blanks into NAs
+      output[output$other == "" & !is.na(output$other), "other"] = NA
+      
+      # return output
+      return(output)
+    }
+
+    comma_split(vector_to_split = survey$pets,
+              possible_columns = c("dog", "cat", "fish", "bird", "reptile", "rock", "none"))
 
 </div>
 
