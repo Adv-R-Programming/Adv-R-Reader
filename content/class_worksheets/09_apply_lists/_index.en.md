@@ -127,6 +127,15 @@ argument; it will produce an error.
 
 </div>
 
+<div class="answer">
+
+drink_dfs = lapply(X = survey\[, c(“coffee_days”, “tea_days”,
+“soda.pop_days”, “juice_days”, “none_days”)\], FUN = comma_split,
+possible_columns = c(“monday”, “tuesday”, “wednesday”, “thursday”,
+“friday”, “saturday”, “sunday”))
+
+</div>
+
 You will have gotten a list object of length 5 back. Recall that lists
 are super-vectors. In this case, each element of our list contains an
 entire dataframe! Each of these dataframes is the normal output from
@@ -154,7 +163,7 @@ download.file("https://github.com/Adv-R-Programming/Adv-R-Reader/raw/main/conten
 unzip("./09_data.zip", exdir = "./09_data_dir/")
 ```
 
-Now that we have the files, we can treat them like any other `.csvs` we
+Now that we have the files, we can treat them like any other `.csv`s we
 may have used for data analysis. Typically, you would need to run
 `read.csv()` to load in these files one at a time. That is a chore.
 Instead, we’ll combine a few of the skills we’ve learned in the
@@ -230,6 +239,30 @@ applying it to several objects.
 <div class="question">
 
 Repeat this process with the “pop_acs5_XXXX” CSVs.
+
+</div>
+
+<div class="answer">
+
+lab_3\_data = “path/to/lab-3-tidy-agg-merge-NAME/data/”
+
+pop_data_paths = list.files(lab_3\_data, pattern = “pop\_”, full.names =
+TRUE)
+
+all_pop_data = lapply(pop_data_paths, read.csv)
+
+all_pop_data_wide = lapply(all_pop_data, FUN = pivot_wider, id_cols =
+c(“GEOID”, “NAME”), names_from = “variable”, values_from = c(“estimate”,
+“moe”))
+
+for(i in 1:6){
+
+\# get the file name I want file_name = basename(pop_data_paths\[i\])
+
+\# add that as a column to the matching list element
+all_pop_data_wide\[\[i\]\]\$file_name = file_name }
+
+merged_pop = do.call(rbind, all_pop_data_wide)
 
 </div>
 
