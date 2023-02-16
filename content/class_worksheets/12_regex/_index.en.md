@@ -1,5 +1,17 @@
-RegEx
-================
+---
+pre: <b>2/22. </b>
+title: "RegEx"
+weight: 12
+summary: "Learn some RegEx interactively!"
+format:
+    gfm:
+      toc: true
+      output-file: "_index.en.md"
+      reference-links: true
+      code-link: true
+editor_options: 
+  chunk_output_type: console
+---
 
 - [Overview][]
 
