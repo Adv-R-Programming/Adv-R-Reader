@@ -27,7 +27,7 @@ The governmental agency that oversees this process, Ofsted, regularly published 
 
 I've provided a real report PDF at the following link. Please download the file and place it in the `data` directory of your current project.
 
-[Download the PDF Report Here.]()
+[Download the PDF Report Here.](https://github.com/Adv-R-Programming/Adv-R-Reader/raw/main/content/class_worksheets/15_pdf_data/data/SC_SC037304_2007_07_30__1.pdf)
 
 ## Install Guide
 
@@ -191,7 +191,7 @@ Say we didn't want to get the whole document back as a big blob. One of the most
 
 `tabulizer` allows you to use the X/Y coordinates in a PDF to your advantage, and just get back the content from that area. Unfortunately, it does not work with flattened documents, so you would need to run OCR on the document outside of R. Today, just download the following document and add it to your data folder.
 
-[Download the digital PDF Report Here.]()
+[Download the digital PDF Report Here.](https://github.com/Adv-R-Programming/Adv-R-Reader/raw/main/content/class_worksheets/15_pdf_data/data/digital_SC_SC037304_2007_07_30__1.pdf)
 
 ::: {.question}
 Run the following code to start an interactive tool to extract the table from page 10. You should click and drag to create a box around the table. If the box is not in the right position, hover over the edge of the box to adjust it.
