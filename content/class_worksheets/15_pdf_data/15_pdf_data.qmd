@@ -1,0 +1,21 @@
+---
+pre: <b>3/1. </b>
+title: "PDF Data Extraction"
+weight: 15
+summary: "Extract data from PDFs."
+format:
+    gfm:
+      toc: true
+      output-file: "_index.en.md"
+      reference-links: true
+      code-link: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+answers = FALSE
+```
+
+## Overview
+
