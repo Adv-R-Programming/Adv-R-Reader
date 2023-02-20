@@ -102,7 +102,7 @@ I want to make a dataframe with one row (for this report), with columns indicati
 
 First, I need to load in `stringr` for text tools, and combine all of my pages into one giant text blob. This is so that I can search for the info I want from the entire document, rather than needing to search on each page.
 
-```{r}
+```{r, eval=FALSE, echo=TRUE}
 # load stringr
 library(stringr)
 
@@ -112,7 +112,7 @@ pdf_text_blob = paste0(pdf_text_vector, collapse = " ")
 
 Next, I start looking for my key data points. I start with the reference number, the get the date, and summary rating. I then take those elements and make a dataframe.
 
-```{r}
+```{r, eval=FALSE, echo=TRUE}
 # Get the document URN
 # the regex formula is looking for whatever comes after the phrase "Unique reference number" and ends with the next newline (\n) character
 # I need to subset the results matrix to just the contents of my capture (inside the () ), rather than everything
@@ -130,7 +130,7 @@ doc_df = data.frame("urn" = doc_urn, "date" = doc_date, "rating" = doc_result)
 
 Because I want to (theoretically) run this code on all the reports, I will turn it into a function.
 
-```{r}
+```{r, eval=FALSE, echo=TRUE}
 get_report_info = function(pdf_text_blob){
   
   # Get the document URN
@@ -157,7 +157,7 @@ get_report_info(pdf_text_blob = pdf_text_blob)
 
 You may notice that there is an error in the Unique reference number in my results; in that there is an extra $. Unfortunately that comes with OCR territory, and it did not quite read the document correctly. All we can do is keep an eye out for these issues and correct them. In this case, I'll add a warning if I see any special characters in the URN.
 
-```{r}
+```{r, eval=FALSE, echo=TRUE}
 get_report_info = function(pdf_text_blob){
   
   # Get the document URN
@@ -215,7 +215,7 @@ table_1_coords = tabulizer::locate_areas("data/digital_SC_SC037304_2007_07_30__1
 
 Now that we have our coordinates, we can refine our table extraction a bit. Using `extract_tables()` we can help the process by specifying how many columns there should be. I do this by setting `guess` to `FALSE`, and setting `columns` to the right boundary of each column. You can read the other options in the help page.
 
-```{r}
+```{r, eval=FALSE, echo=TRUE}
 # set my own coordinates for rendering
 table_coords = list(c(236, 70, 674, 525))
 
@@ -229,7 +229,7 @@ doc_table = tabulizer::extract_tables("data/digital_SC_SC037304_2007_07_30__1.pd
 
 The results should be a bit nicer, but still not perfect. We can combine those multiple rows into a single value with the following code. I take a step through my current output line by line, and if the next line has an `NA` in the standard column, I combine the contents of that row's `Action` column with the previous. I then create a clean output.
 
-```{r}
+```{r, eval=FALSE, echo=TRUE}
 # make output vector
 output = c()
 
@@ -267,7 +267,7 @@ clean_doc_table = data.frame("standard" = doc_table[!is.na(doc_table$Standard), 
 
 ## Conclusion
 
-
+Working with PDFs is messy, but being able to do so gives you access to an entirely new realm of data sources. While it is always advisable to look for other ways to get data, if PDFs is all you have, at least now you know how to make the best of things.
 
 
 
