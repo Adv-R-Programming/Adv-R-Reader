@@ -1,5 +1,17 @@
-Web Scraping
-================
+---
+pre: <b>2/20. </b>
+title: "Web Scraping"
+weight: 11
+summary: "Harvest the internet."
+format:
+    gfm:
+      toc: true
+      output-file: "_index.en.md"
+      reference-links: true
+      code-link: true
+editor_options: 
+  chunk_output_type: console
+---
 
 - [Overview][]
 - [A Legal Refresher (not legal advice)][]
