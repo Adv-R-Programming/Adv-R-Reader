@@ -144,6 +144,12 @@ anything else is highlighted, click on it to turn it red and exclude it.
 
 </div>
 
+<div class="answer">
+
+The Program Committee header needs to be excluded.
+
+</div>
+
 Look at the `SelectorGadget` grey box in the lower right and you will
 see a short string starting with `.fac-inset`, that’s the HTML section
 for our names. Copy the whole string and keep it somewhere handy.
@@ -173,6 +179,14 @@ Scrape the SDS home page into R and store it in an object called
 
 </div>
 
+<div class="answer">
+
+library(rvest)
+
+sds_page = read_html(‘https://www.smith.edu/academics/statistics’)
+
+</div>
+
 Once we have the whole page, we can start pulling information from it.
 The usual workflow here is to tell R what HTML structure we are
 interested in, and then what we want from it. For example, we can say we
@@ -197,6 +211,13 @@ all the SDS faculty names.
 
 </div>
 
+<div class="answer">
+
+sds_faculty = data.frame(‘name’ = html_text2(html_elements(sds_page,
+‘.fac-inset h3’)))
+
+</div>
+
 ### Positions
 
 Next we want to get the titles for all the faculty. The process is
@@ -207,6 +228,12 @@ using `SelectorGadget`
 
 Using the same process as before, add the title of each faculty member
 to our `sds_faculty` dataframe into a new column called `title`.
+
+</div>
+
+<div class="answer">
+
+sds_faculty\$title = html_text2(html_elements(sds_page, ‘.fac-inset p’))
 
 </div>
 
@@ -228,6 +255,13 @@ is the name of the attribute we want to get.
 
 Using `html_elements()` and `html_attr()`, get the links from the
 faculty names and add them to our dataframe in a column called `link`.
+
+</div>
+
+<div class="answer">
+
+sds_faculty\$link = html_attr(html_elements(sds_page, ‘.linkopacity’),
+name = ‘href’)
 
 </div>
 
