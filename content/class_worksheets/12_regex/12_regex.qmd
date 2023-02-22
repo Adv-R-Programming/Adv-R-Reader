@@ -1,0 +1,28 @@
+---
+pre: <b>2/22. </b>
+title: "RegEx"
+weight: 12
+summary: "Learn some RegEx interactively!"
+format:
+    gfm:
+      toc: true
+      output-file: "_index.en.md"
+      reference-links: true
+      code-link: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, include=FALSE}
+answers = FALSE
+```
+
+## Overview
+
+Regular expressions (RegEx) are a super handy tool to have in your tool kit. Whenever you have a problem with text, you can probably make a RegEx pattern to fix it. However, making those patterns is usually an exercise of trial and error. Thankfully, there are some great resources to make that process easier.
+
+The first tool is [Regex101](https://regex101.com/), a site where you can interactively test out your regex patterns on a sample of text. We won't be using it for anything today, but it is great to know about. Just note that any pattern you build here will need to be modified slightly for using in R. Specifically, any time you use a `\`, you will need to double it to `\\`.
+
+What we *will* be using today is a great site called [Regexlearn](https://regexlearn.com/learn/regex101). For today's worksheet, **your task is to work though levels 1-49 in the interactive tutorial**. The site will dynamically update what your regex would do if used it as you type, so it offers immediate feedback.
+
+That's all there is for today!
