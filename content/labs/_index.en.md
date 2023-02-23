@@ -15,7 +15,9 @@ All labs will be turned in through Github Classroom. You will set up your studen
 -   [Lab 01: R Objects]
 -   [Lab 02: Functions]
 -   [Lab 03: Iteration & Apply]
+-   [Lab 04: Web Scraping & RegEx]
 
   [Lab 01: R Objects]: /Adv-R-Reader/labs/lab1-objects.html
   [Lab 02: Functions]: /Adv-R-Reader/labs/lab2-functions.html
   [Lab 03: Iteration & Apply]: /Adv-R-Reader/labs/lab3-iteration-apply.html
+  [Lab 04: Web Scraping & RegEx]: /Adv-R-Reader/labs/lab4-web-scraping-regex.html
