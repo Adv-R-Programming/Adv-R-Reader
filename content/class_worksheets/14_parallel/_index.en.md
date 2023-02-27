@@ -1,5 +1,17 @@
-Parallel
-================
+---
+pre: <b>2/27. </b>
+title: "Parallel"
+weight: 14
+summary: "Learn to parallelize R code."
+format:
+    gfm:
+      toc: true
+      output-file: "_index.en.md"
+      reference-links: true
+      code-link: true
+editor_options: 
+  chunk_output_type: console
+---
 
 - [Overview][]
 - [Baseline Sequential Execution][]
@@ -56,8 +68,8 @@ and the overwrite it.
 <div class="question">
 
 Run the following code and write down how long it takes to execute
-somewhere easy to reference later. You need to execute all of it at once
-for the tic-toc timer to work!
+somewhere easy to reference later. You need to execute **all of it at
+once** for the tic-toc timer to work!
 
 ``` r
 # load in tictoc for easy benchmarking
@@ -85,9 +97,9 @@ For a comparison, let’s run the same code as a regular apply function.
 <div class="question">
 
 Run the following code and write down how long it takes to execute
-somewhere easy to reference later. You need to execute all of it at once
-for the tic-toc timer to work! There should be a small improvement over
-the for loop.
+somewhere easy to reference later. You need to execute **all of it at
+once** for the tic-toc timer to work! There should be a small
+improvement over the for loop.
 
 ``` r
 # start timer
@@ -115,7 +127,7 @@ it even further.
 
 ## Setting a Parallel Plan
 
-To prepare for running out first bit of code in parallel, we need to
+To prepare for running our first bit of code in parallel, we need to
 understand the specs of your machine a bit better. It is completely
 possible to crash your computer if you ask it to run too much code at
 once. One of the most common culprits of this is asking your computer to
@@ -137,12 +149,13 @@ but you really shouldn’t. To find the max, take whatever number you just
 got and lower it by one. This will always leave one core free for your
 computer to do other important things, like let you move the mouse.
 
-Once we have than number in mind, we can start preparing for running
-code in parallel. We’ll be using the `future` package to coordinate our
-parallel code; more specifically the `future.apply` package. `future`
-lets you write parallel code in a generic way, and then adapt how the
-code is actually executed later. This can be really helpful if you swap
-between machines often like I do.
+Once we have our maximum safe number in mind, we can start preparing for
+running code in parallel. We’ll be using the `future` package to
+coordinate our parallel code; more specifically the `future.apply`
+package. `future` lets you write parallel code in a generic way, and
+then adapt how the code is actually executed later. This can be really
+helpful if you swap between machines often like I do (or how we will
+next week).
 
 To create our parallel plan, all we need to do is load the
 `future.apply` package, and run the `plan()` function. The options for
