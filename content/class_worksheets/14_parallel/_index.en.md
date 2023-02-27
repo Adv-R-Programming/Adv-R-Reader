@@ -1,0 +1,390 @@
+---
+pre: <b>2/27. </b>
+title: "Parallel"
+weight: 14
+summary: "Learn to parallelize R code."
+format:
+    gfm:
+      toc: true
+      output-file: "_index.en.md"
+      reference-links: true
+      code-link: true
+editor_options: 
+  chunk_output_type: console
+---
+
+- [Overview][]
+- [Baseline Sequential Execution][]
+- [Setting a Parallel Plan][]
+- [Simple Parallel][]
+- [What’s the Catch?][]
+  - [Data Transfer][]
+  - [I/O Constraints][]
+  - [Dependency][]
+  - [A Note on Shared Environments][]
+- [Conclusion][]
+
+## Overview
+
+Parallelizing code can lead to some impressive performance gains, but it
+is not a silver bullet. Not only does your problem need to be easily
+compartmentalized to run in parallel, but bottlenecks in your code flow
+can actually make code *slower* if run in parallel. Today we’ll run a
+few tests to try and get a sense of when it is and is not helpful to
+parallelize our code.
+
+You are going to need the `future.apply` and `tictoc` packages for the
+worksheet today, so be sure to install them.
+
+## Baseline Sequential Execution
+
+Before we get into running code in parallel, let’s establish a baseline
+for your machine. Execute the following code to define a function that
+will find prime numbers between 1 and `n`.
+
+``` r
+# Function taken from John on this stack overflow post
+# https://stackoverflow.com/questions/3789968/generate-a-list-of-primes-up-to-a-certain-number
+getPrimeNumbers <- function(n, dead_weight) {  
+   n <- as.integer(n)
+   if(n > 1e6) stop("n too large")
+   primes <- rep(TRUE, n)
+   primes[1] <- FALSE
+   last.prime <- 2L
+   for(i in last.prime:floor(sqrt(n)))
+   {
+      primes[seq.int(2L*last.prime, n, last.prime)] <- FALSE
+      last.prime <- last.prime + min(which(primes[(last.prime+1):n]))
+   }
+   which(primes)
+}
+```
+
+To get our baseline, we’re going to iterate over a numeric vector, and
+calculate all the prime numbers for those values. We don’t actually need
+to save these values for anything, so I’ll just assign them to `primes`
+and the overwrite it.
+
+<div class="question">
+
+Run the following code and write down how long it takes to execute
+somewhere easy to reference later. You need to execute **all of it at
+once** for the tic-toc timer to work!
+
+``` r
+# load in tictoc for easy benchmarking
+library(tictoc)
+
+# start timer
+tic()
+
+# set our vector to iterate through
+num_vec = 10:9001
+
+# get primes
+for(i in num_vec){
+  primes = getPrimeNumbers(i)
+}
+
+# stop timer
+toc()
+```
+
+</div>
+
+For a comparison, let’s run the same code as a regular apply function.
+
+<div class="question">
+
+Run the following code and write down how long it takes to execute
+somewhere easy to reference later. You need to execute **all of it at
+once** for the tic-toc timer to work! There should be a small
+improvement over the for loop.
+
+``` r
+# start timer
+tic()
+
+# set our vector to iterate through
+num_vec = 10:9001
+
+# get primes
+primes = sapply(num_vec, getPrimeNumbers)
+
+# stop timer
+toc()
+```
+
+</div>
+
+The time difference in this case will be minimal given the small scale
+of our code. For example, the for loop for me was 22.78 seconds, while
+the `sapply()` was 21.19 seconds; a difference of \~7%[^1]. 7% of a few
+seconds in negligible, but 7% of an hour (\~4 minutes) is time to get a
+snack. 7% of a work day (\~33 mins) gets you an extra lunch break. 7% of
+a week may get you your results a full half work day early! Let’s take
+it even further.
+
+## Setting a Parallel Plan
+
+To prepare for running our first bit of code in parallel, we need to
+understand the specs of your machine a bit better. It is completely
+possible to crash your computer if you ask it to run too much code at
+once. One of the most common culprits of this is asking your computer to
+use too many cores.
+
+To determine how many cores you have on your computer, run the following
+and keep track of the number.
+
+``` r
+# Get the number of cores on this machine
+parallel::detectCores()
+
+# the max cores we should possibly use
+max_safe = parallel::detectCores() - 1
+```
+
+You could theoretically run as many streams of code as you have cores,
+but you really shouldn’t. To find the max, take whatever number you just
+got and lower it by one. This will always leave one core free for your
+computer to do other important things, like let you move the mouse.
+
+Once we have our maximum safe number in mind, we can start preparing for
+running code in parallel. We’ll be using the `future` package to
+coordinate our parallel code; more specifically the `future.apply`
+package. `future` lets you write parallel code in a generic way, and
+then adapt how the code is actually executed later. This can be really
+helpful if you swap between machines often like I do (or how we will
+next week).
+
+To create our parallel plan, all we need to do is load the
+`future.apply` package, and run the `plan()` function. The options for
+our plan are as follows:
+
+| Name              | OSes                    | Description                                                   |
+|-------------------|-------------------------|---------------------------------------------------------------|
+| **synchronous:**  |                         | **non-parallel:**                                             |
+| sequential        | all                     | sequentially and in the current R process                     |
+| **asynchronous:** |                         | **parallel:**                                                 |
+| multisession      | all                     | background R sessions (on current machine)                    |
+| multicore         | not Windows/not RStudio | forked R processes (on current machine)                       |
+| cluster           | all                     | external R sessions on current, local, and/or remote machines |
+
+R normally runs *sequentially*, meaning it runs code one thing at at
+time in order. We can specify that as our plan if we wanted, but then
+nothing would really change. The most robust plan type is
+*multisession*, where we create multiple copies of R to handle different
+sections of our code at once; we’ll do that here. To specify that is our
+plan, run the following code. You’ll notice I also set the argument
+`workers` to 2. This means we essentially will have 2 copies of R
+working at the same time for us.
+
+``` r
+# load the package
+library(future.apply)
+
+# set our plan
+plan(multisession, workers = 2)
+```
+
+## Simple Parallel
+
+Now that we have our plan set, let’s run our code from above again. This
+time, we’ll use the `future_sapply()` function to run it in parallel.
+
+<div class="question">
+
+Run the following code and write down how long it takes to execute
+somewhere easy to reference later.
+
+``` r
+# start timer
+tic()
+
+# set our vector to iterate through
+num_vec = 10:9001
+
+# get primes
+primes = future_sapply(num_vec, getPrimeNumbers)
+
+# stop timer
+toc()
+```
+
+</div>
+
+You should see a more sizable decrease in execution time, for me it went
+from 21.19 seconds with a regular apply, to 14.92 seconds with 2
+workers. What happens if we add more workers?
+
+<div class="question">
+
+Run the following code and write down how long it takes to execute
+somewhere easy to reference later. Notice that I’ve changed our plan to
+3 workers.
+
+``` r
+# start timer
+tic()
+
+# change out plan to 3 workers
+plan(multisession, workers = 3)
+
+# set our vector to iterate through
+num_vec = 10:9001
+
+# get primes
+primes = future_sapply(num_vec, getPrimeNumbers)
+
+# stop timer
+toc()
+```
+
+</div>
+
+Down to 12.19 second for me, including the time it takes to change out
+plan! Let’s go full-bore and use our maximum safe number of cores from
+above.
+
+<div class="question">
+
+Run the following code and write down how long it takes to execute
+somewhere easy to reference later. Notice that I’ve changed our plan to
+3 workers.
+
+``` r
+# start timer
+tic()
+
+# change out plan to max safe workers
+plan(multisession, workers = max_safe)
+
+# set our vector to iterate through
+num_vec = 10:9001
+
+# get primes
+primes = future_sapply(num_vec, getPrimeNumbers)
+
+# stop timer
+toc()
+```
+
+</div>
+
+Working with as many cores as I can spare, the code got down to 8.14
+seconds. That’s a full *80% faster*, which is a huge deal!
+
+## What’s the Catch?
+
+We can get such large improvements with this code because it is simple,
+and there are no *bottlenecks* in our code. In general, a bottleneck is
+the slowest part of a system, so called because everything else has to
+wait for it to finish. For example, say we are thinking of building a
+new desktop computer. We need to select our new CPU, hard drive, and
+RAM. All three of these are reliant on each other for the computer to
+work quickly. If we spend all of our funds on getting the fastest
+possible CPU, but buy a really slow hard drive, then the CPU will just
+be sitting around waiting for the hard drive to relay whatever data the
+CPU requested.
+
+The main purpose of running code in parallel is to get around the
+bottleneck of only being able to execute one piece of code at a time. By
+running code in parallel on multiple cores, we can do several
+computations at once, meaning we can get to the next step faster.
+However, there is almost always a next step, and it may not be
+parallelizable.
+
+### Data Transfer
+
+One of the most common bottlenecks is caused by data transfer. We we
+start all these workers for R, each one needs to get a full copy of the
+data before it can start working. Try running the following, where I
+include a large data object in our `sapply()` as an argument.
+
+<div class="question">
+
+Run the following code and write down how long it takes to execute
+somewhere easy to reference later.
+
+``` r
+# start timer
+tic()
+
+# change out plan to max safe workers
+plan(multisession, workers = max_safe)
+
+# set our vector to iterate through
+num_vec = 10:9001
+
+# make dead weight
+dead_weight = matrix(1:9999999)
+
+# get primes
+primes = future_sapply(num_vec, getPrimeNumbers, dead_weight)
+
+# stop timer
+toc()
+```
+
+</div>
+
+You should see that the time to run has stared creeping back upwards.
+This was a relatively simple example, but as the data to transfer gets
+larger, or the steps that can’t be parallelized become more common, we
+start to lose the gains parallel code gets us.
+
+### I/O Constraints
+
+The above example has to do with the limits of our CPU. We can also run
+in to trouble with other parts of our hardware. For example, we can make
+more workers to do computations for us, but if one of our steps is
+loading data, it may not matter. This is because we run into the limits
+of our hard drives. No matter how many workers we have, if we hit the
+speed limit on our hard drive loading data in to R, all those workers
+will just have to sit and wait.
+
+### Dependency
+
+It is also important to note that **none** of this works if there is
+dependency in our code. All tasks to be done in parallel need to be
+independent from each other, otherwise we can’t run several of them at
+once.
+
+### A Note on Shared Environments
+
+Thus far I have assumed you are working on your own personal computer.
+If you task is large enough that you need to parallelize things, you may
+be working on a server or some other shared environment. It is
+**critical** to note in these situations that running your code in
+parallel can really make things difficult for other people.
+
+Consider our above code to determine the maximum safe number of workers
+to use. We just took the number of cores our machine has and subtracted
+one so we could keep using it while the code runs. If you do this on a
+server, you will be taking every single core that every other person is
+using, and then just leaving one so you can still check the status. In
+effect, you take this massive shared resource and say: “this is all
+mine.” That is what is called a jerk move.
+
+The server admins will notice and they may not be happy.
+
+## Conclusion
+
+Running code in parallel is cool, and can be helpful. But it is
+important to know the limitations–and when it can actually be
+detrimental. Be sure you keep these conditions in mind when you decide
+to parallelize code or not.
+
+[^1]: The actual percent things will differ relies on a ton of factors.
+    Don’t take this as a representative number.
+
+  [Overview]: #overview
+  [Baseline Sequential Execution]: #baseline-sequential-execution
+  [Setting a Parallel Plan]: #setting-a-parallel-plan
+  [Simple Parallel]: #simple-parallel
+  [What’s the Catch?]: #whats-the-catch
+  [Data Transfer]: #data-transfer
+  [I/O Constraints]: #io-constraints
+  [Dependency]: #dependency
+  [A Note on Shared Environments]: #a-note-on-shared-environments
+  [Conclusion]: #conclusion
