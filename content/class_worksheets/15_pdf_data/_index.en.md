@@ -1,5 +1,17 @@
-PDF Data Extraction
-================
+---
+pre: <b>3/1. </b>
+title: "PDF Data Extraction"
+weight: 15
+summary: "Extract data from PDFs."
+format:
+    gfm:
+      toc: true
+      output-file: "_index.en.md"
+      reference-links: true
+      code-link: true
+editor_options: 
+  chunk_output_type: console
+---
 
 - [Overview][]
 - [Install Guide][]
@@ -14,10 +26,10 @@ PDF Data Extraction
 
 PDFs are a ubiquitous file format. However, they were not made with data
 processes in mind. This can make them quite a pain to work with, so they
-would be avoided when possible.
+should be avoided when possible.
 
 Today I will walk you through one example of when I needed to get data
-out of PDFs. It will be less of a worksheet and more of an explanation.
+out of PDFs. It will be less of a worksheet and more of a demonstration.
 In 2019 I spent some time working in the UK building a machine learning
 system to identify what foster care providers should be prioritized for
 inspection to assure children were receiving adequate care. One of the
@@ -25,14 +37,14 @@ most important bits of data in building this system was how these
 fostering agencies have performed in the past.
 
 The governmental agency that oversees this process, Ofsted, regularly
-published reports on these providers to the public online. However, that
-was the only format this information was available in. Step one was
-building a web scraper to download all of the reports and attach
-relevant metadata. The next step was scraping the contents. The last
-step was using that raw data for further analyses. Today we’re going to
-work on that second step together.
+published reports on these providers to the public online. However, they
+were only available in PDF format. To make this data useful, step one
+was building a web scraper to download all of the reports and attach
+relevant metadata. The next step was scraping the contents from the
+PDFs. The last step was using that raw data for further analyses. Today
+we’re going to work on that second PDF extraction step together.
 
-I’ve provided a real report PDF at the following link. Please download
+I’ve provided a *real report PDF* at the following link. Please download
 the file and place it in the `data` directory of your current project.
 
 [Download the PDF Report Here.][]
@@ -115,7 +127,7 @@ where each page is an element in the vector.
 <div class="question">
 
 Run the following code to run OCR on the example PDF and extract the
-text.
+text as a blob per page.
 
 ``` r
 # get text blobs
@@ -151,8 +163,8 @@ pdf_text_blob = paste0(pdf_text_vector, collapse = " ")
 ```
 
 Next, I start looking for my key data points. I start with the reference
-number, the get the date, and summary rating. I then take those elements
-and make a dataframe.
+number, then get the date, and summary rating. I then take those
+elements and make a dataframe.
 
 ``` r
 # Get the document URN
@@ -198,7 +210,7 @@ get_report_info = function(pdf_text_blob){
 get_report_info(pdf_text_blob = pdf_text_blob)
 ```
 
-You may notice that there is an error in the Unique reference number in
+You may notice that there is a mistake in the Unique reference number in
 my results; in that there is an extra \$. Unfortunately that comes with
 OCR territory, and it did not quite read the document correctly. All we
 can do is keep an eye out for these issues and correct them. In this
@@ -243,8 +255,8 @@ into R as a table. Well, we can! This is where `tabulizer` comes in.
 `tabulizer` allows you to use the X/Y coordinates in a PDF to your
 advantage, and just get back the content from that area. Unfortunately,
 it does not work with flattened documents, so you would need to run OCR
-on the document outside of R. Today, just download the following
-document and add it to your data folder.
+on the document outside of R. For today, download the following digital
+version of the document and add it to your data folder.
 
 [Download the digital PDF Report Here.][]
 
