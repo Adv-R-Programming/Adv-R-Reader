@@ -280,7 +280,8 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:left;"> <ol><li>
 <a href="https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart">Quickstart for GitHub Issues. (n.d.). GitHub Docs.</a>
 </li></ol> </td>
-   <td style="text-align:left;"> <ol><li>Final Project Interest Form
+   <td style="text-align:left;"> <ol><li>
+<a href="https://forms.gle/J3bRPcetTVEBJaX2A">Final Project Interest Form</a>
 </li></ol> </td>
   </tr>
   <tr>
@@ -289,7 +290,9 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:left;"> <ol><li>Finals Work Time 1
 </li></ol> </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> <ol><li>
+<a href="https://forms.gle/V79qrX535CxuT1Tf6">Final Project Ranking</a>
+</li></ol> </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #E6F5C9 !important;"> 10 </td>
