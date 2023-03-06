@@ -15,7 +15,7 @@ editor_options:
 
 ## Overview
 
-Today's worksheet will (hopefully) be a bit of a fun divergence. To get comfortable navigating around the terminal, we will be playing a video game, [GameShell](https://github.com/phyver/GameShell)! Or rather the venerable ancestor to modern video games, the text based role playing game. You'll be delving into the depths of castle cellars and slaying spiders like a proper Halloween adventure!
+Today's worksheet will (hopefully) be a bit of a fun divergence. To get comfortable navigating around the terminal, we will be playing a video game, [GameShell](https://github.com/phyver/GameShell)! Or rather the venerable ancestor to modern video games, the text based role playing game. You'll be delving into the depths of castle cellars and slaying spiders like a proper adventure!
 
 For this worksheet, please complete all the basic missions, #1 through #12. Feel free to adventure more though!
 
@@ -25,7 +25,7 @@ Fittingly for a terminal based game, you'll actually download the game through t
 
 ### macOS
 
-Before you can install the game, you will first need to install the tools get get the dependencies (what the game needs to run). First, install homebrew using the following. It will take a few mins.
+Before you can install the game, you will first need to install the tools get get the dependencies (what the game needs to run). First, install [homebrew](https://brew.sh/) using the following; it will take a few mins. If you already have homebrew, you can skip to the next step.
 ```
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
@@ -40,12 +40,6 @@ Finally, get the game using:
 
 ```
 wget https://github.com/phyver/GameShell/releases/download/latest/gameshell.sh
-```
-
-You can then start the game as normal using:
-
-```
-bash gameshell.sh
 ```
 
 ### Windows (Windows Subsystem for Linux)
@@ -70,7 +64,7 @@ wget https://github.com/phyver/GameShell/releases/download/latest/gameshell.sh
 
 ## Playing the Game
 
-Once both of those commands are finished running, you can enter the following to start the game:
+Once you are finished installing the pre-requisites, you can enter the following to start the game provided you are in the correct directory:
 
 ```
 bash gameshell.sh
