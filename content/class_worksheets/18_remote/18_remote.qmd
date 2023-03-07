@@ -35,7 +35,7 @@ ssh srs
 If you did not copy your SSH key to the server during class, run the following commands:
 
 ```
-ssh-copy-id \<YOUR SMITH ID\>@rstudio.smith.edu
+ssh-copy-id <YOUR SMITH ID>@rstudio.smith.edu
 ```
 
 Then, create a file called `config` inside `~./.ssh/` with the following contents:
@@ -43,7 +43,7 @@ Then, create a file called `config` inside `~./.ssh/` with the following content
 ```
 Host srs
     HostName rstudio.smith.edu
-    User \<YOUR SMITH ID\>
+    User <YOUR SMITH ID>
 ```
 
 :::
@@ -52,7 +52,7 @@ You will know you are on the server because the prompt on your terminal will cha
 
 ## Setting up GitHub (Again)
 
-Recall that because you are now on a different machine, you will no longer be able to push and pull to GitHub. We can fix that by creating a new SSH key for this machine. Go and follow the SSH porting of the [GitHub install guide](https://adv-r-programming.github.io/Adv-R-Reader/install_guide/github/#creating-ssh-keys-and-adding-to-github) to create a new key for this machine. Add it to github along with the key for your laptop.
+Recall that because you are now on a different machine, you will no longer be able to push and pull to GitHub using the SSH key on your computer. We can fix that by creating a new SSH key for this machine. Go and follow the SSH portion of the [GitHub install guide](https://adv-r-programming.github.io/Adv-R-Reader/install_guide/github/#creating-ssh-keys-and-adding-to-github) to create a new key for this machine. Add it to GitHub along with the key for your laptop in your user profile.
 
 ## File Transfer
 
@@ -60,14 +60,14 @@ We're on the server, that's great. But we also need our stuff here with us. Now 
 
 This is one of the biggest benefits of using GitHub. While it is great for collaborating with other people, it is also great for collaborating with yourself from multiple machines.
 
-Go visit the repo page for your Lab 3 submission and copy the SSH address of the repo.
+Go visit the repo page for your Lab 3 submission and copy the **SSH address** of the repo.
 
 ![](img/github_repo.png)
 
 Go back to your server terminal window and clone the repo to the machine using:
 
 ```
-git clone \<LINK TO REPO\>
+git clone <LINK TO REPO>
 ```
 
 Say yes if it asks if you want to recognize this device. Once it does it's magic, you now have all your code from Lab 3 on the server!
@@ -80,13 +80,13 @@ R Scripts are the normal way R is written; you can think of it as one huge code 
 
 In this R script, copy your most developed working code from Lab 3. Include everything the code needs to run start to finish, and create the desired table. Remember to comment anything that is not code!
 
-Once that code runs and you have your output, add the following to the end:
+Test the code start to finish on your machine. Once that code runs and you have your output, add the following to the end:
 
 ```
-write.csv(\<DATAFRAME OBJECT NAME\>, "./final_output.csv")
+write.csv(<DATAFRAME OBJECT NAME>, "./final_output.csv")
 ```
 
-That will save whatever dataframe you made to the machine as a CSV. Run this script to make sure it all works. When it does, you can commit and push it.
+That will save whatever dataframe you made to the machine as a CSV. Run this script to make sure it all works. When it does, you can commit and push the R script (**Not the CSV**).
 
 ## Running code on Remote
 
