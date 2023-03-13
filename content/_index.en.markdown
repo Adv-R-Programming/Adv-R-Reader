@@ -104,7 +104,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:left;"> <ol>
 <li><a href="https://rstats.wtf/debugging-r-code.html">Bryan, J., &amp; Hester, J. (2021). Chapter 11 Debugging R code. In What They Forgot to Teach You About R.</a></li>
 <li>
-<a href="https://adv-r.hadley.nz/conditions.html">Grolemund, G., &amp; Wickham, H. (2017). 8 Conditions. In R for Data Science. O'Reilly.</a>
+<a href="https://adv-r.hadley.nz/conditions.html">Grolemund, G., &amp; Wickham, H. (2017). 8 Conditions. In R for Data Science. O’Reilly.</a>
 </li>
 </ol> </td>
    <td style="text-align:left;"> <ol><li>Lab 1
@@ -124,7 +124,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:left;"> <ol><li>Iteration
 </li></ol> </td>
    <td style="text-align:left;"> <ol><li>
-<a href="https://r4ds.had.co.nz/iteration.html"><strong>[21.1-21.3 Only]</strong> Wickham, H., &amp; Grolemund, G. (2017). 21 Iteration. In R for Data Science. O'Reilly.</a>
+<a href="https://r4ds.had.co.nz/iteration.html"><strong>[21.1-21.3 Only]</strong> Wickham, H., &amp; Grolemund, G. (2017). 21 Iteration. In R for Data Science. O’Reilly.</a>
 </li></ol> </td>
    <td style="text-align:left;">  </td>
   </tr>
@@ -153,7 +153,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:left;"> <ol>
 <li><a href="https://rafalab.github.io/dsbook/web-scraping.html">Irizarry, R. A. (2022). Chapter 24 Web scraping. In Introduction to Data Science.</a></li>
 <li>
-<a href="http://www.sfu.ca/%7Epalys/Zimmer-2010-EthicsOfResearchFromFacebook.pdf">Zimmer, M. (2010). But the data is already public: On the ethics of research in Facebook. Ethics and Information Technology, 12(4), 313-325.</a>
+<a href="http://www.sfu.ca/~palys/Zimmer-2010-EthicsOfResearchFromFacebook.pdf">Zimmer, M. (2010). But the data is already public: On the ethics of research in Facebook. Ethics and Information Technology, 12(4), 313-325.</a>
 </li>
 </ol> </td>
    <td style="text-align:left;">  </td>
@@ -194,12 +194,13 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:left;"> 3/1/2023 (Wed) </td>
    <td style="text-align:left;"> <ol><li>PDF Data Extraction
 </li></ol> </td>
-   <td style="text-align:left;"> <ol><li>
-<a href="https://docs.ropensci.org/tabulizer/articles/tabulizer.html">rOpenSci. (n.d.). Introduction to tabulizer.</a>
-</li></ol> </td>
-   <td style="text-align:left;"> <ol><li>
+   <td style="text-align:left;"> <ol>
+<li><a href="https://docs.ropensci.org/tabulizer/articles/tabulizer.html">rOpenSci. (n.d.). Introduction to tabulizer.</a></li>
+<li>
 <a href="https://docs.ropensci.org/tesseract/articles/intro.html">rOpenSci. (n.d.). Using the Tesseract OCR engine in R.</a>
-</li></ol> </td>
+</li>
+</ol> </td>
+   <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #B3E2CD !important;"> 6 </td>
@@ -268,7 +269,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:left;"> <ol><li>Package Creation
 </li></ol> </td>
    <td style="text-align:left;"> <ol><li>
-<a href="https://r-pkgs.org/whole-game.html"><strong>[Skim]</strong> Wickham, H., &amp; Bryan, J. (2023). 2  The Whole Game. In R Packages (2nd ed.). O'Reilly.</a>
+<a href="https://r-pkgs.org/whole-game.html"><strong>[Skim]</strong> Wickham, H., &amp; Bryan, J. (2023). 2  The Whole Game. In R Packages (2nd ed.). O’Reilly.</a>
 </li></ol> </td>
    <td style="text-align:left;"> <ol><li>
 <a href="https://forms.gle/CaAkkPiVojM8Rc548">Final Project Ideas</a>
@@ -316,9 +317,9 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:left;"> <ol><li>Package Documentation
 </li></ol> </td>
    <td style="text-align:left;"> <ol>
-<li><a href="https://r-pkgs.org/man.html">Wickham, H., &amp; Bryan, J. (2023). 17 Function documentation. In R Packages (2nd ed.). O'Reilly.</a></li>
+<li><a href="https://r-pkgs.org/man.html">Wickham, H., &amp; Bryan, J. (2023). 17 Function documentation. In R Packages (2nd ed.). O’Reilly.</a></li>
 <li>
-<a href="https://r-pkgs.org/other-markdown.html">Wickham, H., &amp; Bryan, J. (2023). 19  Other markdown files. In R Packages (2nd ed.). O'Reilly.</a>
+<a href="https://r-pkgs.org/other-markdown.html">Wickham, H., &amp; Bryan, J. (2023). 19  Other markdown files. In R Packages (2nd ed.). O’Reilly.</a>
 </li>
 </ol> </td>
    <td style="text-align:left;">  </td>
@@ -334,7 +335,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #B3E2CD !important;"> 11 </td>
    <td style="text-align:left;"> 4/3/2023 (Mon) </td>
-   <td style="text-align:left;"> <ol><li>Adv Functions
+   <td style="text-align:left;"> <ol><li>S3
 </li></ol> </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
@@ -342,7 +343,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #B3E2CD !important;"> 11 </td>
    <td style="text-align:left;"> 4/5/2023 (Wed) </td>
-   <td style="text-align:left;"> <ol><li>S3
+   <td style="text-align:left;"> <ol><li>Adv Functions
 </li></ol> </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> <ol><li>Lab 6
@@ -362,9 +363,9 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:left;"> <ol><li>Testing
 </li></ol> </td>
    <td style="text-align:left;"> <ol>
-<li><a href="https://r-pkgs.org/testing-basics.html">Wickham, H., &amp; Bryan, J. (2023). 14  Testing basics. In R Packages (2nd ed.). O'Reilly.</a></li>
+<li><a href="https://r-pkgs.org/testing-basics.html">Wickham, H., &amp; Bryan, J. (2023). 14  Testing basics. In R Packages (2nd ed.). O’Reilly.</a></li>
 <li>
-<a href="https://r-pkgs.org/testing-design.html">Wickham, H., &amp; Bryan, J. (2023). 15  Designing your test suite. In R Packages (2nd ed.). O'Reilly.</a>
+<a href="https://r-pkgs.org/testing-design.html">Wickham, H., &amp; Bryan, J. (2023). 15  Designing your test suite. In R Packages (2nd ed.). O’Reilly.</a>
 </li>
 </ol> </td>
    <td style="text-align:left;">  </td>
@@ -395,7 +396,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:left;"> <ol><li>Package Vignettes/Reprex
 </li></ol> </td>
    <td style="text-align:left;"> <ol><li>
-<a href="https://r-pkgs.org/vignettes.html">Wickham, H., &amp; Bryan, J. (2023). 18 Vignettes. In R Packages (2nd ed.). O'Reilly.</a>
+<a href="https://r-pkgs.org/vignettes.html">Wickham, H., &amp; Bryan, J. (2023). 18 Vignettes. In R Packages (2nd ed.). O’Reilly.</a>
 </li></ol> </td>
    <td style="text-align:left;">  </td>
   </tr>
@@ -405,7 +406,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:left;"> <ol><li>Package Website
 </li></ol> </td>
    <td style="text-align:left;"> <ol><li>
-<a href="https://r-pkgs.org/website.html">Wickham, H., &amp; Bryan, J. (2023). 20 Website. In R Packages (2nd ed.). O'Reilly.</a>
+<a href="https://r-pkgs.org/website.html">Wickham, H., &amp; Bryan, J. (2023). 20 Website. In R Packages (2nd ed.). O’Reilly.</a>
 </li></ol> </td>
    <td style="text-align:left;"> <ol><li>Lab 8
 </li></ol> </td>
@@ -421,7 +422,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #F4CAE4 !important;"> 14 </td>
    <td style="text-align:left;"> 4/24/2023 (Mon) </td>
-   <td style="text-align:left;"> <ol><li>Student's Choice
+   <td style="text-align:left;"> <ol><li>Student’s Choice
 </li></ol> </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
@@ -429,7 +430,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #F4CAE4 !important;"> 14 </td>
    <td style="text-align:left;"> 4/26/2023 (Wed) </td>
-   <td style="text-align:left;"> <ol><li>Student's Choice
+   <td style="text-align:left;"> <ol><li>Student’s Choice
 </li></ol> </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> <ol><li>Lab 9
