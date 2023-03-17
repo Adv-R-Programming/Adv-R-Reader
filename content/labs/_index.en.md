@@ -17,9 +17,11 @@ All labs will be turned in through Github Classroom. You will set up your studen
 -   [Lab 03: Iteration & Apply]
 -   [Lab 04: Web Scraping & RegEx]
 -   [Lab 05: PDF & Parallel]
+-   [Link to Final Project]
 
   [Lab 01: R Objects]: /Adv-R-Reader/labs/lab1-objects.html
   [Lab 02: Functions]: /Adv-R-Reader/labs/lab2-functions.html
   [Lab 03: Iteration & Apply]: /Adv-R-Reader/labs/lab3-iteration-apply.html
   [Lab 04: Web Scraping & RegEx]: /Adv-R-Reader/labs/lab4-web-scraping-regex.html
   [Lab 05: PDF & Parallel]: /Adv-R-Reader/labs/lab5-PDF-Parallel.html
+  [Link to Final Project]: https://moodle.smith.edu/mod/url/view.php?id=1029245
