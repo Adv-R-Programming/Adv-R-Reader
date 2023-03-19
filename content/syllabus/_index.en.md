@@ -190,8 +190,8 @@ You can demonstrate proficiency in any reviewed assignment, **but can only fulfi
    <td style="text-align:left;"> Copies-and-pastes similar code with small changes. </td>
    <td style="text-align:left;"> Creates simple functions with predetermined inputs. </td>
    <td style="text-align:left;"> Creates functions that that make use of arguments to modify their output. </td>
-   <td style="text-align:left;"> Creates functions that can handle novel inputs, with logic and error checking to determine outputs. </td>
-   <td style="text-align:left;border-right:1px solid;"> Creates functions that can handle arbitrary input through the use of ". . ." or S3 classes. </td>
+   <td style="text-align:left;"> Creates functions that can handle novel inputs (i.e. inputs that are not consistent), with logic and error checking to determine outputs. </td>
+   <td style="text-align:left;border-right:1px solid;"> Creates functions that makes use of ". . ." or S3 classes. </td>
    <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
   </tr>
   <tr>
@@ -200,7 +200,7 @@ You can demonstrate proficiency in any reviewed assignment, **but can only fulfi
    <td style="text-align:left;"> Calls an identical function (even self-made) to repeat a task on different data. </td>
    <td style="text-align:left;"> Uses loop style iteration to act on sequences of data. </td>
    <td style="text-align:left;"> Uses apply style iteration to act on sequences of data. </td>
-   <td style="text-align:left;border-right:1px solid;"> Can iterate in parallel and justify the overhead costs. </td>
+   <td style="text-align:left;border-right:1px solid;"> Can iterate in parallel and justify the overhead costs (i.e. explain if the parallel version actually faster). </td>
    <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
   </tr>
   <tr>
@@ -209,7 +209,7 @@ You can demonstrate proficiency in any reviewed assignment, **but can only fulfi
    <td style="text-align:left;"> Can subset data from vectors or dataframes by position or condition. </td>
    <td style="text-align:left;"> Works with lists when appropriate and can subset list elements effectively by position or condition. </td>
    <td style="text-align:left;"> Works with attributes effectively. Can modify and use attributes to manipulate or create data structures. </td>
-   <td style="text-align:left;border-right:1px solid;"> Works with lists by inputting and sub-setting programmatically defined arbitrary elements. </td>
+   <td style="text-align:left;border-right:1px solid;"> Works with lists by inputting and sub-setting programmatically defined arbitrary elements (such as when performing an iterative task and creating new outputs when the structure is not known). </td>
    <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
   </tr>
   <tr>
@@ -226,7 +226,7 @@ You can demonstrate proficiency in any reviewed assignment, **but can only fulfi
    <td style="text-align:left;"> Does not use git for version control. </td>
    <td style="text-align:left;"> Uses git for version control on individual projects with appropriately sized commits with descriptive commit messages. </td>
    <td style="text-align:left;"> Uses git and GitHub for version control on group work with appropriately sized commits with descriptive commit messages. </td>
-   <td style="text-align:left;"> Effectively creates and merges branches of appropriate size. No sensitive files are committed. </td>
+   <td style="text-align:left;"> Effectively creates and merges branches of appropriate size. No sensitive files (such as passwords or API keys) are committed. </td>
    <td style="text-align:left;border-right:1px solid;"> Effectively requests and performs code review on pull requests using GitHub. </td>
    <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
   </tr>
@@ -235,7 +235,7 @@ You can demonstrate proficiency in any reviewed assignment, **but can only fulfi
    <td style="text-align:left;"> Does not use project management tools. </td>
    <td style="text-align:left;"> Project management is only conducted though messaging, such as on slack. </td>
    <td style="text-align:left;"> User the GitHub issue tracker to set milestones, but does not fill out associated metadata such as who is responsible for the issue and when it is due. </td>
-   <td style="text-align:left;"> Uses the GitHub issue tracker to break down and assign actionable work with all appropriate metadata included. </td>
+   <td style="text-align:left;"> Uses the GitHub issue tracker to break down and assign actionable work with all appropriate metadata (deadline, assignee, etc.) included. </td>
    <td style="text-align:left;border-right:1px solid;"> Uses projects KanBan boards to break down tasks into actionable steps, and track their completion. </td>
    <td style="text-align:left;background-color: #A2CD5A !important;"> <i class="fas fa-check-square fa-2x" style="width: 100%; text-align: center;"></i> </td>
   </tr>
