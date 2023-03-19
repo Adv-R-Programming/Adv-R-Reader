@@ -7,6 +7,9 @@ Advanced git
   - [Create a Branch][]
   - [Modifying a Shared File][]
   - [Make a Pull Request][]
+  - [Code Review][]
+- [Dealing with conflict][]
+- [Conclusion][]
 
 <span class="blue">Member 1</span> <span class="red">Member 2</span>
 <span class="green">Member 3</span> <span class="mco">Member 4</span>
@@ -136,6 +139,13 @@ alt="Branch Menu" />
 
 </div>
 
+Name your branch “<YOUR NAME>\_worksheet”. Make sure that “Sync branch
+with remote” is checked and click the “create” button. You will now be
+on your own branch within the project!
+
+Whatever changes and commits you make will now be saved to this branch,
+rather than `main`. Stay on this branch until I tell you to switch back.
+
 ### Modifying a Shared File
 
 While working on separate files is fine, if you are working on a project
@@ -148,7 +158,11 @@ repo in R Studio. You will notice there is a section called `Authors@R`.
 Whatever is included here will be understood as the creators of this
 package. We want to add each of your names. On each of your computers,
 follow the template and add your first and last names, along with email
-to the file.
+to the file. Commit your changes to your branch and push.
+
+You won’t encounter any problems at this point because you are all on
+your own branch, thus not modifying the same files. This is also true if
+you were working on the same R scripts!
 
 ### Make a Pull Request
 
@@ -158,11 +172,153 @@ it part of the canonical code that everyone will work from. The process
 of merging your code is done through a *pull request* on GitHub; named
 such because you request your changes to be pulled into main.
 
+Whenever you push your branch, you can refresh the GitHub page for you
+repo, and you should see an alert like the following appear:
+
+![][2]
+
+Every member should click on the “Compare & pull request” button. If you
+missed this notice, you can also click the button that says “Branches”,
+find your branch, and create a pull request there.
+
+Creating a pull request will look like the following with these
+elements:
+
+![][3]
+
+1.  The name of your pull request. Is often just the name of your branch
+    (if you made a descriptive name!).
+2.  The comment area. Provide more context for your request. What did
+    you work on? What changes did you make?
+3.  Reviewers. Who else on the team do you want to check your work? *At
+    least one other person* should always check your work (aka code
+    review).
+4.  Add labels. Adding labels can help keep things organized if you have
+    a lot going on at once.
+5.  Milestones. Does this branch make progress on any previously set
+    milestones?
+6.  Create your pull request and send out your request for reviewers.
+
+Once you create your pull request, the page will change slightly, and
+will look the like following:
+
+![][4]
+
+All the things you entered previously will be there, and you can modify
+them if you want. This screen also has a few new features.
+
+1.  You can make more comments and have a discussion about the pull
+    request on this page.
+2.  You can see all the commits that are included in this pull request
+    using the “Commits” tab.
+3.  You can see all th files that changed and do code review on the
+    “Files changed” tab.
+4.  You can confirm the pull request and incorporate it into main using
+    the “Merge pull request” button. Once you click this, you code
+    becomes part of `main`.
+
+### Code Review
+
+Each member should go to the pull request page for their branch, and
+assign another member on the team as a *Reviewer*. You will get an email
+from GitHub once you have been assigned. Click on the link in that email
+to go to the branch in which you are a reviewer, then go to the “Files
+changed” tab.
+
+On this tab, you will be able to see all of the files the person has
+changed in your team repo. It will look similar to the following:
+
+![][5]
+
+Every file will be listed. If a new line was added to that file, it will
+be highlighted in green. If a line was removed, it will be highlighted
+in red. For every line, you can click on the plus sign next to the line
+number to leave comments to the author. Once you have made all your
+comments, you can scroll back to the top, and in the upper right, click
+the “Finish your review” button.
+
+The author will be notified of your comments, and can work to address
+them. They can make the changes on their computer, than push them, and
+the pull request will be updated. In this way, teams can collaboratively
+work on code *before* it gets integrated into `main`. Try this process
+of leaving comments to each other out now, but *do not* confirm the pull
+request yet.
+
+## Dealing with conflict
+
+Sometimes there will be conflicts, aka two people worked on the same
+file in a way they git can’t combine by itself. When this happens, it
+will need you pick the “real” version of the code.
+
+<span class="blue">Member 1</span> should go to their pull request, and
+click on the “Merge pull request” button. This will add their name to
+the `DESCRIPTION` file on `main`.
+
+<span class="red">Member 2</span> should then go to their pull request.
+They will see that there is a conflict, and the following message:
+
+![][6]
+
+It is telling you that some file you modified now has a conflict with
+some file already on main. In this case, it is because now your version
+of `DESCRIPTION` cannot be merged with the version on `main`. This is
+because <span class="blue">Member 1</span> added their name in the same
+spot you added your name. We thus need to resolve the conflict.
+
+We can do this right in GitHub if we want. Click on the grey “Resolve
+conflicts” button, and it will take you to a page showing the source of
+the conflicts. In this case, it will be the `DESCRIPTION` file, and will
+look similar to the following:
+
+![][7]
+
+This page is a text editor where you can edit the files in question to
+create the “real” version of the file. The red bars show you the two
+conflicting versions of the code occupying the same lines; one version
+before the `=======`, on version after. Modify this code into a unified
+version similar to the following and click the “Mark as resolved” and
+the “Commit merge” buttons. Be sure to include the comma!
+
+![][8]
+
+You have now resolved the conflict, and you can merge your branch into
+main!
+
+<span class="green">Member 3</span> (and <span class="mco">Member
+4</span>) should do the same. Everyone should then go back to R and
+press “Pull” to get the changes onto their machines. Be sure to switch
+back to the `main` branch!
+
+## Conclusion
+
+It may be a fair bit of work, but if you follow this method, teams of
+hundreds of people can work on the same code base at the same time. When
+the alternative is emailing around dozens of files, hoping you have the
+most recent one, you can start to see how this would be preferred.
+Additionally, whole process we went through today can be linked with the
+issue and KanBan board system we learned of previously to really help
+keep track of your tasks.
+
+While it is probably overkill for a project of this size, mastering
+these skills will make you *much* more valuable in a team setting in the
+real world. I encourage you to try your best and treat this as training
+for a real world project.
+
   [Overview]: #overview
   [Why Bother?]: #why-bother
   [Adding a File]: #adding-a-file
   [Create a Branch]: #create-a-branch
   [Modifying a Shared File]: #modifying-a-shared-file
   [Make a Pull Request]: #make-a-pull-request
+  [Code Review]: #code-review
+  [Dealing with conflict]: #dealing-with-conflict
+  [Conclusion]: #conclusion
   [Git Branches - The Turing Way]: https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-git-branches.html
   [1]: ./img/sub-branch.png
+  [2]: ./img/pull_request.png
+  [3]: ./img/new_request.png
+  [4]: ./img/merge.png
+  [5]: img/code_review.webp
+  [6]: ./img/conflict.webp
+  [7]: ./img/conflict_page.webp
+  [8]: ./img/resolved.webp
