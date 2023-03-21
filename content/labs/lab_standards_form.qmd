@@ -1,0 +1,11 @@
+---
+title: "Lab Standards Form"
+subtitle: "For LAB NUMBER HERE"
+author: "YOUR NAME HERE"
+format: html
+editor: source
+---
+
+## Instructions
+
+For each lab past lab 6, you will have more freedom to specify what standards you want to work on. Each lab, you will be able to request we evaluate you on up to *two* standards. 
