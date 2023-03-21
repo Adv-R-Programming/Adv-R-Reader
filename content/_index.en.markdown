@@ -194,13 +194,12 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:left;"> 3/1/2023 (Wed) </td>
    <td style="text-align:left;"> <ol><li>PDF Data Extraction
 </li></ol> </td>
-   <td style="text-align:left;"> <ol>
-<li><a href="https://docs.ropensci.org/tabulizer/articles/tabulizer.html">rOpenSci. (n.d.). Introduction to tabulizer.</a></li>
-<li>
+   <td style="text-align:left;"> <ol><li>
+<a href="https://docs.ropensci.org/tabulizer/articles/tabulizer.html">rOpenSci. (n.d.). Introduction to tabulizer.</a>
+</li></ol> </td>
+   <td style="text-align:left;"> <ol><li>
 <a href="https://docs.ropensci.org/tesseract/articles/intro.html">rOpenSci. (n.d.). Using the Tesseract OCR engine in R.</a>
-</li>
-</ol> </td>
-   <td style="text-align:left;">  </td>
+</li></ol> </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #B3E2CD !important;"> 6 </td>
@@ -290,7 +289,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #F4CAE4 !important;"> 9 </td>
    <td style="text-align:left;"> 3/24/2023 (Fri) </td>
-   <td style="text-align:left;"> <ol><li>Finals Work Time 1
+   <td style="text-align:left;"> <ol><li>Team Formation
 </li></ol> </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> <ol><li>
@@ -335,7 +334,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #B3E2CD !important;"> 11 </td>
    <td style="text-align:left;"> 4/3/2023 (Mon) </td>
-   <td style="text-align:left;"> <ol><li>S3
+   <td style="text-align:left;"> <ol><li>Adv Functions/S3
 </li></ol> </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
@@ -343,7 +342,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #B3E2CD !important;"> 11 </td>
    <td style="text-align:left;"> 4/5/2023 (Wed) </td>
-   <td style="text-align:left;"> <ol><li>Adv Functions
+   <td style="text-align:left;"> <ol><li>Finals Work Time 1
 </li></ol> </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> <ol><li>Lab 6
