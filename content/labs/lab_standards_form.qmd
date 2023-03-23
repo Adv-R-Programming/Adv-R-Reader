@@ -6,6 +6,14 @@ format: html
 editor: source
 ---
 
-## Instructions
+## Overview
 
-For each lab past lab 6, you will have more freedom to specify what standards you want to work on. Each lab, you will be able to request we evaluate you on up to *two* standards. 
+From lab 6 on, rather than having a pre-set activity, you will be working on your final project. While each week will still have a topic which often directly relates to a specific class standard, you are not required to work on that component of the project. Instead, you will have more freedom to specify what standards you want to work on. 
+
+That said, I would encourage you to work on relevant materials as they are introduced. It may be harder to remember the intricacies of a topic and return to them later. However, this will also need to be weighed with the consideration that multiple people may not be able to work on the same task in a single week.
+
+Each lab, you will be able to request we evaluate you on up to *two* standards of your choice. To specify what two standards you would like to be evaluated on for a lab, please modify this document per the instructions below. *You must turn in a rendered version of this document.* At the end of the semester, *all* standards will be evaluated based on the work you completed in your final project. 
+
+
+
+branch + link, line #, standard level per text
