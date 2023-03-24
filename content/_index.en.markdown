@@ -446,7 +446,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #E6F5C9 !important;"> 15 </td>
-   <td style="text-align:left;"> 4/1/2023 (Mon) </td>
+   <td style="text-align:left;"> 5/1/2023 (Mon) </td>
    <td style="text-align:left;"> <ol><li>Finals Work Time 3
 </li></ol> </td>
    <td style="text-align:left;">  </td>
@@ -454,7 +454,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #E6F5C9 !important;"> 15 </td>
-   <td style="text-align:left;"> 4/3/2023 (Wed) </td>
+   <td style="text-align:left;"> 5/3/2023 (Wed) </td>
    <td style="text-align:left;"> <ol><li>Finals Showcase
 </li></ol> </td>
    <td style="text-align:left;">  </td>
@@ -463,7 +463,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #E6F5C9 !important;font-style: italic;color: #808080 !important;"> 15 </td>
-   <td style="text-align:left;font-style: italic;color: #808080 !important;"> 4/5/2023 (Fri) </td>
+   <td style="text-align:left;font-style: italic;color: #808080 !important;"> 5/5/2023 (Fri) </td>
    <td style="text-align:left;font-style: italic;color: #808080 !important;"> No Class </td>
    <td style="text-align:left;font-style: italic;color: #808080 !important;">  </td>
    <td style="text-align:left;font-style: italic;color: #808080 !important;"> <ol><li>Quiz 4 Due
