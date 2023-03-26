@@ -1,7 +1,7 @@
 ---
 title: "Lab Standards Form"
-subtitle: "For LAB NUMBER HERE"
-author: "YOUR NAME HERE"
+subtitle: "For <LAB NUMBER HERE>"
+author: "<YOUR NAME HERE>"
 format: html
 editor: source
 ---
@@ -10,10 +10,64 @@ editor: source
 
 From lab 6 on, rather than having a pre-set activity, you will be working on your final project. While each week will still have a topic which often directly relates to a specific class standard, you are not required to work on that component of the project. Instead, you will have more freedom to specify what standards you want to work on. 
 
-That said, I would encourage you to work on relevant materials as they are introduced. It may be harder to remember the intricacies of a topic and return to them later. However, this will also need to be weighed with the consideration that multiple people may not be able to work on the same task in a single week.
+That said, I would encourage you to work on relevant materials as they are introduced. It may be harder to remember the intricacies of a topic and return to them later. However, this will also need to be weighed with the consideration that multiple people may not be able to work on tasks related to the same standard in a single week.
 
 Each lab, you will be able to request we evaluate you on up to *two* standards of your choice. To specify what two standards you would like to be evaluated on for a lab, please modify this document per the instructions below. *You must turn in a rendered version of this document.* At the end of the semester, *all* standards will be evaluated based on the work you completed in your final project. 
 
+## How To Work on Labs
 
+Even though you are now working on a group project, your standards are still being evaluated individually. It becomes important that you follow the good git practices regarding branching for this process to work. Please refer to the lecture on Advanced git/Github to review branches.
 
-branch + link, line #, standard level per text
+For every major task you work on for the project, you should be working on a new branch. Once you complete work on that task, you can create a pull request and merge that code into main. That branch and the work contained within will be part of your submission to request evaluation on a standard, so try to keep them focused and topical. 
+
+## Standards Request Form
+
+For each lab, you can elect to have your work on two standards reviewed. To complete this request, please complete the following:
+
+1. Update the `title`, `subtitle`, and `author` fields in the Quarto YAML box at the top of this document. 
+2. Fill in the following two sections, completing all requested information inside `< >`.
+3. Submit a rendered version of this document on Moodle to the appropriate lab's assignment. You can find these assignments on course Moodle homepage under "Labs."
+
+### Standard Evaluation Request 1
+
+#### Meta-Info
+
+**Standard to be Evaluated:** <ONE STANDARD HERE, E.G. 'Functions'>
+
+**Level Requested:** <WHAT LEVEL YOU THINK YOU ACHEIVED, E.G. 'Meets Standard'>
+
+**Link to Branch:** <A LINK TO THE BRANCH YOU DID THE RELEVANT WORK IN>
+
+#### Relevant Files and Line Numbers
+
+* <FILE NAME 1>
+  + Line XX-Line XX
+  + Line yy-Line yy
+* <FILE NAME 2>
+  + Line XX-Line XX
+  + etc.
+  
+#### Description of Work 
+
+<DESCRIBE HOW YOUR WORK RELATES TO THE STANDARD DESCRIPTION *ON THE SYLLABUS*. RELATE THIS DESCRIPTION TO THE ABOVE FILES AND LINE NUMBERS PROVIDED>
+
+### Standard Evaluation Request 2
+
+#### Meta-Info
+
+**Standard to be Evaluated:** <ONE STANDARD HERE, E.G. 'Functions'>
+**Level Requested:** <WHAT LEVEL YOU THINK YOU ACHEIVED, E.G. 'Meets Standard'>
+**Link to Branch:** <A LINK TO THE BRANCH YOU DID THE RELEVANT WORK IN>
+
+#### Relevant Files and Line Numbers
+
+* <FILE NAME 1>
+  + Line XX-Line XX
+  + Line yy-Line yy
+* <FILE NAME 2>
+  + Line XX-Line XX
+  + etc.
+  
+#### Description of Work 
+
+<DESCRIBE HOW YOUR WORK RELATES TO THE STANDARD DESCRIPTION *ON THE SYLLABUS*. RELATE THIS DESCRIPTION TO THE ABOVE FILES AND LINE NUMBERS PROVIDED>
