@@ -1,5 +1,18 @@
-Advanced git
-================
+---
+pre: <b>3/27. </b>
+title: "Advanced git"
+weight: 23
+summary: "Use git/GitHub for Projects."
+format:
+    gfm:
+      toc: true
+      output-file: "_index.en.md"
+      reference-links: true
+      code-link: true
+editor_options: 
+  chunk_output_type: console
+---
+
 
 - [Overview][]
   - [Why Bother?][]
