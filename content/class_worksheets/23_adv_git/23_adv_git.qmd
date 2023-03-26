@@ -17,10 +17,10 @@ editor_options:
 answers = FALSE
 ```
 
-[Member 1]{.blue}
-[Member 2]{.red}
-[Member 3]{.green}
-[Member 4]{.mco}
+<!-- [Member 1]{.blue} -->
+<!-- [Member 2]{.red} -->
+<!-- [Member 3]{.green} -->
+<!-- [Member 4]{.mco} -->
 
 ## Overview
 
