@@ -79,7 +79,7 @@ To create a new branch, you can look to the upper right corner of the *git* pane
 ![Branch Menu](./img/branch_menu.png)
 :::
 
-Name your branch "<YOUR NAME>_worksheet". Make sure that "Sync branch with remote" is checked and click the "create" button. You will now be on your own branch within the project!
+Name your branch "\<YOUR NAME\>_worksheet". Make sure that "Sync branch with remote" is checked and click the "create" button. You will now be on your own branch within the project!
 
 Whatever changes and commits you make will now be saved to this branch, rather than `main`. Stay on this branch until I tell you to switch back.
 

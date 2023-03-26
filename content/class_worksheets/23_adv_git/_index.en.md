@@ -11,8 +11,10 @@ Advanced git
 - [Dealing with conflict][]
 - [Conclusion][]
 
-<span class="blue">Member 1</span> <span class="red">Member 2</span>
-<span class="green">Member 3</span> <span class="mco">Member 4</span>
+<!-- [Member 1]{.blue} -->
+<!-- [Member 2]{.red} -->
+<!-- [Member 3]{.green} -->
+<!-- [Member 4]{.mco} -->
 
 ## Overview
 
@@ -139,7 +141,7 @@ alt="Branch Menu" />
 
 </div>
 
-Name your branch “<YOUR NAME>\_worksheet”. Make sure that “Sync branch
+Name your branch “\<YOUR NAME\>\_worksheet”. Make sure that “Sync branch
 with remote” is checked and click the “create” button. You will now be
 on your own branch within the project!
 
