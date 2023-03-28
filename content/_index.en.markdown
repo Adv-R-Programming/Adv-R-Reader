@@ -336,7 +336,9 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:left;"> 4/3/2023 (Mon) </td>
    <td style="text-align:left;"> <ol><li>Adv Functions/S3
 </li></ol> </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> <ol><li>
+<a href="https://njtierney.github.io/r/missing%20data/rbloggers/2016/11/06/simple-s3-methods/">A Simple Guide to S3 Methods</a>
+</li></ol> </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
