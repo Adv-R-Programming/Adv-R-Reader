@@ -1,5 +1,19 @@
 /* Custom */
 
+/* font colors */
+
+.blue { color: blue }
+.red { color: red }
+.green { color: green }
+.aqua { color: aqua }
+.chartreuse { color:chartreuse }
+
+.black { color: black }
+.white { color: white }
+
+.mcp { color: #362c47 }
+.mco { color: #ff7400 }
+
 .floatright {
 	max-width: 30%;
 	width: auto\9*0.3; /* ie8 */
