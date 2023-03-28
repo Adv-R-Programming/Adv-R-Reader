@@ -87,7 +87,7 @@ Next, go to the `Code` menu, and select `Code > Insert Roxygen Skeleton` as show
 
 ![](img/ro_insert.png)
 
-You will see that several new comments have appeared before your function, this is the R Oxygen template you will modify to create your help file. You'll notice these commas have an extra quote (`'`) right after each pound sign, that is how R differentiates regular comments and Roxygen comments. Roxygen even made space for our arguments based on the function definition!
+You will see that several new comments have appeared before your function. This is the R Oxygen template you will modify to create your help file. You'll notice these commas have an extra quote (`'`) right after each pound sign; that is how R differentiates regular comments and R oxygen comments. R oxygen even made space for our arguments based on the function definition!
 
 ![](img/ro_skele.png)
 
@@ -179,7 +179,7 @@ cat("
 
 Once you are happy with your help file, you can actually convert it into a `.rd` file R will understand. To do so, simply have your function open, and run `devtools::document()` in the console. It will create the help file from the Roxygen skeleton.
 
-You can test if it worked by doing the following. In the console, run `devtools::load_all()`. This will attach your whole package to R as if you loaded it with `library()`. You should then be able to run `?comma_split` to see your very own help page! So professional.
+You can test if it worked by doing the following. In the console, run `devtools::load_all()`. This will attach your whole package to R as if you loaded it with `library()` **(this is also super helpful for testing your package!)**. You should then be able to run `?comma_split` to see your very own help page! So professional.
 
 
 

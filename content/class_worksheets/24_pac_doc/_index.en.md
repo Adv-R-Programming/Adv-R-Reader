@@ -1,5 +1,17 @@
-Package Documentation
-================
+---
+pre: <b>3/29. </b>
+title: "Package Documentation"
+weight: 24
+summary: "Write the help files of your dreams."
+format:
+    gfm:
+      toc: true
+      output-file: "_index.en.md"
+      reference-links: true
+      code-link: true
+editor_options: 
+  chunk_output_type: console
+---
 
 - [Overview][]
   - [A Function to Document][]
@@ -95,11 +107,11 @@ as shown below.
 ![][2]
 
 You will see that several new comments have appeared before your
-function, this is the R Oxygen template you will modify to create your
+function. This is the R Oxygen template you will modify to create your
 help file. You’ll notice these commas have an extra quote (`'`) right
-after each pound sign, that is how R differentiates regular comments and
-Roxygen comments. Roxygen even made space for our arguments based on the
-function definition!
+after each pound sign; that is how R differentiates regular comments and
+R oxygen comments. R oxygen even made space for our arguments based on
+the function definition!
 
 ![][3]
 
@@ -171,8 +183,9 @@ help file from the Roxygen skeleton.
 
 You can test if it worked by doing the following. In the console, run
 `devtools::load_all()`. This will attach your whole package to R as if
-you loaded it with `library()`. You should then be able to run
-`?comma_split` to see your very own help page! So professional.
+you loaded it with `library()` **(this is also super helpful for testing
+your package!)**. You should then be able to run `?comma_split` to see
+your very own help page! So professional.
 
   [Overview]: #overview
   [A Function to Document]: #a-function-to-document
