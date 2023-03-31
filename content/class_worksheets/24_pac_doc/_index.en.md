@@ -141,6 +141,22 @@ examples yet, we’ll do that next.
 
 </div>
 
+<div class="answer">
+
+\#’ Split comma seperated values \#’ \#’ @description \#’ This function
+uses \[strsplit()\] to go though a character vector and split each
+element in the vector on commas. \#’ The for each value provided to
+`possible_columns` a new column will be made in the output containing
+\#’ logical values if the text appeared in `vector_to_split`. \#’ \#’
+@param vector_to_split Character vector. The text you want to split on
+commas. \#’ @param possible_columns Character vector. A vector
+containing all of the possible values in `vector_to_split`. \#’ \#’
+@return A dataframe with rows as elements of input and columns as
+possible values with logicals indicating if the value was present. \#’
+@export \#’ \#’ @examples
+
+</div>
+
 ### Example Code
 
 The one part of the help file that behaves a little differently is the
@@ -171,6 +187,15 @@ Complete the following example and add it to your function.
 #'                      )
 #' 
 ```
+
+</div>
+
+<div class="answer">
+
+\#’ @examples \#’ \#’ \# create example data \#’ example_string =
+c(‘Mon, Tues, Thurs’, ‘Fri, Mon’) \#’ \#’ \# Split example data based on
+commas \#’ result = comma_split(vector_to_split = example_string, \#’
+possible_columns = c(‘Mon’, ‘Tues’, ‘Wed’, ‘Thurs’, ‘Fri’) \#’ ) \#’
 
 </div>
 
