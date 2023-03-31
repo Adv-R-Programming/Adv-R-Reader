@@ -1,0 +1,19 @@
+---
+title: "Lab 6: Documentation"
+format:
+    html:
+      toc: true
+      reference-links: true
+      code-link: true
+editor_options: 
+  chunk_output_type: console
+---
+
+## Overview
+
+
+The labs for the remainder of the course will all be working in some way to advance your final project. This means we will need to change how labs work slightly. Please read this carefully and make sure you understand how to turn in your labs from here on out.
+
+
+
+Documentation
