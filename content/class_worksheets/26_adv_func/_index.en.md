@@ -1,5 +1,17 @@
-Advanced Functions/S3
-================
+---
+pre: <b>4/3. </b>
+title: "Advanced Functions/S3"
+weight: 26
+summary: "Classes and Methods in R."
+format:
+    gfm:
+      toc: true
+      output-file: "_index.en.md"
+      reference-links: true
+      code-link: true
+editor_options: 
+  chunk_output_type: console
+---
 
 - [Overview][]
   - [Adding Methods to Existing Generics][]
