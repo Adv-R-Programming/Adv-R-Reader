@@ -85,7 +85,25 @@ You can peek at the code I used to make the `plant()` function by going to the w
 
 :::
 
+```{r, include=answers, results='asis', echo=FALSE}
+cat('
+::: {.answer}
 
+harvest.apple = function(x){
+  
+  cat("You have", sum(x), class(x), "!")
+  
+}
+
+:::
+')
+```
+
+harvest.apple = function(x){
+  
+  cat("You have", sum(x), class(x), "!")
+  
+}
 
 
 
