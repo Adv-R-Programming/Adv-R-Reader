@@ -7,12 +7,15 @@
 .green { color: green }
 .aqua { color: aqua }
 .chartreuse { color:chartreuse }
+.yellow { color:yellow }
 
 .black { color: black }
 .white { color: white }
 
 .mcp { color: #362c47 }
 .mco { color: #ff7400 }
+
+.bold { font-weight: bold }
 
 .floatright {
 	max-width: 30%;
