@@ -85,7 +85,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
 
 ```{r schedule_table, echo=FALSE}
 # make colors for week blocks
-week_colors = factor(schedule$Week, labels = rep(RColorBrewer::brewer.pal(5, name = "Pastel2"), times = 3))
+week_colors = factor(schedule$Week, labels = rep(RColorBrewer::brewer.pal(5, name = "Pastel2"), times = 4)[1:16])
 
 # make clean df
 schedule_clean = data.frame(
