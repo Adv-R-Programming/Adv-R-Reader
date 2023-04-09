@@ -119,6 +119,16 @@ to the web address inside the `source()` call above.
 
 </div>
 
+<div class="answer">
+
+harvest.apple = function(x){
+
+cat(“You have”, sum(x), class(x), “!”)
+
+}
+
+</div>
+
   [Overview]: #overview
   [Adding Methods to Existing Generics]: #adding-methods-to-existing-generics
   [Creating a New Generic Function]: #creating-a-new-generic-function

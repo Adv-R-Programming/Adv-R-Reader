@@ -14,7 +14,7 @@ editor_options:
 ---
 
 ```{r, include=FALSE}
-answers = FALSE
+answers = TRUE
 ```
 
 ## Overview
@@ -98,13 +98,6 @@ harvest.apple = function(x){
 :::
 ')
 ```
-
-harvest.apple = function(x){
-  
-  cat("You have", sum(x), class(x), "!")
-  
-}
-
 
 
 
