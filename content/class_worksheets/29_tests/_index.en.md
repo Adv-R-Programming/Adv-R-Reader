@@ -21,7 +21,7 @@ editor_options:
 
 ## Overview
 
-Tests are your early warning system is something starts to go awry in
+Tests are your early warning system if something starts to go awry in
 your project. The more complex your project, the more important it
 becomes to have a robust set of tests. This is especially true if you
 have collaborators.
@@ -141,6 +141,21 @@ Create a simple test for our `comma_split()` function to assure it is
 behaving as intended. You may want to look over the various forms of
 `expect_XXXX()` functions [here][full list here]. Once you have created
 your test, make sure it works by using `devtools::test()`.
+
+</div>
+
+<div class="answer">
+
+test_that(“Are there any commas in the results?”, {
+
+test_vec = c(“Mon, Tues, Wed”) possible = c(“Mon”, “Tues”, “Wed”,
+“Thurs”, “Fri”)
+
+out = comma_split(test_vec, possible)
+
+expect_false(all(grepl(“,”, out)))
+
+})
 
 </div>
 
