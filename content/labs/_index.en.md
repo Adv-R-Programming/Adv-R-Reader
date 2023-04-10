@@ -26,6 +26,8 @@ All labs will be turned in through Github Classroom. You will set up your studen
 
 -   [Lab 6 Submission]
 -   [Lab 7 Submission]
+-   [Lab 8 Submission]
+-   [Lab 9 Submission]
 -   [Link to Final Project]
 
   [Lab 01: R Objects]: /Adv-R-Reader/labs/lab1-objects.html
@@ -36,4 +38,6 @@ All labs will be turned in through Github Classroom. You will set up your studen
   [Link to Standard Evaluation Request Form]: /Adv-R-Reader/labs/lab_standards_form.qmd
   [Lab 6 Submission]: https://moodle.smith.edu/mod/assign/view.php?id=1030993
   [Lab 7 Submission]: https://moodle.smith.edu/mod/assign/view.php?id=1034768
+  [Lab 8 Submission]: https://moodle.smith.edu/mod/assign/view.php?id=1034892
+  [Lab 9 Submission]: https://moodle.smith.edu/mod/assign/view.php?id=1034893
   [Link to Final Project]: https://moodle.smith.edu/mod/url/view.php?id=1029245
