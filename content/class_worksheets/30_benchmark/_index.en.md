@@ -1,5 +1,17 @@
-Benchmarks
-================
+---
+pre: <b>4/12. </b>
+title: "Benchmarks"
+weight: 30
+summary: "Gotta go fast."
+format:
+    gfm:
+      toc: true
+      output-file: "_index.en.md"
+      reference-links: true
+      code-link: true
+editor_options: 
+  chunk_output_type: console
+---
 
 - [Overview][]
   - [Our Test Case][]
@@ -78,21 +90,34 @@ output rows in the dataframe by making an ID column of the appropriate
 length, so we aren’t appending anything. However, there are a few ways
 to improve things.
 
-Before we go about making improvement however, we need to set a
+Before we go about making improvements however, we need to set a
 baseline. To do so, we are going to use `bench::mark()` to get a sense
 of how long our code takes to run now.
 
 <div class="question">
 
 Use `bench::mark()` to run `comma_split()` on a column from the class
-survey. Run at least 500 iterations.
+survey. Run at least 500 iterations using the `iterations` argument.
 
 </div>
 
 ### Make Some Improvements
 
 No that we have an idea of how long the code takes now, we are going to
-start tinkering.
+start tinkering. Refer to the list of hints below (and in lecture
+slides) for ideas of things to focus on.
+
+Rules of Thumb for efficient code:
+
+- Don’t repeat yourself!
+- Subset data to only what you will use before running analyses (no need
+  to analyse data that will be tossed out)
+- Pre-specify anything you can (e.g. manually set levels in factors,
+  column names when reading in large data, what method you want for
+  generic functions)
+- Pre-allocate for outputs (never amend to lists/dataframes)
+- Always work in a vector if possible (don’t work on individual values
+  at a time)
 
 <div class="question">
 

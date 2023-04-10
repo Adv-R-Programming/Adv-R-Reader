@@ -83,10 +83,10 @@ comma_split = function(vector_to_split, possible_columns){
 
 The `comma_split()` as it is now is alright; room for improvement, but not bad. For example, you can see that we pre-allocate space for our output rows in the dataframe by making an ID column of the appropriate length, so we aren't appending anything. However, there are a few ways to improve things.
 
-Before we go about making improvement however, we need to set a baseline. To do so, we are going to use `bench::mark()` to get a sense of how long our code takes to run now.
+Before we go about making improvements however, we need to set a baseline. To do so, we are going to use `bench::mark()` to get a sense of how long our code takes to run now.
 
 ::: {.question}
-Use `bench::mark()` to run `comma_split()` on a column from the class survey. Run at least 500 iterations.
+Use `bench::mark()` to run `comma_split()` on a column from the class survey. Run at least 500 iterations using the `iterations` argument.
 :::
 
 ```{r, include=answers, results='asis', echo=FALSE}
@@ -105,14 +105,15 @@ bench::mark({
 
 ### Make Some Improvements
 
-No that we have an idea of how long the code takes now, we are going to start tinkering.
+No that we have an idea of how long the code takes now, we are going to start tinkering. Refer to the list of hints below (and in lecture slides) for ideas of things to focus on.
 
+Rules of Thumb for efficient code:
 
-
-
-
-
-
+* Don't repeat yourself!
+* Subset data to only what you will use before running analyses (no need to analyse data that will be tossed out)
+* Pre-specify anything you can (e.g. manually set levels in factors, column names when reading in large data, what method you want for generic functions)
+* Pre-allocate for outputs (never amend to lists/dataframes)
+* Always work in a vector if possible (don't work on individual values at a time)
 
 ::: {.question}
 Create a new version of `comma_split()` that attempts to speed it up, called `comma_split_2()`. There are a few ways you can attempt this. Once you have created your improved function, benchmark it to see if your changes had the intended effect.
