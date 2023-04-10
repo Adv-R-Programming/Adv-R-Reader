@@ -24,6 +24,6 @@ All labs will be turned in through Github Classroom. You will set up your studen
 
 [Link to Standard Evaluation Request Form](/Adv-R-Reader/labs/lab_standards_form.qmd){download="lab_standards_form.qmd"}
 
-
 * [Lab 6 Submission](https://moodle.smith.edu/mod/assign/view.php?id=1030993)
+* [Lab 7 Submission](https://moodle.smith.edu/mod/assign/view.php?id=1034768)
 * [Link to Final Project](https://moodle.smith.edu/mod/url/view.php?id=1029245)
