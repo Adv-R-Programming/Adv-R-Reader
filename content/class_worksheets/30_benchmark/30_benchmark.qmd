@@ -14,7 +14,7 @@ editor_options:
 ---
 
 ```{r, include=FALSE}
-answers = FALSE
+answers = TRUE
 ```
 
 ## Overview
@@ -93,11 +93,11 @@ Use `bench::mark()` to run `comma_split()` on a column from the class survey. Ru
 cat('
 ::: {.answer}
 
-bench::mark({
-  
-  comma_split(survey$pets, possible_columns = c("dog", "cat", "fish", "bird", "reptile", "rock", "none"))
-  
-}, iterations = 500)
+    bench::mark({
+      
+      comma_split(survey$pets, possible_columns = c("dog", "cat", "fish", "bird", "reptile", "rock", "none"))
+      
+    }, iterations = 500)
 
 :::
 ')
@@ -123,51 +123,48 @@ Create a new version of `comma_split()` that attempts to speed it up, called `co
 cat('
 ::: {.answer}
 
-# here I left a for loop but still cut the time in half!
-comma_split_2 = function(vector_to_split, possible_columns){
-  
-  # make list of results
-  splits = lapply(possible_columns, FUN = function(option, vector_to_split){
-    return(grepl(option, vector_to_split, ignore.case = TRUE))
-  }, vector_to_split)
-
-  # add names
-  names(splits) = possible_columns
-
-  # clear all know options
-  for(option in possible_columns){
+    comma_split_2 = function(vector_to_split, possible_columns){
+      
+      # make list of results
+      splits = lapply(possible_columns, FUN = function(option, vector_to_split){
+        return(grepl(option, vector_to_split, ignore.case = TRUE))
+      }, vector_to_split)
     
-    # remove all known options
-    vector_to_split = gsub(pattern = option, vector_to_split, replacement = "", ignore.case = TRUE)
+      # add names
+      names(splits) = possible_columns
     
-  }
-  
-  # clear commas and whitespace
-  vector_to_split = gsub(pattern = ",", vector_to_split, replacement = "", ignore.case = TRUE)
-  vector_to_split = trimws(vector_to_split)
-  vector_to_split[vector_to_split == ""] = NA
-  
-  # Fill in "other"
-  splits[["other"]] = vector_to_split
-  
-  # turn to df
-  class(splits) = "data.frame"
-  attr(splits, "row.names") <- .set_row_names(length(test[[1]]))
-  
-  # return output
-  return(splits)
-}
-
-# do benchmarks
-
-bench::mark({
-  comma_split(survey$pets, possible_columns = c("dog", "cat", "fish", "bird", "reptile", "rock", "none"))
-}, iterations = 500, time_unit = "ms")
-
-
-bench::mark({
-  comma_split_2(survey$pets, possible_columns = c("dog", "cat", "fish", "bird", "reptile", "rock", "none"))
-}, iterations = 500, time_unit = "ms")
+      # clear all know options
+      for(option in possible_columns){
+        
+        # remove all known options
+        vector_to_split = gsub(pattern = option, vector_to_split, replacement = "", ignore.case = TRUE)
+        
+      }
+      
+      # clear commas and whitespace
+      vector_to_split = gsub(pattern = ",", vector_to_split, replacement = "", ignore.case = TRUE)
+      vector_to_split = trimws(vector_to_split)
+      vector_to_split[vector_to_split == ""] = NA
+      
+      # Fill in "other"
+      splits[["other"]] = vector_to_split
+      
+      # turn to df
+      class(splits) = "data.frame"
+      attr(splits, "row.names") <- .set_row_names(length(test[[1]]))
+      
+      # return output
+      return(splits)
+    }
+    
+    bench::mark({
+      comma_split(survey$pets, possible_columns = c("dog", "cat", "fish", "bird", "reptile", "rock", "none"))
+    }, iterations = 500, time_unit = "ms")
+    
+    
+    bench::mark({
+      comma_split_2(survey$pets, possible_columns = c("dog", "cat", "fish", "bird", "reptile", "rock", "none"))
+    }, iterations = 500, time_unit = "ms")
 
 :::
 ')

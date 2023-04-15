@@ -101,6 +101,16 @@ survey. Run at least 500 iterations using the `iterations` argument.
 
 </div>
 
+<div class="answer">
+
+    bench::mark({
+      
+      comma_split(survey$pets, possible_columns = c("dog", "cat", "fish", "bird", "reptile", "rock", "none"))
+      
+    }, iterations = 500)
+
+</div>
+
 ### Make Some Improvements
 
 No that we have an idea of how long the code takes now, we are going to
@@ -125,6 +135,53 @@ Create a new version of `comma_split()` that attempts to speed it up,
 called `comma_split_2()`. There are a few ways you can attempt this.
 Once you have created your improved function, benchmark it to see if
 your changes had the intended effect.
+
+</div>
+
+<div class="answer">
+
+    comma_split_2 = function(vector_to_split, possible_columns){
+      
+      # make list of results
+      splits = lapply(possible_columns, FUN = function(option, vector_to_split){
+        return(grepl(option, vector_to_split, ignore.case = TRUE))
+      }, vector_to_split)
+
+      # add names
+      names(splits) = possible_columns
+
+      # clear all know options
+      for(option in possible_columns){
+        
+        # remove all known options
+        vector_to_split = gsub(pattern = option, vector_to_split, replacement = "", ignore.case = TRUE)
+        
+      }
+      
+      # clear commas and whitespace
+      vector_to_split = gsub(pattern = ",", vector_to_split, replacement = "", ignore.case = TRUE)
+      vector_to_split = trimws(vector_to_split)
+      vector_to_split[vector_to_split == ""] = NA
+      
+      # Fill in "other"
+      splits[["other"]] = vector_to_split
+      
+      # turn to df
+      class(splits) = "data.frame"
+      attr(splits, "row.names") <- .set_row_names(length(test[[1]]))
+      
+      # return output
+      return(splits)
+    }
+
+    bench::mark({
+      comma_split(survey$pets, possible_columns = c("dog", "cat", "fish", "bird", "reptile", "rock", "none"))
+    }, iterations = 500, time_unit = "ms")
+
+
+    bench::mark({
+      comma_split_2(survey$pets, possible_columns = c("dog", "cat", "fish", "bird", "reptile", "rock", "none"))
+    }, iterations = 500, time_unit = "ms")
 
 </div>
 
