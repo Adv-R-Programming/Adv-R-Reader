@@ -32,6 +32,9 @@ For each of the following, provide a specific example of the where in your proje
 
 
 
+For example, [here is a link to exactally Line 13](https://github.com/Adv-R-Programming/Adv-R-Reader/blob/main/content/labs/_index.en.md?plain=1#L13) of the Quarto document that creates the Labs page on the course reader.
+
+
 #### Functions
 
 #### Iteration
