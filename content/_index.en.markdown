@@ -443,8 +443,7 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:left;"> <ol><li>Finals Work Time 2, <strong>Quiz 4 Open</strong>
 </li></ol> </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> <ol><li>Final Standards Draft
-</li></ol> </td>
+   <td style="text-align:left;">  </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #E6F5C9 !important;"> 15 </td>
@@ -452,7 +451,8 @@ Below is the tentative schedule for the course. While we will try to keep to thi
    <td style="text-align:left;"> <ol><li>Finals Work Time 3
 </li></ol> </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> <ol><li>Final Standards Draft
+</li></ol> </td>
   </tr>
   <tr>
    <td style="text-align:right;font-weight: bold;background-color: #E6F5C9 !important;"> 15 </td>
