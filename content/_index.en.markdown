@@ -472,11 +472,21 @@ Below is the tentative schedule for the course. While we will try to keep to thi
 </li></ol> </td>
   </tr>
   <tr>
+   <td style="text-align:right;font-weight: bold;background-color: #B3E2CD !important;"> 16 </td>
+   <td style="text-align:left;"> 05/08/23 (Mon) </td>
+   <td style="text-align:left;"> <ol><li>
+<strong>Quiz 5 Open</strong>
+</li></ol> </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> <ol><li>Final Project Due
+</li></ol> </td>
+  </tr>
+  <tr>
    <td style="text-align:right;font-weight: bold;background-color: #B3E2CD !important;font-style: italic;color: #808080 !important;"> 16 </td>
-   <td style="text-align:left;font-style: italic;color: #808080 !important;"> 05/08/23 (Mon) </td>
+   <td style="text-align:left;font-style: italic;color: #808080 !important;"> 05/10/23 (Wed) </td>
    <td style="text-align:left;font-style: italic;color: #808080 !important;"> No Class </td>
    <td style="text-align:left;font-style: italic;color: #808080 !important;">  </td>
-   <td style="text-align:left;font-style: italic;color: #808080 !important;"> <ol><li>Final Project Due
+   <td style="text-align:left;font-style: italic;color: #808080 !important;"> <ol><li>Quiz 5 Due
 </li></ol> </td>
   </tr>
 </tbody>

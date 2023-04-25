@@ -91,7 +91,7 @@ week_colors = factor(schedule$Week, labels = rep(RColorBrewer::brewer.pal(5, nam
 schedule_clean = data.frame(
   "Week" = schedule$Week,
   "Date" = paste0(schedule$Date, " (", schedule$Day, ")"),
-  "Topic" = ifelse(schedule$Class == "FALSE", "No Class", schedule$Topic),
+  "Topic" = ifelse(schedule$Class == "FALSE" & schedule$Topic == "", "No Class", schedule$Topic),
   "Readings" = schedule$Readings,
   "Due" = schedule$Due)
 
