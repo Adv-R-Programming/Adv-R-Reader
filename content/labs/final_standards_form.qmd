@@ -16,8 +16,9 @@ This is the form you will turn in to identify what aspects of your final project
 To complete this request form, please attend to the following:
 
 1. Update the `author` field in the Quarto YAML box at the top of this document. 
-2. Fill in the following sections, completing all requested information inside the `< >`s (but do not leave them afterwards!).
-3. Submit a rendered version of this document on Moodle to the [Final Project Submission](https://moodle.smith.edu/mod/assign/view.php?id=1039310).
+2. Make sure all of your work is merged into main.
+3. Fill in the following sections, completing all requested information inside the `< >`s (but do not leave them afterwards!).
+4. Submit a rendered version of this document on Moodle to the [Final Project Submission](https://moodle.smith.edu/mod/assign/view.php?id=1039310).
 
 Do not leave any of the carets (`< >`) in this document. They are meant to indicate the content I want you to change, not be a part of your final output. If you leave them in, it has the potential to hide your text in the final output. **Make sure you look over your rendered document to assure it is as you expect**. If I cannot tell what you wanted me to look at, I will not go searching.
 
