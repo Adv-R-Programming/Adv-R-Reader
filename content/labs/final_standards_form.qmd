@@ -1,0 +1,113 @@
+---
+title: "Final Standards Form"
+author: "<YOUR NAME HERE. Remove the carets. They will break things. I just include them so you know to replace this stuff.>"
+format:
+  html:
+    self-contained: TRUE
+editor: source
+---
+
+## Overview
+
+This is the form you will turn in to identify what aspects of your final project you feel demonstrate the learning objectives as described in the course syllabus [standards table](https://adv-r-programming.github.io/Adv-R-Reader/syllabus/#standards). This is your last opportunity to raise your proficiency levels in the course. You *must* turn in a *rendered* version of this document. 
+
+## Standards Request Formatting
+
+To complete this request form, please attend to the following:
+
+1. Update the `author` field in the Quarto YAML box at the top of this document. 
+2. Make sure all of your work is merged into main.
+3. Fill in the following sections, completing all requested information inside the `< >`s (but do not leave them afterwards!).
+4. Submit a rendered version of this document on Moodle to the [Final Project Submission](https://moodle.smith.edu/mod/assign/view.php?id=1039310).
+
+Do not leave any of the carets (`< >`) in this document. They are meant to indicate the content I want you to change, not be a part of your final output. If you leave them in, it has the potential to hide your text in the final output. **Make sure you look over your rendered document to assure it is as you expect**. If I cannot tell what you wanted me to look at, I will not go searching.
+
+### Standard Evaluation Request
+
+For each of the following, provide a specific example of the where in your project you think you demonstrated proficiency in the relevant standard. Be sure to describe how you meet the standards *per the description in the [standards table](https://adv-r-programming.github.io/Adv-R-Reader/syllabus/#standards)*. Making up your own definition of what it means to "Exceed standard" will not help you.
+
+All of the material you wish to submit for evaluation must be present on the *main* branch of your project. You are turning in a final product---beta features on branches will not be reviewed.
+
+For each standard you want reviewed, you should provide a link *to the exact lines* you want me to evaluate you on. You can do this by opening any code file on github, and clicking on the relevant line number. This will take you to a version of the page with that line number highlighted. Copy the URL of that page and provide it here. For example, [here is a link to exactally Lines 13-22](https://github.com/Adv-R-Programming/Adv-R-Reader/blob/main/content/labs/_index.en.md?plain=1#L13-L22) of the Quarto document that creates the Labs page on the course reader.
+
+If you are already happy with the proficiency level you have achieved in a standard, you can delete that section. 
+
+#### Functions
+
+**Level Requested:** <WHAT LEVEL YOU THINK YOU ACHEIVED, E.G. 'Meets Standard'>
+
+**Link:** <A LINK TO THE EXACT FILE AND LINES YOU DID THE RELEVANT WORK IN.>
+
+##### Description of Work 
+
+<DESCRIBE HOW YOUR WORK RELATES TO THE STANDARD DESCRIPTION *ON THE SYLLABUS*. RELATE THIS DESCRIPTION TO THE LINKED FILE AND LINE NUMBERS PROVIDED. IF REFERANCING MULTIPLE LINES, EXPLAIN THE RELEVANT PORTIONS AND LINE NUMBERS IN THIS TEXT.>
+
+#### Iteration
+
+**Level Requested:** <WHAT LEVEL YOU THINK YOU ACHEIVED, E.G. 'Meets Standard'>
+
+**Link:** <A LINK TO THE EXACT FILE AND LINES YOU DID THE RELEVANT WORK IN.>
+
+##### Description of Work 
+
+<DESCRIBE HOW YOUR WORK RELATES TO THE STANDARD DESCRIPTION *ON THE SYLLABUS*. RELATE THIS DESCRIPTION TO THE LINKED FILE AND LINE NUMBERS PROVIDED. IF REFERANCING MULTIPLE LINES, EXPLAIN THE RELEVANT PORTIONS AND LINE NUMBERS IN THIS TEXT.>
+
+#### Data Structures
+
+**Level Requested:** <WHAT LEVEL YOU THINK YOU ACHEIVED, E.G. 'Meets Standard'>
+
+**Link:** <A LINK TO THE EXACT FILE AND LINES YOU DID THE RELEVANT WORK IN.>
+
+##### Description of Work 
+
+<DESCRIBE HOW YOUR WORK RELATES TO THE STANDARD DESCRIPTION *ON THE SYLLABUS*. RELATE THIS DESCRIPTION TO THE LINKED FILE AND LINE NUMBERS PROVIDED. IF REFERANCING MULTIPLE LINES, EXPLAIN THE RELEVANT PORTIONS AND LINE NUMBERS IN THIS TEXT.>
+
+#### Code Style
+
+**Level Requested:** <WHAT LEVEL YOU THINK YOU ACHEIVED, E.G. 'Meets Standard'>
+
+**Link:** <A LINK TO THE EXACT FILE AND LINES YOU DID THE RELEVANT WORK IN.>
+
+##### Description of Work 
+
+<DESCRIBE HOW YOUR WORK RELATES TO THE STANDARD DESCRIPTION *ON THE SYLLABUS*. RELATE THIS DESCRIPTION TO THE LINKED FILE AND LINE NUMBERS PROVIDED. IF REFERANCING MULTIPLE LINES, EXPLAIN THE RELEVANT PORTIONS AND LINE NUMBERS IN THIS TEXT.>
+
+#### git/Github
+
+**Level Requested:** <WHAT LEVEL YOU THINK YOU ACHEIVED, E.G. 'Meets Standard'>
+
+**Link:** <A LINK TO THE EXACT FILE AND LINES YOU DID THE RELEVANT WORK IN.>
+
+##### Description of Work 
+
+<DESCRIBE HOW YOUR WORK RELATES TO THE STANDARD DESCRIPTION *ON THE SYLLABUS*. RELATE THIS DESCRIPTION TO THE LINKED FILE AND LINE NUMBERS PROVIDED. IF REFERANCING MULTIPLE LINES, EXPLAIN THE RELEVANT PORTIONS AND LINE NUMBERS IN THIS TEXT.>
+
+#### Project Management
+
+**Level Requested:** <WHAT LEVEL YOU THINK YOU ACHEIVED, E.G. 'Meets Standard'>
+
+**Link:** <A LINK TO THE EXACT FILE AND LINES YOU DID THE RELEVANT WORK IN.>
+
+##### Description of Work 
+
+<DESCRIBE HOW YOUR WORK RELATES TO THE STANDARD DESCRIPTION *ON THE SYLLABUS*. RELATE THIS DESCRIPTION TO THE LINKED FILE AND LINE NUMBERS PROVIDED. IF REFERANCING MULTIPLE LINES, EXPLAIN THE RELEVANT PORTIONS AND LINE NUMBERS IN THIS TEXT.>
+
+#### Package Function
+
+**Level Requested:** <WHAT LEVEL YOU THINK YOU ACHEIVED, E.G. 'Meets Standard'>
+
+**Link:** <A LINK TO THE EXACT FILE AND LINES YOU DID THE RELEVANT WORK IN.>
+
+##### Description of Work 
+
+<DESCRIBE HOW YOUR WORK RELATES TO THE STANDARD DESCRIPTION *ON THE SYLLABUS*. RELATE THIS DESCRIPTION TO THE LINKED FILE AND LINE NUMBERS PROVIDED. IF REFERANCING MULTIPLE LINES, EXPLAIN THE RELEVANT PORTIONS AND LINE NUMBERS IN THIS TEXT.>
+
+#### Package Documentation
+
+**Level Requested:** <WHAT LEVEL YOU THINK YOU ACHEIVED, E.G. 'Meets Standard'>
+
+**Link:** <A LINK TO THE EXACT FILE AND LINES YOU DID THE RELEVANT WORK IN.>
+
+##### Description of Work 
+
+<DESCRIBE HOW YOUR WORK RELATES TO THE STANDARD DESCRIPTION *ON THE SYLLABUS*. RELATE THIS DESCRIPTION TO THE LINKED FILE AND LINE NUMBERS PROVIDED. IF REFERANCING MULTIPLE LINES, EXPLAIN THE RELEVANT PORTIONS AND LINE NUMBERS IN THIS TEXT.>
