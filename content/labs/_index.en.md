@@ -45,4 +45,4 @@ All labs will be turned in through Github Classroom. You will set up your studen
   [Lab 8 Submission]: https://moodle.smith.edu/mod/assign/view.php?id=1034892
   [Lab 9 Submission]: https://moodle.smith.edu/mod/assign/view.php?id=1034893
   [Final Project Standards Form]: /Adv-R-Reader/labs/final_standards_form.qmd
-  [Link to Final Project Submission]: https://moodle.smith.edu/mod/url/view.php?id=1029245
+  [Link to Final Project Submission]: https://moodle.smith.edu/mod/assign/view.php?id=1039310
